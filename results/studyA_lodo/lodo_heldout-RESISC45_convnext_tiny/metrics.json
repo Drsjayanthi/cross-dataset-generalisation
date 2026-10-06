@@ -1,0 +1,287 @@
+{
+  "run_tag": "lodo_heldout-RESISC45_convnext_tiny",
+  "arch": "convnext_tiny",
+  "n_train": 4860,
+  "n_val": 540,
+  "n_test": 9100,
+  "n_classes": 12,
+  "classes": [
+    "agricultural_farmland",
+    "baseball_field",
+    "beach",
+    "dense_residential",
+    "forest",
+    "harbor_port",
+    "medium_residential",
+    "overpass_viaduct",
+    "parking_lot",
+    "river",
+    "sparse_residential",
+    "storage_tanks"
+  ],
+  "best_val_macro_f1": 0.9658963607808104,
+  "epochs_run": 5,
+  "train_time_sec": 124.49974250793457,
+  "test_accuracy": 0.8336263736263736,
+  "test_macro_f1": 0.8387298998262155,
+  "test_weighted_f1": 0.8398213142963327,
+  "test_macro_precision": 0.8678476652375317,
+  "test_macro_recall": 0.8378571428571427,
+  "per_class_report": {
+    "agricultural_farmland": {
+      "precision": 0.9367521367521368,
+      "recall": 0.7828571428571428,
+      "f1-score": 0.8529182879377432,
+      "support": 1400.0
+    },
+    "baseball_field": {
+      "precision": 0.9105367793240556,
+      "recall": 0.6542857142857142,
+      "f1-score": 0.7614297589359933,
+      "support": 700.0
+    },
+    "beach": {
+      "precision": 0.9945454545454545,
+      "recall": 0.7814285714285715,
+      "f1-score": 0.8752,
+      "support": 700.0
+    },
+    "dense_residential": {
+      "precision": 0.8388791593695272,
+      "recall": 0.6842857142857143,
+      "f1-score": 0.7537372147915028,
+      "support": 700.0
+    },
+    "forest": {
+      "precision": 0.9903846153846154,
+      "recall": 0.8828571428571429,
+      "f1-score": 0.9335347432024169,
+      "support": 700.0
+    },
+    "harbor_port": {
+      "precision": 0.8225806451612904,
+      "recall": 0.9471428571428572,
+      "f1-score": 0.8804780876494024,
+      "support": 700.0
+    },
+    "medium_residential": {
+      "precision": 0.4798870853916726,
+      "recall": 0.9714285714285714,
+      "f1-score": 0.6424185167690127,
+      "support": 700.0
+    },
+    "overpass_viaduct": {
+      "precision": 0.9398084815321477,
+      "recall": 0.9814285714285714,
+      "f1-score": 0.960167714884696,
+      "support": 700.0
+    },
+    "parking_lot": {
+      "precision": 0.9427609427609428,
+      "recall": 0.8,
+      "f1-score": 0.865533230293663,
+      "support": 700.0
+    },
+    "river": {
+      "precision": 0.8877697841726618,
+      "recall": 0.8814285714285715,
+      "f1-score": 0.8845878136200717,
+      "support": 700.0
+    },
+    "sparse_residential": {
+      "precision": 0.8963636363636364,
+      "recall": 0.7042857142857143,
+      "f1-score": 0.7888,
+      "support": 700.0
+    },
+    "storage_tanks": {
+      "precision": 0.7739032620922385,
+      "recall": 0.9828571428571429,
+      "f1-score": 0.8659534298300818,
+      "support": 700.0
+    },
+    "accuracy": 0.8336263736263736,
+    "macro avg": {
+      "precision": 0.8678476652375317,
+      "recall": 0.8378571428571427,
+      "f1-score": 0.8387298998262155,
+      "support": 9100.0
+    },
+    "weighted avg": {
+      "precision": 0.8731480092001935,
+      "recall": 0.8336263736263736,
+      "f1-score": 0.8398213142963327,
+      "support": 9100.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1096,
+      44,
+      0,
+      0,
+      0,
+      0,
+      45,
+      2,
+      0,
+      22,
+      1,
+      190
+    ],
+    [
+      0,
+      458,
+      0,
+      22,
+      0,
+      2,
+      189,
+      11,
+      2,
+      1,
+      13,
+      2
+    ],
+    [
+      1,
+      1,
+      547,
+      0,
+      0,
+      110,
+      0,
+      1,
+      0,
+      40,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      479,
+      0,
+      13,
+      203,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      28,
+      0,
+      0,
+      0,
+      618,
+      1,
+      8,
+      0,
+      0,
+      6,
+      39,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3,
+      0,
+      663,
+      5,
+      0,
+      27,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      18,
+      0,
+      0,
+      680,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      3,
+      0,
+      0,
+      8,
+      687,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      44,
+      0,
+      8,
+      37,
+      27,
+      560,
+      3,
+      1,
+      8
+    ],
+    [
+      25,
+      0,
+      3,
+      0,
+      5,
+      9,
+      38,
+      3,
+      0,
+      617,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      1,
+      0,
+      199,
+      0,
+      0,
+      1,
+      493,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      5,
+      0,
+      5,
+      0,
+      0,
+      688
+    ]
+  ]
+}

@@ -1,0 +1,2262 @@
+[
+  {
+    "run_tag": "cv_fold0_resnet18",
+    "arch": "resnet18",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9758423121217668,
+    "epochs_run": 15,
+    "train_time_sec": 147.31739783287048,
+    "test_accuracy": 0.9824074074074074,
+    "test_macro_f1": 0.9815332869267177,
+    "test_weighted_f1": 0.9823990757529238,
+    "test_macro_precision": 0.9816402628992098,
+    "test_macro_recall": 0.9815144568814308,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9633620689655172,
+        "recall": 0.9824175824175824,
+        "f1-score": 0.9727965179542981,
+        "support": 455.0
+      },
+      "Forest": {
+        "precision": 0.9837067209775967,
+        "recall": 0.9979338842975206,
+        "f1-score": 0.9907692307692307,
+        "support": 484.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.974,
+        "recall": 0.9720558882235529,
+        "f1-score": 0.973026973026973,
+        "support": 501.0
+      },
+      "Highway": {
+        "precision": 0.9851116625310173,
+        "recall": 0.9826732673267327,
+        "f1-score": 0.9838909541511772,
+        "support": 404.0
+      },
+      "Industrial": {
+        "precision": 0.9900744416873449,
+        "recall": 0.9975,
+        "f1-score": 0.9937733499377335,
+        "support": 400.0
+      },
+      "Pasture": {
+        "precision": 0.9559322033898305,
+        "recall": 0.9657534246575342,
+        "f1-score": 0.9608177172061328,
+        "support": 292.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9853300733496333,
+        "recall": 0.9595238095238096,
+        "f1-score": 0.9722557297949337,
+        "support": 420.0
+      },
+      "Residential": {
+        "precision": 0.9978586723768736,
+        "recall": 0.9978586723768736,
+        "f1-score": 0.9978586723768736,
+        "support": 467.0
+      },
+      "River": {
+        "precision": 0.9869791666666666,
+        "recall": 0.969309462915601,
+        "f1-score": 0.9780645161290322,
+        "support": 391.0
+      },
+      "SeaLake": {
+        "precision": 0.9940476190476191,
+        "recall": 0.9901185770750988,
+        "f1-score": 0.9920792079207921,
+        "support": 506.0
+      },
+      "accuracy": 0.9824074074074074,
+      "macro avg": {
+        "precision": 0.9816402628992098,
+        "recall": 0.9815144568814308,
+        "f1-score": 0.9815332869267177,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.9824769597850402,
+        "recall": 0.9824074074074074,
+        "f1-score": 0.9823990757529238,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        447,
+        0,
+        1,
+        1,
+        0,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        483,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        487,
+        0,
+        0,
+        9,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        397,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        399,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        2,
+        0,
+        0,
+        282,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        8,
+        0,
+        8,
+        0,
+        0,
+        1,
+        403,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        466,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        5,
+        2,
+        0,
+        0,
+        0,
+        379,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        501
+      ]
+    ],
+    "fold": 0
+  },
+  {
+    "run_tag": "cv_fold0_compactcnn",
+    "arch": "compactcnn",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9719962799542703,
+    "epochs_run": 35,
+    "train_time_sec": 160.37766814231873,
+    "test_accuracy": 0.9766203703703704,
+    "test_macro_f1": 0.9757682364682132,
+    "test_weighted_f1": 0.9766364103009041,
+    "test_macro_precision": 0.9756253054950081,
+    "test_macro_recall": 0.9759512520291507,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.962800875273523,
+        "recall": 0.967032967032967,
+        "f1-score": 0.9649122807017544,
+        "support": 455.0
+      },
+      "Forest": {
+        "precision": 0.997920997920998,
+        "recall": 0.9917355371900827,
+        "f1-score": 0.9948186528497409,
+        "support": 484.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9600798403193613,
+        "recall": 0.9600798403193613,
+        "f1-score": 0.9600798403193613,
+        "support": 501.0
+      },
+      "Highway": {
+        "precision": 0.9899244332493703,
+        "recall": 0.9727722772277227,
+        "f1-score": 0.9812734082397003,
+        "support": 404.0
+      },
+      "Industrial": {
+        "precision": 0.9778869778869779,
+        "recall": 0.995,
+        "f1-score": 0.9863692688971499,
+        "support": 400.0
+      },
+      "Pasture": {
+        "precision": 0.95578231292517,
+        "recall": 0.9623287671232876,
+        "f1-score": 0.9590443686006825,
+        "support": 292.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9594272076372315,
+        "recall": 0.9571428571428572,
+        "f1-score": 0.9582836710369488,
+        "support": 420.0
+      },
+      "Residential": {
+        "precision": 0.9978448275862069,
+        "recall": 0.9914346895074947,
+        "f1-score": 0.9946294307196563,
+        "support": 467.0
+      },
+      "River": {
+        "precision": 0.9644670050761421,
+        "recall": 0.9718670076726342,
+        "f1-score": 0.9681528662420382,
+        "support": 391.0
+      },
+      "SeaLake": {
+        "precision": 0.9901185770750988,
+        "recall": 0.9901185770750988,
+        "f1-score": 0.9901185770750988,
+        "support": 506.0
+      },
+      "accuracy": 0.9766203703703704,
+      "macro avg": {
+        "precision": 0.9756253054950081,
+        "recall": 0.9759512520291507,
+        "f1-score": 0.9757682364682132,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.976689911916683,
+        "recall": 0.9766203703703704,
+        "f1-score": 0.9766364103009041,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        440,
+        0,
+        2,
+        2,
+        0,
+        7,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        480,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        481,
+        0,
+        1,
+        3,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        393,
+        3,
+        0,
+        1,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        398,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        4,
+        0,
+        0,
+        281,
+        1,
+        0,
+        2,
+        1
+      ],
+      [
+        7,
+        0,
+        9,
+        0,
+        0,
+        1,
+        402,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        463,
+        0,
+        0
+      ],
+      [
+        3,
+        1,
+        3,
+        1,
+        1,
+        0,
+        1,
+        0,
+        380,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4,
+        501
+      ]
+    ],
+    "fold": 0
+  },
+  {
+    "run_tag": "cv_fold1_resnet18",
+    "arch": "resnet18",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9856703873930627,
+    "epochs_run": 17,
+    "train_time_sec": 155.809250831604,
+    "test_accuracy": 0.981712962962963,
+    "test_macro_f1": 0.9814597630673964,
+    "test_weighted_f1": 0.9816905892208827,
+    "test_macro_precision": 0.9807056791748188,
+    "test_macro_recall": 0.9823367523572394,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9861932938856016,
+        "recall": 0.9633911368015414,
+        "f1-score": 0.9746588693957114,
+        "support": 519.0
+      },
+      "Forest": {
+        "precision": 0.9853249475890985,
+        "recall": 1.0,
+        "f1-score": 0.9926082365364308,
+        "support": 470.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9775967413441955,
+        "recall": 0.9542743538767395,
+        "f1-score": 0.96579476861167,
+        "support": 503.0
+      },
+      "Highway": {
+        "precision": 0.9849246231155779,
+        "recall": 0.98989898989899,
+        "f1-score": 0.9874055415617129,
+        "support": 396.0
+      },
+      "Industrial": {
+        "precision": 0.974025974025974,
+        "recall": 0.9973404255319149,
+        "f1-score": 0.985545335085414,
+        "support": 376.0
+      },
+      "Pasture": {
+        "precision": 0.9692307692307692,
+        "recall": 0.987460815047022,
+        "f1-score": 0.9782608695652174,
+        "support": 319.0
+      },
+      "PermanentCrop": {
+        "precision": 0.948051948051948,
+        "recall": 0.9605263157894737,
+        "f1-score": 0.954248366013072,
+        "support": 380.0
+      },
+      "Residential": {
+        "precision": 0.9977973568281938,
+        "recall": 0.9912472647702407,
+        "f1-score": 0.9945115257958288,
+        "support": 457.0
+      },
+      "River": {
+        "precision": 0.9880952380952381,
+        "recall": 0.9834123222748815,
+        "f1-score": 0.9857482185273159,
+        "support": 422.0
+      },
+      "SeaLake": {
+        "precision": 0.99581589958159,
+        "recall": 0.99581589958159,
+        "f1-score": 0.99581589958159,
+        "support": 478.0
+      },
+      "accuracy": 0.981712962962963,
+      "macro avg": {
+        "precision": 0.9807056791748188,
+        "recall": 0.9823367523572394,
+        "f1-score": 0.9814597630673964,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.9817930696685645,
+        "recall": 0.981712962962963,
+        "f1-score": 0.9816905892208827,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        500,
+        3,
+        0,
+        0,
+        0,
+        4,
+        10,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        470,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        480,
+        2,
+        0,
+        6,
+        10,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        392,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        375,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        0,
+        0,
+        315,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        8,
+        0,
+        4,
+        0,
+        365,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        453,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        4,
+        1,
+        0,
+        0,
+        0,
+        415,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        476
+      ]
+    ],
+    "fold": 1
+  },
+  {
+    "run_tag": "cv_fold1_compactcnn",
+    "arch": "compactcnn",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.981433506701731,
+    "epochs_run": 35,
+    "train_time_sec": 159.56443858146667,
+    "test_accuracy": 0.9715277777777778,
+    "test_macro_f1": 0.9707956798116463,
+    "test_weighted_f1": 0.9715617796157413,
+    "test_macro_precision": 0.9702086807319343,
+    "test_macro_recall": 0.9715464601219592,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9671814671814671,
+        "recall": 0.9653179190751445,
+        "f1-score": 0.9662487945998072,
+        "support": 519.0
+      },
+      "Forest": {
+        "precision": 0.9915433403805497,
+        "recall": 0.997872340425532,
+        "f1-score": 0.9946977730646872,
+        "support": 470.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9636363636363636,
+        "recall": 0.94831013916501,
+        "f1-score": 0.9559118236472945,
+        "support": 503.0
+      },
+      "Highway": {
+        "precision": 0.9628712871287128,
+        "recall": 0.9823232323232324,
+        "f1-score": 0.9725,
+        "support": 396.0
+      },
+      "Industrial": {
+        "precision": 0.9509043927648578,
+        "recall": 0.9787234042553191,
+        "f1-score": 0.9646133682830931,
+        "support": 376.0
+      },
+      "Pasture": {
+        "precision": 0.9569230769230769,
+        "recall": 0.9749216300940439,
+        "f1-score": 0.9658385093167702,
+        "support": 319.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9326424870466321,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.9399477806788512,
+        "support": 380.0
+      },
+      "Residential": {
+        "precision": 0.9955257270693513,
+        "recall": 0.973741794310722,
+        "f1-score": 0.9845132743362832,
+        "support": 457.0
+      },
+      "River": {
+        "precision": 0.9829683698296837,
+        "recall": 0.957345971563981,
+        "f1-score": 0.9699879951980792,
+        "support": 422.0
+      },
+      "SeaLake": {
+        "precision": 0.9978902953586498,
+        "recall": 0.9895397489539749,
+        "f1-score": 0.9936974789915967,
+        "support": 478.0
+      },
+      "accuracy": 0.9715277777777778,
+      "macro avg": {
+        "precision": 0.9702086807319343,
+        "recall": 0.9715464601219592,
+        "f1-score": 0.9707956798116463,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.9717501853875288,
+        "recall": 0.9715277777777778,
+        "f1-score": 0.9715617796157413,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        501,
+        2,
+        3,
+        1,
+        0,
+        4,
+        6,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        469,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        477,
+        1,
+        1,
+        6,
+        14,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        389,
+        2,
+        1,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        368,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        4,
+        0,
+        0,
+        311,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        10,
+        2,
+        3,
+        0,
+        360,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0,
+        445,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        1,
+        6,
+        1,
+        2,
+        3,
+        0,
+        404,
+        0
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        473
+      ]
+    ],
+    "fold": 1
+  },
+  {
+    "run_tag": "cv_fold2_resnet18",
+    "arch": "resnet18",
+    "n_train": 15551,
+    "n_val": 1728,
+    "n_test": 4321,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9847135905622897,
+    "epochs_run": 21,
+    "train_time_sec": 184.9870936870575,
+    "test_accuracy": 0.9803286276324925,
+    "test_macro_f1": 0.97962367218004,
+    "test_weighted_f1": 0.9803381415561973,
+    "test_macro_precision": 0.9802294929626898,
+    "test_macro_recall": 0.9791317291665124,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9564356435643564,
+        "recall": 0.9737903225806451,
+        "f1-score": 0.965034965034965,
+        "support": 496.0
+      },
+      "Forest": {
+        "precision": 0.9954648526077098,
+        "recall": 0.9932126696832579,
+        "f1-score": 0.9943374858437146,
+        "support": 442.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9682539682539683,
+        "recall": 0.9726651480637813,
+        "f1-score": 0.9704545454545455,
+        "support": 439.0
+      },
+      "Highway": {
+        "precision": 0.9784172661870504,
+        "recall": 0.9807692307692307,
+        "f1-score": 0.9795918367346939,
+        "support": 416.0
+      },
+      "Industrial": {
+        "precision": 0.9907621247113164,
+        "recall": 0.9930555555555556,
+        "f1-score": 0.991907514450867,
+        "support": 432.0
+      },
+      "Pasture": {
+        "precision": 0.984472049689441,
+        "recall": 0.9434523809523809,
+        "f1-score": 0.9635258358662614,
+        "support": 336.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9506172839506173,
+        "recall": 0.9625,
+        "f1-score": 0.9565217391304348,
+        "support": 400.0
+      },
+      "Residential": {
+        "precision": 0.9959595959595959,
+        "recall": 0.9899598393574297,
+        "f1-score": 0.9929506545820745,
+        "support": 498.0
+      },
+      "River": {
+        "precision": 0.9819121447028424,
+        "recall": 0.9819121447028424,
+        "f1-score": 0.9819121447028424,
+        "support": 387.0
+      },
+      "SeaLake": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 475.0
+      },
+      "accuracy": 0.9803286276324925,
+      "macro avg": {
+        "precision": 0.9802294929626898,
+        "recall": 0.9791317291665124,
+        "f1-score": 0.97962367218004,
+        "support": 4321.0
+      },
+      "weighted avg": {
+        "precision": 0.980444169821083,
+        "recall": 0.9803286276324925,
+        "f1-score": 0.9803381415561973,
+        "support": 4321.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        483,
+        1,
+        0,
+        1,
+        0,
+        2,
+        7,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        439,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        427,
+        1,
+        0,
+        1,
+        9,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        408,
+        1,
+        0,
+        1,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        429,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        7,
+        1,
+        7,
+        1,
+        0,
+        317,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        0,
+        6,
+        0,
+        0,
+        0,
+        385,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        493,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        380,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        475
+      ]
+    ],
+    "fold": 2
+  },
+  {
+    "run_tag": "cv_fold2_compactcnn",
+    "arch": "compactcnn",
+    "n_train": 15551,
+    "n_val": 1728,
+    "n_test": 4321,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9714828358041865,
+    "epochs_run": 35,
+    "train_time_sec": 158.58878684043884,
+    "test_accuracy": 0.9706086554038417,
+    "test_macro_f1": 0.9700664558570284,
+    "test_weighted_f1": 0.9706283382598825,
+    "test_macro_precision": 0.969979209393563,
+    "test_macro_recall": 0.9701800996780324,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.944,
+        "recall": 0.9516129032258065,
+        "f1-score": 0.9477911646586346,
+        "support": 496.0
+      },
+      "Forest": {
+        "precision": 0.9865168539325843,
+        "recall": 0.9932126696832579,
+        "f1-score": 0.9898534385569335,
+        "support": 442.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9584295612009238,
+        "recall": 0.9453302961275627,
+        "f1-score": 0.9518348623853211,
+        "support": 439.0
+      },
+      "Highway": {
+        "precision": 0.9784172661870504,
+        "recall": 0.9807692307692307,
+        "f1-score": 0.9795918367346939,
+        "support": 416.0
+      },
+      "Industrial": {
+        "precision": 0.9815242494226328,
+        "recall": 0.9837962962962963,
+        "f1-score": 0.9826589595375722,
+        "support": 432.0
+      },
+      "Pasture": {
+        "precision": 0.9643916913946587,
+        "recall": 0.9672619047619048,
+        "f1-score": 0.9658246656760773,
+        "support": 336.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9330024813895782,
+        "recall": 0.94,
+        "f1-score": 0.9364881693648817,
+        "support": 400.0
+      },
+      "Residential": {
+        "precision": 0.9959349593495935,
+        "recall": 0.9839357429718876,
+        "f1-score": 0.98989898989899,
+        "support": 498.0
+      },
+      "River": {
+        "precision": 0.9639175257731959,
+        "recall": 0.9664082687338501,
+        "f1-score": 0.9651612903225807,
+        "support": 387.0
+      },
+      "SeaLake": {
+        "precision": 0.9936575052854123,
+        "recall": 0.9894736842105263,
+        "f1-score": 0.9915611814345991,
+        "support": 475.0
+      },
+      "accuracy": 0.9706086554038417,
+      "macro avg": {
+        "precision": 0.969979209393563,
+        "recall": 0.9701800996780324,
+        "f1-score": 0.9700664558570284,
+        "support": 4321.0
+      },
+      "weighted avg": {
+        "precision": 0.9706759299687873,
+        "recall": 0.9706086554038417,
+        "f1-score": 0.9706283382598825,
+        "support": 4321.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        472,
+        3,
+        3,
+        1,
+        0,
+        3,
+        8,
+        0,
+        3,
+        3
+      ],
+      [
+        0,
+        439,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        415,
+        1,
+        0,
+        4,
+        15,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        408,
+        2,
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        425,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        3,
+        0,
+        0,
+        325,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        9,
+        0,
+        2,
+        1,
+        376,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        3,
+        4,
+        0,
+        0,
+        490,
+        0,
+        0
+      ],
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        374,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        470
+      ]
+    ],
+    "fold": 2
+  },
+  {
+    "run_tag": "cv_fold3_resnet18",
+    "arch": "resnet18",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9850380613886538,
+    "epochs_run": 22,
+    "train_time_sec": 192.2433683872223,
+    "test_accuracy": 0.9833333333333333,
+    "test_macro_f1": 0.9828623742776257,
+    "test_weighted_f1": 0.9833280402416352,
+    "test_macro_precision": 0.9827082763240391,
+    "test_macro_recall": 0.9830400601921909,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9766949152542372,
+        "recall": 0.9746300211416491,
+        "f1-score": 0.9756613756613757,
+        "support": 473.0
+      },
+      "Forest": {
+        "precision": 0.9917525773195877,
+        "recall": 0.985655737704918,
+        "f1-score": 0.9886947584789312,
+        "support": 488.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9772256728778468,
+        "recall": 0.979253112033195,
+        "f1-score": 0.9782383419689119,
+        "support": 482.0
+      },
+      "Highway": {
+        "precision": 0.9772727272727273,
+        "recall": 0.989769820971867,
+        "f1-score": 0.9834815756035579,
+        "support": 391.0
+      },
+      "Industrial": {
+        "precision": 0.9945652173913043,
+        "recall": 0.997275204359673,
+        "f1-score": 0.9959183673469387,
+        "support": 367.0
+      },
+      "Pasture": {
+        "precision": 0.9689265536723164,
+        "recall": 0.98,
+        "f1-score": 0.9744318181818182,
+        "support": 350.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9680851063829787,
+        "recall": 0.9578947368421052,
+        "f1-score": 0.9629629629629629,
+        "support": 380.0
+      },
+      "Residential": {
+        "precision": 0.9979381443298969,
+        "recall": 0.9958847736625515,
+        "f1-score": 0.9969104016477858,
+        "support": 486.0
+      },
+      "River": {
+        "precision": 0.9788235294117648,
+        "recall": 0.9742388758782201,
+        "f1-score": 0.9765258215962441,
+        "support": 427.0
+      },
+      "SeaLake": {
+        "precision": 0.9957983193277311,
+        "recall": 0.9957983193277311,
+        "f1-score": 0.9957983193277311,
+        "support": 476.0
+      },
+      "accuracy": 0.9833333333333333,
+      "macro avg": {
+        "precision": 0.9827082763240391,
+        "recall": 0.9830400601921909,
+        "f1-score": 0.9828623742776257,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.9833439855404111,
+        "recall": 0.9833333333333333,
+        "f1-score": 0.9833280402416352,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        461,
+        1,
+        0,
+        0,
+        0,
+        2,
+        7,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        481,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        472,
+        0,
+        0,
+        2,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        387,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        366,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        0,
+        343,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        0,
+        6,
+        0,
+        0,
+        1,
+        364,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        484,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        8,
+        1,
+        1,
+        0,
+        0,
+        416,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        474
+      ]
+    ],
+    "fold": 3
+  },
+  {
+    "run_tag": "cv_fold3_compactcnn",
+    "arch": "compactcnn",
+    "n_train": 15552,
+    "n_val": 1728,
+    "n_test": 4320,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9747553134854016,
+    "epochs_run": 35,
+    "train_time_sec": 158.1829128265381,
+    "test_accuracy": 0.9770833333333333,
+    "test_macro_f1": 0.9765473449869988,
+    "test_weighted_f1": 0.9770985035738753,
+    "test_macro_precision": 0.9765605802138035,
+    "test_macro_recall": 0.9766018102880434,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9506172839506173,
+        "recall": 0.9767441860465116,
+        "f1-score": 0.9635036496350365,
+        "support": 473.0
+      },
+      "Forest": {
+        "precision": 0.9917355371900827,
+        "recall": 0.9836065573770492,
+        "f1-score": 0.9876543209876543,
+        "support": 488.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9708333333333333,
+        "recall": 0.966804979253112,
+        "f1-score": 0.9688149688149689,
+        "support": 482.0
+      },
+      "Highway": {
+        "precision": 0.9819587628865979,
+        "recall": 0.9744245524296675,
+        "f1-score": 0.9781771501925546,
+        "support": 391.0
+      },
+      "Industrial": {
+        "precision": 0.9784366576819407,
+        "recall": 0.989100817438692,
+        "f1-score": 0.983739837398374,
+        "support": 367.0
+      },
+      "Pasture": {
+        "precision": 0.9661016949152542,
+        "recall": 0.9771428571428571,
+        "f1-score": 0.9715909090909091,
+        "support": 350.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9601063829787234,
+        "recall": 0.95,
+        "f1-score": 0.955026455026455,
+        "support": 380.0
+      },
+      "Residential": {
+        "precision": 0.9979338842975206,
+        "recall": 0.9938271604938271,
+        "f1-score": 0.9958762886597938,
+        "support": 486.0
+      },
+      "River": {
+        "precision": 0.976303317535545,
+        "recall": 0.9648711943793911,
+        "f1-score": 0.9705535924617197,
+        "support": 427.0
+      },
+      "SeaLake": {
+        "precision": 0.991578947368421,
+        "recall": 0.9894957983193278,
+        "f1-score": 0.9905362776025236,
+        "support": 476.0
+      },
+      "accuracy": 0.9770833333333333,
+      "macro avg": {
+        "precision": 0.9765605802138035,
+        "recall": 0.9766018102880434,
+        "f1-score": 0.9765473449869988,
+        "support": 4320.0
+      },
+      "weighted avg": {
+        "precision": 0.977182336999513,
+        "recall": 0.9770833333333333,
+        "f1-score": 0.9770985035738753,
+        "support": 4320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        462,
+        2,
+        2,
+        0,
+        0,
+        2,
+        3,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        480,
+        0,
+        0,
+        0,
+        4,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        466,
+        0,
+        1,
+        2,
+        11,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        381,
+        2,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        363,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        2,
+        0,
+        0,
+        342,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        9,
+        0,
+        7,
+        0,
+        1,
+        1,
+        361,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        483,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        2,
+        4,
+        1,
+        1,
+        0,
+        0,
+        412,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        471
+      ]
+    ],
+    "fold": 3
+  },
+  {
+    "run_tag": "cv_fold4_resnet18",
+    "arch": "resnet18",
+    "n_train": 15552,
+    "n_val": 1729,
+    "n_test": 4319,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9823560579258463,
+    "epochs_run": 15,
+    "train_time_sec": 139.58184361457825,
+    "test_accuracy": 0.9786987728640889,
+    "test_macro_f1": 0.9779320290338722,
+    "test_weighted_f1": 0.978706313581562,
+    "test_macro_precision": 0.9774895062194116,
+    "test_macro_recall": 0.9785161439161533,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.9720558882235529,
+        "recall": 0.9838383838383838,
+        "f1-score": 0.9779116465863453,
+        "support": 495.0
+      },
+      "Forest": {
+        "precision": 0.9957537154989384,
+        "recall": 0.9832285115303984,
+        "f1-score": 0.989451476793249,
+        "support": 477.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.977319587628866,
+        "recall": 0.9575757575757575,
+        "f1-score": 0.9673469387755103,
+        "support": 495.0
+      },
+      "Highway": {
+        "precision": 0.9704433497536946,
+        "recall": 0.9899497487437185,
+        "f1-score": 0.9800995024875622,
+        "support": 398.0
+      },
+      "Industrial": {
+        "precision": 0.9763593380614657,
+        "recall": 0.9951807228915662,
+        "f1-score": 0.9856801909307876,
+        "support": 415.0
+      },
+      "Pasture": {
+        "precision": 0.9462025316455697,
+        "recall": 0.9739413680781759,
+        "f1-score": 0.9598715890850722,
+        "support": 307.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9634146341463414,
+        "recall": 0.9587378640776699,
+        "f1-score": 0.9610705596107056,
+        "support": 412.0
+      },
+      "Residential": {
+        "precision": 0.9978448275862069,
+        "recall": 0.9830148619957537,
+        "f1-score": 0.9903743315508021,
+        "support": 471.0
+      },
+      "River": {
+        "precision": 0.9840848806366048,
+        "recall": 0.9661458333333334,
+        "f1-score": 0.9750328515111695,
+        "support": 384.0
+      },
+      "SeaLake": {
+        "precision": 0.9914163090128756,
+        "recall": 0.9935483870967742,
+        "f1-score": 0.9924812030075187,
+        "support": 465.0
+      },
+      "accuracy": 0.9786987728640889,
+      "macro avg": {
+        "precision": 0.9774895062194116,
+        "recall": 0.9785161439161533,
+        "f1-score": 0.9779320290338722,
+        "support": 4319.0
+      },
+      "weighted avg": {
+        "precision": 0.9788455798725282,
+        "recall": 0.9786987728640889,
+        "f1-score": 0.978706313581562,
+        "support": 4319.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        487,
+        0,
+        1,
+        0,
+        0,
+        3,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        469,
+        4,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        474,
+        1,
+        0,
+        9,
+        9,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        394,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        413,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        0,
+        0,
+        299,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        9,
+        0,
+        4,
+        0,
+        1,
+        3,
+        395,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        7,
+        0,
+        0,
+        463,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        9,
+        1,
+        0,
+        0,
+        0,
+        371,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        462
+      ]
+    ],
+    "fold": 4
+  },
+  {
+    "run_tag": "cv_fold4_compactcnn",
+    "arch": "compactcnn",
+    "n_train": 15552,
+    "n_val": 1729,
+    "n_test": 4319,
+    "n_classes": 10,
+    "classes": [
+      "AnnualCrop",
+      "Forest",
+      "HerbaceousVegetation",
+      "Highway",
+      "Industrial",
+      "Pasture",
+      "PermanentCrop",
+      "Residential",
+      "River",
+      "SeaLake"
+    ],
+    "best_val_macro_f1": 0.9782714724922966,
+    "epochs_run": 35,
+    "train_time_sec": 159.0286328792572,
+    "test_accuracy": 0.9736050011576753,
+    "test_macro_f1": 0.9727347311814871,
+    "test_weighted_f1": 0.9735816585567124,
+    "test_macro_precision": 0.972618102684993,
+    "test_macro_recall": 0.9730465476383164,
+    "per_class_report": {
+      "AnnualCrop": {
+        "precision": 0.96579476861167,
+        "recall": 0.9696969696969697,
+        "f1-score": 0.967741935483871,
+        "support": 495.0
+      },
+      "Forest": {
+        "precision": 0.9895833333333334,
+        "recall": 0.9958071278825996,
+        "f1-score": 0.9926854754440961,
+        "support": 477.0
+      },
+      "HerbaceousVegetation": {
+        "precision": 0.9653061224489796,
+        "recall": 0.9555555555555556,
+        "f1-score": 0.9604060913705583,
+        "support": 495.0
+      },
+      "Highway": {
+        "precision": 0.946987951807229,
+        "recall": 0.9874371859296482,
+        "f1-score": 0.966789667896679,
+        "support": 398.0
+      },
+      "Industrial": {
+        "precision": 0.9828850855745721,
+        "recall": 0.9686746987951808,
+        "f1-score": 0.9757281553398058,
+        "support": 415.0
+      },
+      "Pasture": {
+        "precision": 0.9522292993630573,
+        "recall": 0.9739413680781759,
+        "f1-score": 0.9629629629629629,
+        "support": 307.0
+      },
+      "PermanentCrop": {
+        "precision": 0.9628712871287128,
+        "recall": 0.9441747572815534,
+        "f1-score": 0.9534313725490197,
+        "support": 412.0
+      },
+      "Residential": {
+        "precision": 1.0,
+        "recall": 0.9872611464968153,
+        "f1-score": 0.9935897435897436,
+        "support": 471.0
+      },
+      "River": {
+        "precision": 0.9732620320855615,
+        "recall": 0.9479166666666666,
+        "f1-score": 0.9604221635883905,
+        "support": 384.0
+      },
+      "SeaLake": {
+        "precision": 0.9872611464968153,
+        "recall": 1.0,
+        "f1-score": 0.9935897435897436,
+        "support": 465.0
+      },
+      "accuracy": 0.9736050011576753,
+      "macro avg": {
+        "precision": 0.972618102684993,
+        "recall": 0.9730465476383164,
+        "f1-score": 0.9727347311814871,
+        "support": 4319.0
+      },
+      "weighted avg": {
+        "precision": 0.9737372366406829,
+        "recall": 0.9736050011576753,
+        "f1-score": 0.9735816585567124,
+        "support": 4319.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        480,
+        2,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        475,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        473,
+        0,
+        0,
+        10,
+        8,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        393,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        8,
+        402,
+        0,
+        3,
+        0,
+        1,
+        0
+      ],
+      [
+        3,
+        1,
+        4,
+        0,
+        0,
+        299,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        1,
+        10,
+        1,
+        1,
+        0,
+        389,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        4,
+        0,
+        0,
+        465,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        12,
+        1,
+        1,
+        0,
+        0,
+        364,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        465
+      ]
+    ],
+    "fold": 4
+  }
+]

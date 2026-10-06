@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Raw datasets
+# =========================
+data/
+datasets/
+raw_data/
+
+# Dataset image extensions
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.jp2
+
+# =========================
+# Model checkpoints
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# =========================
+# Large temporary files
+# =========================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# =========================
+# OS files
+# =========================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# Python cache / tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Secrets
+# =========================
+.env
+*.env

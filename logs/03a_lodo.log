@@ -1,0 +1,182 @@
+
+=== lodo_heldout-RESISC45_resnet18 === train=5400 test=9100
+  [lodo_heldout-RESISC45_resnet18] epoch 00 loss=1.5662 val_acc=0.9167 val_macroF1=0.9148
+  [lodo_heldout-RESISC45_resnet18] epoch 01 loss=0.3002 val_acc=0.9556 val_macroF1=0.9538
+  [lodo_heldout-RESISC45_resnet18] epoch 02 loss=0.1170 val_acc=0.9741 val_macroF1=0.9730
+  [lodo_heldout-RESISC45_resnet18] epoch 03 loss=0.0793 val_acc=0.9741 val_macroF1=0.9722
+  [lodo_heldout-RESISC45_resnet18] epoch 04 loss=0.0593 val_acc=0.9833 val_macroF1=0.9826
+  [lodo_heldout-RESISC45_resnet18] epoch 05 loss=0.0507 val_acc=0.9796 val_macroF1=0.9800
+  [lodo_heldout-RESISC45_resnet18] epoch 06 loss=0.0449 val_acc=0.9852 val_macroF1=0.9844
+  [lodo_heldout-RESISC45_resnet18] epoch 07 loss=0.0297 val_acc=0.9870 val_macroF1=0.9869
+  [lodo_heldout-RESISC45_resnet18] epoch 08 loss=0.0247 val_acc=0.9852 val_macroF1=0.9849
+  [lodo_heldout-RESISC45_resnet18] epoch 09 loss=0.0216 val_acc=0.9944 val_macroF1=0.9945
+  [lodo_heldout-RESISC45_resnet18] epoch 10 loss=0.0187 val_acc=0.9907 val_macroF1=0.9903
+  [lodo_heldout-RESISC45_resnet18] epoch 11 loss=0.0194 val_acc=0.9926 val_macroF1=0.9927
+  [lodo_heldout-RESISC45_resnet18] epoch 12 loss=0.0138 val_acc=0.9944 val_macroF1=0.9942
+  [lodo_heldout-RESISC45_resnet18] epoch 13 loss=0.0114 val_acc=0.9963 val_macroF1=0.9962
+  [lodo_heldout-RESISC45_resnet18] epoch 14 loss=0.0130 val_acc=0.9907 val_macroF1=0.9901
+  [lodo_heldout-RESISC45_resnet18] epoch 15 loss=0.0094 val_acc=0.9926 val_macroF1=0.9922
+  [lodo_heldout-RESISC45_resnet18] epoch 16 loss=0.0071 val_acc=0.9944 val_macroF1=0.9943
+  [lodo_heldout-RESISC45_resnet18] epoch 17 loss=0.0082 val_acc=0.9926 val_macroF1=0.9922
+  [lodo_heldout-RESISC45_resnet18] early stopping at epoch 17
+  [lodo_heldout-RESISC45_resnet18] DONE acc=0.8632 macroF1=0.8730 (173s, 18 epochs)
+
+=== lodo_heldout-RESISC45_compactcnn === train=5400 test=9100
+  [lodo_heldout-RESISC45_compactcnn] epoch 00 loss=1.4501 val_acc=0.5648 val_macroF1=0.5380
+  [lodo_heldout-RESISC45_compactcnn] epoch 01 loss=1.0889 val_acc=0.5926 val_macroF1=0.5529
+  [lodo_heldout-RESISC45_compactcnn] epoch 02 loss=0.8843 val_acc=0.6074 val_macroF1=0.6013
+  [lodo_heldout-RESISC45_compactcnn] epoch 03 loss=0.8117 val_acc=0.6352 val_macroF1=0.6052
+  [lodo_heldout-RESISC45_compactcnn] epoch 04 loss=0.7234 val_acc=0.7574 val_macroF1=0.7524
+  [lodo_heldout-RESISC45_compactcnn] epoch 05 loss=0.6130 val_acc=0.6259 val_macroF1=0.6133
+  [lodo_heldout-RESISC45_compactcnn] epoch 06 loss=0.5821 val_acc=0.7463 val_macroF1=0.7462
+  [lodo_heldout-RESISC45_compactcnn] epoch 07 loss=0.5412 val_acc=0.7889 val_macroF1=0.7878
+  [lodo_heldout-RESISC45_compactcnn] epoch 08 loss=0.4967 val_acc=0.8370 val_macroF1=0.8328
+  [lodo_heldout-RESISC45_compactcnn] epoch 09 loss=0.4426 val_acc=0.7389 val_macroF1=0.7421
+  [lodo_heldout-RESISC45_compactcnn] epoch 10 loss=0.4189 val_acc=0.8630 val_macroF1=0.8588
+  [lodo_heldout-RESISC45_compactcnn] epoch 11 loss=0.3916 val_acc=0.8593 val_macroF1=0.8572
+  [lodo_heldout-RESISC45_compactcnn] epoch 12 loss=0.3618 val_acc=0.8444 val_macroF1=0.8386
+  [lodo_heldout-RESISC45_compactcnn] epoch 13 loss=0.3488 val_acc=0.8556 val_macroF1=0.8517
+  [lodo_heldout-RESISC45_compactcnn] epoch 14 loss=0.3081 val_acc=0.8463 val_macroF1=0.8451
+  [lodo_heldout-RESISC45_compactcnn] epoch 15 loss=0.2898 val_acc=0.8889 val_macroF1=0.8847
+  [lodo_heldout-RESISC45_compactcnn] epoch 16 loss=0.2549 val_acc=0.9074 val_macroF1=0.9068
+  [lodo_heldout-RESISC45_compactcnn] epoch 17 loss=0.2417 val_acc=0.9167 val_macroF1=0.9164
+  [lodo_heldout-RESISC45_compactcnn] epoch 18 loss=0.2085 val_acc=0.9019 val_macroF1=0.8976
+  [lodo_heldout-RESISC45_compactcnn] epoch 19 loss=0.2049 val_acc=0.9130 val_macroF1=0.9115
+  [lodo_heldout-RESISC45_compactcnn] epoch 20 loss=0.1862 val_acc=0.9315 val_macroF1=0.9300
+  [lodo_heldout-RESISC45_compactcnn] epoch 21 loss=0.1661 val_acc=0.9278 val_macroF1=0.9249
+  [lodo_heldout-RESISC45_compactcnn] epoch 22 loss=0.1511 val_acc=0.9333 val_macroF1=0.9300
+  [lodo_heldout-RESISC45_compactcnn] epoch 23 loss=0.1313 val_acc=0.9481 val_macroF1=0.9461
+  [lodo_heldout-RESISC45_compactcnn] epoch 24 loss=0.1272 val_acc=0.9481 val_macroF1=0.9461
+  [lodo_heldout-RESISC45_compactcnn] epoch 25 loss=0.1317 val_acc=0.9241 val_macroF1=0.9213
+  [lodo_heldout-RESISC45_compactcnn] epoch 26 loss=0.1040 val_acc=0.9519 val_macroF1=0.9496
+  [lodo_heldout-RESISC45_compactcnn] epoch 27 loss=0.0990 val_acc=0.9389 val_macroF1=0.9366
+  [lodo_heldout-RESISC45_compactcnn] epoch 28 loss=0.0966 val_acc=0.9593 val_macroF1=0.9573
+  [lodo_heldout-RESISC45_compactcnn] epoch 29 loss=0.0890 val_acc=0.9426 val_macroF1=0.9402
+  [lodo_heldout-RESISC45_compactcnn] epoch 30 loss=0.0922 val_acc=0.9574 val_macroF1=0.9559
+  [lodo_heldout-RESISC45_compactcnn] epoch 31 loss=0.0814 val_acc=0.9574 val_macroF1=0.9556
+  [lodo_heldout-RESISC45_compactcnn] epoch 32 loss=0.0795 val_acc=0.9537 val_macroF1=0.9519
+  [lodo_heldout-RESISC45_compactcnn] epoch 33 loss=0.0761 val_acc=0.9556 val_macroF1=0.9539
+  [lodo_heldout-RESISC45_compactcnn] epoch 34 loss=0.0756 val_acc=0.9537 val_macroF1=0.9516
+  [lodo_heldout-RESISC45_compactcnn] early stopping at epoch 34
+  [lodo_heldout-RESISC45_compactcnn] DONE acc=0.8126 macroF1=0.8140 (274s, 35 epochs)
+
+=== lodo_heldout-UCMerced_resnet18 === train=13300 test=1200
+  [lodo_heldout-UCMerced_resnet18] epoch 00 loss=0.8870 val_acc=0.9579 val_macroF1=0.9575
+  [lodo_heldout-UCMerced_resnet18] epoch 01 loss=0.1557 val_acc=0.9722 val_macroF1=0.9703
+  [lodo_heldout-UCMerced_resnet18] epoch 02 loss=0.0992 val_acc=0.9789 val_macroF1=0.9784
+  [lodo_heldout-UCMerced_resnet18] epoch 03 loss=0.0769 val_acc=0.9835 val_macroF1=0.9826
+  [lodo_heldout-UCMerced_resnet18] epoch 04 loss=0.0621 val_acc=0.9842 val_macroF1=0.9832
+  [lodo_heldout-UCMerced_resnet18] epoch 05 loss=0.0493 val_acc=0.9835 val_macroF1=0.9829
+  [lodo_heldout-UCMerced_resnet18] epoch 06 loss=0.0441 val_acc=0.9887 val_macroF1=0.9882
+  [lodo_heldout-UCMerced_resnet18] epoch 07 loss=0.0377 val_acc=0.9842 val_macroF1=0.9831
+  [lodo_heldout-UCMerced_resnet18] epoch 08 loss=0.0319 val_acc=0.9872 val_macroF1=0.9866
+  [lodo_heldout-UCMerced_resnet18] epoch 09 loss=0.0289 val_acc=0.9850 val_macroF1=0.9842
+  [lodo_heldout-UCMerced_resnet18] epoch 10 loss=0.0244 val_acc=0.9872 val_macroF1=0.9866
+  [lodo_heldout-UCMerced_resnet18] early stopping at epoch 10
+  [lodo_heldout-UCMerced_resnet18] DONE acc=0.8433 macroF1=0.8279 (214s, 11 epochs)
+
+=== lodo_heldout-UCMerced_compactcnn === train=13300 test=1200
+  [lodo_heldout-UCMerced_compactcnn] epoch 00 loss=1.2665 val_acc=0.6376 val_macroF1=0.6295
+  [lodo_heldout-UCMerced_compactcnn] epoch 01 loss=0.8272 val_acc=0.6970 val_macroF1=0.6921
+  [lodo_heldout-UCMerced_compactcnn] epoch 02 loss=0.6871 val_acc=0.7887 val_macroF1=0.7907
+  [lodo_heldout-UCMerced_compactcnn] epoch 03 loss=0.6039 val_acc=0.7451 val_macroF1=0.7425
+  [lodo_heldout-UCMerced_compactcnn] epoch 04 loss=0.5269 val_acc=0.8526 val_macroF1=0.8559
+  [lodo_heldout-UCMerced_compactcnn] epoch 05 loss=0.4616 val_acc=0.8504 val_macroF1=0.8498
+  [lodo_heldout-UCMerced_compactcnn] epoch 06 loss=0.4169 val_acc=0.8429 val_macroF1=0.8507
+  [lodo_heldout-UCMerced_compactcnn] epoch 07 loss=0.3865 val_acc=0.8797 val_macroF1=0.8836
+  [lodo_heldout-UCMerced_compactcnn] epoch 08 loss=0.3491 val_acc=0.8451 val_macroF1=0.8443
+  [lodo_heldout-UCMerced_compactcnn] epoch 09 loss=0.3120 val_acc=0.8752 val_macroF1=0.8764
+  [lodo_heldout-UCMerced_compactcnn] epoch 10 loss=0.2890 val_acc=0.8820 val_macroF1=0.8826
+  [lodo_heldout-UCMerced_compactcnn] epoch 11 loss=0.2671 val_acc=0.8865 val_macroF1=0.8892
+  [lodo_heldout-UCMerced_compactcnn] epoch 12 loss=0.2346 val_acc=0.9068 val_macroF1=0.9061
+  [lodo_heldout-UCMerced_compactcnn] epoch 13 loss=0.2224 val_acc=0.9143 val_macroF1=0.9135
+  [lodo_heldout-UCMerced_compactcnn] epoch 14 loss=0.2134 val_acc=0.9241 val_macroF1=0.9237
+  [lodo_heldout-UCMerced_compactcnn] epoch 15 loss=0.1945 val_acc=0.9293 val_macroF1=0.9307
+  [lodo_heldout-UCMerced_compactcnn] epoch 16 loss=0.1715 val_acc=0.9376 val_macroF1=0.9380
+  [lodo_heldout-UCMerced_compactcnn] epoch 17 loss=0.1556 val_acc=0.9451 val_macroF1=0.9465
+  [lodo_heldout-UCMerced_compactcnn] epoch 18 loss=0.1500 val_acc=0.9466 val_macroF1=0.9469
+  [lodo_heldout-UCMerced_compactcnn] epoch 19 loss=0.1383 val_acc=0.9316 val_macroF1=0.9303
+  [lodo_heldout-UCMerced_compactcnn] epoch 20 loss=0.1292 val_acc=0.9549 val_macroF1=0.9558
+  [lodo_heldout-UCMerced_compactcnn] epoch 21 loss=0.1203 val_acc=0.9541 val_macroF1=0.9552
+  [lodo_heldout-UCMerced_compactcnn] epoch 22 loss=0.1086 val_acc=0.9579 val_macroF1=0.9582
+  [lodo_heldout-UCMerced_compactcnn] epoch 23 loss=0.1033 val_acc=0.9602 val_macroF1=0.9606
+  [lodo_heldout-UCMerced_compactcnn] epoch 24 loss=0.0916 val_acc=0.9677 val_macroF1=0.9685
+  [lodo_heldout-UCMerced_compactcnn] epoch 25 loss=0.0900 val_acc=0.9632 val_macroF1=0.9639
+  [lodo_heldout-UCMerced_compactcnn] epoch 26 loss=0.0823 val_acc=0.9699 val_macroF1=0.9701
+  [lodo_heldout-UCMerced_compactcnn] epoch 27 loss=0.0782 val_acc=0.9684 val_macroF1=0.9686
+  [lodo_heldout-UCMerced_compactcnn] epoch 28 loss=0.0725 val_acc=0.9729 val_macroF1=0.9738
+  [lodo_heldout-UCMerced_compactcnn] epoch 29 loss=0.0711 val_acc=0.9737 val_macroF1=0.9743
+  [lodo_heldout-UCMerced_compactcnn] epoch 30 loss=0.0623 val_acc=0.9737 val_macroF1=0.9746
+  [lodo_heldout-UCMerced_compactcnn] epoch 31 loss=0.0618 val_acc=0.9752 val_macroF1=0.9762
+  [lodo_heldout-UCMerced_compactcnn] epoch 32 loss=0.0625 val_acc=0.9752 val_macroF1=0.9764
+  [lodo_heldout-UCMerced_compactcnn] epoch 33 loss=0.0628 val_acc=0.9759 val_macroF1=0.9769
+  [lodo_heldout-UCMerced_compactcnn] epoch 34 loss=0.0601 val_acc=0.9729 val_macroF1=0.9738
+  [lodo_heldout-UCMerced_compactcnn] DONE acc=0.6575 macroF1=0.6440 (422s, 35 epochs)
+
+=== lodo_heldout-AID_resnet18 === train=10300 test=4200
+  [lodo_heldout-AID_resnet18] epoch 00 loss=1.1028 val_acc=0.9330 val_macroF1=0.9350
+  [lodo_heldout-AID_resnet18] epoch 01 loss=0.1992 val_acc=0.9573 val_macroF1=0.9583
+  [lodo_heldout-AID_resnet18] epoch 02 loss=0.1163 val_acc=0.9680 val_macroF1=0.9691
+  [lodo_heldout-AID_resnet18] epoch 03 loss=0.0913 val_acc=0.9738 val_macroF1=0.9742
+  [lodo_heldout-AID_resnet18] epoch 04 loss=0.0713 val_acc=0.9709 val_macroF1=0.9718
+  [lodo_heldout-AID_resnet18] epoch 05 loss=0.0646 val_acc=0.9641 val_macroF1=0.9662
+  [lodo_heldout-AID_resnet18] epoch 06 loss=0.0530 val_acc=0.9709 val_macroF1=0.9712
+  [lodo_heldout-AID_resnet18] epoch 07 loss=0.0433 val_acc=0.9806 val_macroF1=0.9812
+  [lodo_heldout-AID_resnet18] epoch 08 loss=0.0381 val_acc=0.9796 val_macroF1=0.9801
+  [lodo_heldout-AID_resnet18] epoch 09 loss=0.0339 val_acc=0.9816 val_macroF1=0.9823
+  [lodo_heldout-AID_resnet18] epoch 10 loss=0.0352 val_acc=0.9835 val_macroF1=0.9852
+  [lodo_heldout-AID_resnet18] epoch 11 loss=0.0292 val_acc=0.9816 val_macroF1=0.9832
+  [lodo_heldout-AID_resnet18] epoch 12 loss=0.0185 val_acc=0.9816 val_macroF1=0.9825
+  [lodo_heldout-AID_resnet18] epoch 13 loss=0.0208 val_acc=0.9816 val_macroF1=0.9834
+  [lodo_heldout-AID_resnet18] epoch 14 loss=0.0184 val_acc=0.9816 val_macroF1=0.9824
+  [lodo_heldout-AID_resnet18] early stopping at epoch 14
+  [lodo_heldout-AID_resnet18] DONE acc=0.9512 macroF1=0.9499 (210s, 15 epochs)
+
+=== lodo_heldout-AID_compactcnn === train=10300 test=4200
+  [lodo_heldout-AID_compactcnn] epoch 00 loss=1.3847 val_acc=0.6223 val_macroF1=0.6157
+  [lodo_heldout-AID_compactcnn] epoch 01 loss=0.9897 val_acc=0.6680 val_macroF1=0.6674
+  [lodo_heldout-AID_compactcnn] epoch 02 loss=0.7993 val_acc=0.7126 val_macroF1=0.7157
+  [lodo_heldout-AID_compactcnn] epoch 03 loss=0.7175 val_acc=0.7058 val_macroF1=0.7110
+  [lodo_heldout-AID_compactcnn] epoch 04 loss=0.6123 val_acc=0.6350 val_macroF1=0.6226
+  [lodo_heldout-AID_compactcnn] epoch 05 loss=0.5454 val_acc=0.7767 val_macroF1=0.7764
+  [lodo_heldout-AID_compactcnn] epoch 06 loss=0.5111 val_acc=0.7845 val_macroF1=0.7875
+  [lodo_heldout-AID_compactcnn] epoch 07 loss=0.4675 val_acc=0.8204 val_macroF1=0.8211
+  [lodo_heldout-AID_compactcnn] epoch 08 loss=0.4100 val_acc=0.8544 val_macroF1=0.8540
+  [lodo_heldout-AID_compactcnn] epoch 09 loss=0.3967 val_acc=0.8408 val_macroF1=0.8418
+  [lodo_heldout-AID_compactcnn] epoch 10 loss=0.3497 val_acc=0.8602 val_macroF1=0.8602
+  [lodo_heldout-AID_compactcnn] epoch 11 loss=0.3305 val_acc=0.8689 val_macroF1=0.8674
+  [lodo_heldout-AID_compactcnn] epoch 12 loss=0.2915 val_acc=0.8777 val_macroF1=0.8795
+  [lodo_heldout-AID_compactcnn] epoch 13 loss=0.2894 val_acc=0.8767 val_macroF1=0.8776
+  [lodo_heldout-AID_compactcnn] epoch 14 loss=0.2498 val_acc=0.8971 val_macroF1=0.8983
+  [lodo_heldout-AID_compactcnn] epoch 15 loss=0.2364 val_acc=0.9078 val_macroF1=0.9080
+  [lodo_heldout-AID_compactcnn] epoch 16 loss=0.2236 val_acc=0.9078 val_macroF1=0.9071
+  [lodo_heldout-AID_compactcnn] epoch 17 loss=0.2248 val_acc=0.9010 val_macroF1=0.8997
+  [lodo_heldout-AID_compactcnn] epoch 18 loss=0.2010 val_acc=0.9359 val_macroF1=0.9358
+  [lodo_heldout-AID_compactcnn] epoch 19 loss=0.1741 val_acc=0.9165 val_macroF1=0.9176
+  [lodo_heldout-AID_compactcnn] epoch 20 loss=0.1671 val_acc=0.9398 val_macroF1=0.9413
+  [lodo_heldout-AID_compactcnn] epoch 21 loss=0.1553 val_acc=0.9398 val_macroF1=0.9404
+  [lodo_heldout-AID_compactcnn] epoch 22 loss=0.1440 val_acc=0.9301 val_macroF1=0.9319
+  [lodo_heldout-AID_compactcnn] epoch 23 loss=0.1361 val_acc=0.9466 val_macroF1=0.9474
+  [lodo_heldout-AID_compactcnn] epoch 24 loss=0.1251 val_acc=0.9417 val_macroF1=0.9420
+  [lodo_heldout-AID_compactcnn] epoch 25 loss=0.1263 val_acc=0.9495 val_macroF1=0.9502
+  [lodo_heldout-AID_compactcnn] epoch 26 loss=0.1068 val_acc=0.9466 val_macroF1=0.9462
+  [lodo_heldout-AID_compactcnn] epoch 27 loss=0.1054 val_acc=0.9515 val_macroF1=0.9521
+  [lodo_heldout-AID_compactcnn] epoch 28 loss=0.1006 val_acc=0.9583 val_macroF1=0.9595
+  [lodo_heldout-AID_compactcnn] epoch 29 loss=0.0932 val_acc=0.9534 val_macroF1=0.9543
+  [lodo_heldout-AID_compactcnn] epoch 30 loss=0.0918 val_acc=0.9631 val_macroF1=0.9644
+  [lodo_heldout-AID_compactcnn] epoch 31 loss=0.0874 val_acc=0.9563 val_macroF1=0.9572
+  [lodo_heldout-AID_compactcnn] epoch 32 loss=0.0868 val_acc=0.9553 val_macroF1=0.9562
+  [lodo_heldout-AID_compactcnn] epoch 33 loss=0.0838 val_acc=0.9534 val_macroF1=0.9545
+  [lodo_heldout-AID_compactcnn] epoch 34 loss=0.0829 val_acc=0.9573 val_macroF1=0.9581
+  [lodo_heldout-AID_compactcnn] DONE acc=0.8545 macroF1=0.8490 (298s, 35 epochs)
+
+
+=== A1 LODO SUMMARY ===
+  RESISC45 |   resnet18 | acc=0.8632 macroF1=0.8730 n_test=9100
+  RESISC45 | compactcnn | acc=0.8126 macroF1=0.8140 n_test=9100
+  UCMerced |   resnet18 | acc=0.8433 macroF1=0.8279 n_test=1200
+  UCMerced | compactcnn | acc=0.6575 macroF1=0.6440 n_test=1200
+       AID |   resnet18 | acc=0.9512 macroF1=0.9499 n_test=4200
+       AID | compactcnn | acc=0.8545 macroF1=0.8490 n_test=4200
+
+Saved -> D:\SJ\UVMDATA\EuroSAT-RGB\benchmark_study\results\studyA_lodo\summary.json

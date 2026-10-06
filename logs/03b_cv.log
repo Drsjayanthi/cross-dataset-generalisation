@@ -1,0 +1,445 @@
+
+=== A2 pooled_fold0 === train=11600 test=2900
+  [pooled_fold0] epoch 00 loss=1.0021 val_acc=0.9397 val_macroF1=0.9391
+  [pooled_fold0] epoch 01 loss=0.1783 val_acc=0.9552 val_macroF1=0.9543
+  [pooled_fold0] epoch 02 loss=0.1111 val_acc=0.9647 val_macroF1=0.9641
+  [pooled_fold0] epoch 03 loss=0.0845 val_acc=0.9681 val_macroF1=0.9674
+  [pooled_fold0] epoch 04 loss=0.0692 val_acc=0.9621 val_macroF1=0.9620
+  [pooled_fold0] epoch 05 loss=0.0571 val_acc=0.9724 val_macroF1=0.9721
+  [pooled_fold0] epoch 06 loss=0.0426 val_acc=0.9716 val_macroF1=0.9708
+  [pooled_fold0] epoch 07 loss=0.0432 val_acc=0.9707 val_macroF1=0.9698
+  [pooled_fold0] epoch 08 loss=0.0332 val_acc=0.9690 val_macroF1=0.9684
+  [pooled_fold0] epoch 09 loss=0.0305 val_acc=0.9741 val_macroF1=0.9737
+  [pooled_fold0] epoch 10 loss=0.0250 val_acc=0.9716 val_macroF1=0.9711
+  [pooled_fold0] epoch 11 loss=0.0248 val_acc=0.9724 val_macroF1=0.9722
+  [pooled_fold0] epoch 12 loss=0.0208 val_acc=0.9733 val_macroF1=0.9732
+  [pooled_fold0] epoch 13 loss=0.0204 val_acc=0.9750 val_macroF1=0.9747
+  [pooled_fold0] epoch 14 loss=0.0160 val_acc=0.9767 val_macroF1=0.9767
+  [pooled_fold0] epoch 15 loss=0.0124 val_acc=0.9759 val_macroF1=0.9752
+  [pooled_fold0] epoch 16 loss=0.0093 val_acc=0.9776 val_macroF1=0.9770
+  [pooled_fold0] epoch 17 loss=0.0102 val_acc=0.9776 val_macroF1=0.9772
+  [pooled_fold0] epoch 18 loss=0.0100 val_acc=0.9802 val_macroF1=0.9798
+  [pooled_fold0] epoch 19 loss=0.0093 val_acc=0.9819 val_macroF1=0.9817
+  [pooled_fold0] epoch 20 loss=0.0096 val_acc=0.9810 val_macroF1=0.9808
+  [pooled_fold0] epoch 21 loss=0.0102 val_acc=0.9776 val_macroF1=0.9772
+  [pooled_fold0] epoch 22 loss=0.0084 val_acc=0.9776 val_macroF1=0.9774
+  [pooled_fold0] epoch 23 loss=0.0073 val_acc=0.9793 val_macroF1=0.9791
+  [pooled_fold0] early stopping at epoch 23
+  [pooled_fold0] DONE acc=0.9866 macroF1=0.9863 (381s, 24 epochs)
+
+=== A2 pooled_fold1 === train=11600 test=2900
+  [pooled_fold1] epoch 00 loss=1.0058 val_acc=0.9543 val_macroF1=0.9512
+  [pooled_fold1] epoch 01 loss=0.1850 val_acc=0.9716 val_macroF1=0.9707
+  [pooled_fold1] epoch 02 loss=0.1089 val_acc=0.9776 val_macroF1=0.9767
+  [pooled_fold1] epoch 03 loss=0.0867 val_acc=0.9741 val_macroF1=0.9728
+  [pooled_fold1] epoch 04 loss=0.0688 val_acc=0.9845 val_macroF1=0.9842
+  [pooled_fold1] epoch 05 loss=0.0559 val_acc=0.9776 val_macroF1=0.9764
+  [pooled_fold1] epoch 06 loss=0.0444 val_acc=0.9767 val_macroF1=0.9759
+  [pooled_fold1] epoch 07 loss=0.0378 val_acc=0.9828 val_macroF1=0.9821
+  [pooled_fold1] epoch 08 loss=0.0361 val_acc=0.9767 val_macroF1=0.9750
+  [pooled_fold1] early stopping at epoch 8
+  [pooled_fold1] DONE acc=0.9766 macroF1=0.9760 (166s, 9 epochs)
+
+=== A2 pooled_fold2 === train=11600 test=2900
+  [pooled_fold2] epoch 00 loss=0.9943 val_acc=0.9422 val_macroF1=0.9404
+  [pooled_fold2] epoch 01 loss=0.1845 val_acc=0.9612 val_macroF1=0.9591
+  [pooled_fold2] epoch 02 loss=0.1105 val_acc=0.9690 val_macroF1=0.9672
+  [pooled_fold2] epoch 03 loss=0.0907 val_acc=0.9793 val_macroF1=0.9779
+  [pooled_fold2] epoch 04 loss=0.0694 val_acc=0.9672 val_macroF1=0.9649
+  [pooled_fold2] epoch 05 loss=0.0569 val_acc=0.9767 val_macroF1=0.9759
+  [pooled_fold2] epoch 06 loss=0.0450 val_acc=0.9819 val_macroF1=0.9807
+  [pooled_fold2] epoch 07 loss=0.0408 val_acc=0.9784 val_macroF1=0.9768
+  [pooled_fold2] epoch 08 loss=0.0363 val_acc=0.9776 val_macroF1=0.9765
+  [pooled_fold2] epoch 09 loss=0.0331 val_acc=0.9810 val_macroF1=0.9799
+  [pooled_fold2] epoch 10 loss=0.0249 val_acc=0.9802 val_macroF1=0.9793
+  [pooled_fold2] early stopping at epoch 10
+  [pooled_fold2] DONE acc=0.9786 macroF1=0.9780 (189s, 11 epochs)
+
+=== A2 pooled_fold3 === train=11600 test=2900
+  [pooled_fold3] epoch 00 loss=1.0031 val_acc=0.9405 val_macroF1=0.9405
+  [pooled_fold3] epoch 01 loss=0.1752 val_acc=0.9586 val_macroF1=0.9577
+  [pooled_fold3] epoch 02 loss=0.1157 val_acc=0.9672 val_macroF1=0.9660
+  [pooled_fold3] epoch 03 loss=0.0868 val_acc=0.9681 val_macroF1=0.9673
+  [pooled_fold3] epoch 04 loss=0.0718 val_acc=0.9672 val_macroF1=0.9667
+  [pooled_fold3] epoch 05 loss=0.0586 val_acc=0.9741 val_macroF1=0.9741
+  [pooled_fold3] epoch 06 loss=0.0480 val_acc=0.9698 val_macroF1=0.9696
+  [pooled_fold3] epoch 07 loss=0.0407 val_acc=0.9741 val_macroF1=0.9738
+  [pooled_fold3] epoch 08 loss=0.0353 val_acc=0.9690 val_macroF1=0.9691
+  [pooled_fold3] epoch 09 loss=0.0312 val_acc=0.9672 val_macroF1=0.9673
+  [pooled_fold3] early stopping at epoch 9
+  [pooled_fold3] DONE acc=0.9779 macroF1=0.9774 (170s, 10 epochs)
+
+=== A2 pooled_fold4 === train=11600 test=2900
+  [pooled_fold4] epoch 00 loss=1.0090 val_acc=0.9353 val_macroF1=0.9367
+  [pooled_fold4] epoch 01 loss=0.1808 val_acc=0.9586 val_macroF1=0.9591
+  [pooled_fold4] epoch 02 loss=0.1129 val_acc=0.9603 val_macroF1=0.9610
+  [pooled_fold4] epoch 03 loss=0.0899 val_acc=0.9767 val_macroF1=0.9774
+  [pooled_fold4] epoch 04 loss=0.0650 val_acc=0.9707 val_macroF1=0.9710
+  [pooled_fold4] epoch 05 loss=0.0622 val_acc=0.9716 val_macroF1=0.9728
+  [pooled_fold4] epoch 06 loss=0.0521 val_acc=0.9776 val_macroF1=0.9785
+  [pooled_fold4] epoch 07 loss=0.0444 val_acc=0.9784 val_macroF1=0.9791
+  [pooled_fold4] epoch 08 loss=0.0367 val_acc=0.9776 val_macroF1=0.9781
+  [pooled_fold4] epoch 09 loss=0.0311 val_acc=0.9759 val_macroF1=0.9770
+  [pooled_fold4] epoch 10 loss=0.0250 val_acc=0.9759 val_macroF1=0.9766
+  [pooled_fold4] epoch 11 loss=0.0231 val_acc=0.9784 val_macroF1=0.9796
+  [pooled_fold4] epoch 12 loss=0.0217 val_acc=0.9767 val_macroF1=0.9778
+  [pooled_fold4] epoch 13 loss=0.0216 val_acc=0.9759 val_macroF1=0.9773
+  [pooled_fold4] epoch 14 loss=0.0171 val_acc=0.9776 val_macroF1=0.9788
+  [pooled_fold4] epoch 15 loss=0.0133 val_acc=0.9784 val_macroF1=0.9796
+  [pooled_fold4] early stopping at epoch 15
+  [pooled_fold4] DONE acc=0.9869 macroF1=0.9863 (260s, 16 epochs)
+
+=== A2 POOLED 5-FOLD SUMMARY ===
+fold 0 | acc=0.9866 macroF1=0.9863
+fold 1 | acc=0.9766 macroF1=0.9760
+fold 2 | acc=0.9786 macroF1=0.9780
+fold 3 | acc=0.9779 macroF1=0.9774
+fold 4 | acc=0.9869 macroF1=0.9863
+
+=== A3 RESISC45_fold0 === train=25200 test=6300
+  [RESISC45_fold0] epoch 00 loss=1.7228 val_acc=0.8270 val_macroF1=0.8267
+  [RESISC45_fold0] epoch 01 loss=0.4680 val_acc=0.8829 val_macroF1=0.8836
+  [RESISC45_fold0] epoch 02 loss=0.3095 val_acc=0.9044 val_macroF1=0.9058
+  [RESISC45_fold0] epoch 03 loss=0.2432 val_acc=0.9131 val_macroF1=0.9149
+  [RESISC45_fold0] epoch 04 loss=0.1937 val_acc=0.9238 val_macroF1=0.9243
+  [RESISC45_fold0] epoch 05 loss=0.1625 val_acc=0.9262 val_macroF1=0.9268
+  [RESISC45_fold0] epoch 06 loss=0.1356 val_acc=0.9290 val_macroF1=0.9290
+  [RESISC45_fold0] epoch 07 loss=0.1163 val_acc=0.9254 val_macroF1=0.9262
+  [RESISC45_fold0] epoch 08 loss=0.1019 val_acc=0.9433 val_macroF1=0.9436
+  [RESISC45_fold0] epoch 09 loss=0.0854 val_acc=0.9401 val_macroF1=0.9410
+  [RESISC45_fold0] epoch 10 loss=0.0764 val_acc=0.9440 val_macroF1=0.9444
+  [RESISC45_fold0] epoch 11 loss=0.0675 val_acc=0.9409 val_macroF1=0.9406
+  [RESISC45_fold0] epoch 12 loss=0.0542 val_acc=0.9468 val_macroF1=0.9468
+  [RESISC45_fold0] epoch 13 loss=0.0500 val_acc=0.9488 val_macroF1=0.9488
+  [RESISC45_fold0] epoch 14 loss=0.0426 val_acc=0.9492 val_macroF1=0.9495
+  [RESISC45_fold0] epoch 15 loss=0.0403 val_acc=0.9456 val_macroF1=0.9459
+  [RESISC45_fold0] epoch 16 loss=0.0345 val_acc=0.9508 val_macroF1=0.9515
+  [RESISC45_fold0] epoch 17 loss=0.0304 val_acc=0.9472 val_macroF1=0.9476
+  [RESISC45_fold0] epoch 18 loss=0.0298 val_acc=0.9488 val_macroF1=0.9493
+  [RESISC45_fold0] epoch 19 loss=0.0274 val_acc=0.9500 val_macroF1=0.9504
+  [RESISC45_fold0] epoch 20 loss=0.0240 val_acc=0.9496 val_macroF1=0.9499
+  [RESISC45_fold0] early stopping at epoch 20
+  [RESISC45_fold0] DONE acc=0.9471 macroF1=0.9469 (635s, 21 epochs)
+
+=== A3 RESISC45_fold1 === train=25200 test=6300
+  [RESISC45_fold1] epoch 00 loss=1.7211 val_acc=0.8286 val_macroF1=0.8285
+  [RESISC45_fold1] epoch 01 loss=0.4725 val_acc=0.8834 val_macroF1=0.8819
+  [RESISC45_fold1] epoch 02 loss=0.3180 val_acc=0.9111 val_macroF1=0.9110
+  [RESISC45_fold1] epoch 03 loss=0.2393 val_acc=0.9179 val_macroF1=0.9179
+  [RESISC45_fold1] epoch 04 loss=0.1943 val_acc=0.9254 val_macroF1=0.9260
+  [RESISC45_fold1] epoch 05 loss=0.1618 val_acc=0.9278 val_macroF1=0.9273
+  [RESISC45_fold1] epoch 06 loss=0.1321 val_acc=0.9330 val_macroF1=0.9330
+  [RESISC45_fold1] epoch 07 loss=0.1201 val_acc=0.9369 val_macroF1=0.9371
+  [RESISC45_fold1] epoch 08 loss=0.0971 val_acc=0.9357 val_macroF1=0.9362
+  [RESISC45_fold1] epoch 09 loss=0.0859 val_acc=0.9345 val_macroF1=0.9344
+  [RESISC45_fold1] epoch 10 loss=0.0747 val_acc=0.9345 val_macroF1=0.9344
+  [RESISC45_fold1] epoch 11 loss=0.0641 val_acc=0.9377 val_macroF1=0.9378
+  [RESISC45_fold1] epoch 12 loss=0.0536 val_acc=0.9409 val_macroF1=0.9410
+  [RESISC45_fold1] epoch 13 loss=0.0538 val_acc=0.9437 val_macroF1=0.9436
+  [RESISC45_fold1] epoch 14 loss=0.0437 val_acc=0.9449 val_macroF1=0.9451
+  [RESISC45_fold1] epoch 15 loss=0.0384 val_acc=0.9453 val_macroF1=0.9452
+  [RESISC45_fold1] epoch 16 loss=0.0375 val_acc=0.9461 val_macroF1=0.9463
+  [RESISC45_fold1] epoch 17 loss=0.0314 val_acc=0.9441 val_macroF1=0.9443
+  [RESISC45_fold1] epoch 18 loss=0.0299 val_acc=0.9464 val_macroF1=0.9467
+  [RESISC45_fold1] epoch 19 loss=0.0283 val_acc=0.9480 val_macroF1=0.9481
+  [RESISC45_fold1] epoch 20 loss=0.0252 val_acc=0.9437 val_macroF1=0.9440
+  [RESISC45_fold1] epoch 21 loss=0.0245 val_acc=0.9488 val_macroF1=0.9488
+  [RESISC45_fold1] epoch 22 loss=0.0234 val_acc=0.9461 val_macroF1=0.9462
+  [RESISC45_fold1] epoch 23 loss=0.0244 val_acc=0.9468 val_macroF1=0.9469
+  [RESISC45_fold1] epoch 24 loss=0.0224 val_acc=0.9468 val_macroF1=0.9469
+  [RESISC45_fold1] DONE acc=0.9551 macroF1=0.9550 (754s, 25 epochs)
+
+=== A3 RESISC45_fold2 === train=25198 test=6302
+  [RESISC45_fold2] epoch 00 loss=1.7241 val_acc=0.8377 val_macroF1=0.8350
+  [RESISC45_fold2] epoch 01 loss=0.4695 val_acc=0.8944 val_macroF1=0.8931
+  [RESISC45_fold2] epoch 02 loss=0.3151 val_acc=0.9143 val_macroF1=0.9135
+  [RESISC45_fold2] epoch 03 loss=0.2431 val_acc=0.9095 val_macroF1=0.9093
+  [RESISC45_fold2] epoch 04 loss=0.1932 val_acc=0.9262 val_macroF1=0.9257
+  [RESISC45_fold2] epoch 05 loss=0.1641 val_acc=0.9274 val_macroF1=0.9270
+  [RESISC45_fold2] epoch 06 loss=0.1397 val_acc=0.9397 val_macroF1=0.9392
+  [RESISC45_fold2] epoch 07 loss=0.1169 val_acc=0.9381 val_macroF1=0.9379
+  [RESISC45_fold2] epoch 08 loss=0.1006 val_acc=0.9365 val_macroF1=0.9361
+  [RESISC45_fold2] epoch 09 loss=0.0886 val_acc=0.9337 val_macroF1=0.9333
+  [RESISC45_fold2] epoch 10 loss=0.0757 val_acc=0.9381 val_macroF1=0.9371
+  [RESISC45_fold2] early stopping at epoch 10
+  [RESISC45_fold2] DONE acc=0.9408 macroF1=0.9410 (352s, 11 epochs)
+
+=== A3 RESISC45_fold3 === train=25202 test=6298
+  [RESISC45_fold3] epoch 00 loss=1.6834 val_acc=0.8318 val_macroF1=0.8289
+  [RESISC45_fold3] epoch 01 loss=0.4702 val_acc=0.8862 val_macroF1=0.8848
+  [RESISC45_fold3] epoch 02 loss=0.3093 val_acc=0.9084 val_macroF1=0.9067
+  [RESISC45_fold3] epoch 03 loss=0.2374 val_acc=0.9187 val_macroF1=0.9171
+  [RESISC45_fold3] epoch 04 loss=0.1924 val_acc=0.9270 val_macroF1=0.9255
+  [RESISC45_fold3] epoch 05 loss=0.1625 val_acc=0.9262 val_macroF1=0.9253
+  [RESISC45_fold3] epoch 06 loss=0.1395 val_acc=0.9373 val_macroF1=0.9355
+  [RESISC45_fold3] epoch 07 loss=0.1167 val_acc=0.9369 val_macroF1=0.9356
+  [RESISC45_fold3] epoch 08 loss=0.0995 val_acc=0.9381 val_macroF1=0.9372
+  [RESISC45_fold3] epoch 09 loss=0.0830 val_acc=0.9453 val_macroF1=0.9441
+  [RESISC45_fold3] epoch 10 loss=0.0717 val_acc=0.9433 val_macroF1=0.9425
+  [RESISC45_fold3] epoch 11 loss=0.0649 val_acc=0.9429 val_macroF1=0.9422
+  [RESISC45_fold3] epoch 12 loss=0.0545 val_acc=0.9445 val_macroF1=0.9434
+  [RESISC45_fold3] epoch 13 loss=0.0514 val_acc=0.9536 val_macroF1=0.9525
+  [RESISC45_fold3] epoch 14 loss=0.0445 val_acc=0.9488 val_macroF1=0.9478
+  [RESISC45_fold3] epoch 15 loss=0.0410 val_acc=0.9437 val_macroF1=0.9429
+  [RESISC45_fold3] epoch 16 loss=0.0341 val_acc=0.9508 val_macroF1=0.9499
+  [RESISC45_fold3] epoch 17 loss=0.0295 val_acc=0.9504 val_macroF1=0.9492
+  [RESISC45_fold3] early stopping at epoch 17
+  [RESISC45_fold3] DONE acc=0.9476 macroF1=0.9478 (550s, 18 epochs)
+
+=== A3 RESISC45_fold4 === train=25200 test=6300
+  [RESISC45_fold4] epoch 00 loss=1.7183 val_acc=0.8381 val_macroF1=0.8389
+  [RESISC45_fold4] epoch 01 loss=0.4705 val_acc=0.8933 val_macroF1=0.8938
+  [RESISC45_fold4] epoch 02 loss=0.3076 val_acc=0.9155 val_macroF1=0.9157
+  [RESISC45_fold4] epoch 03 loss=0.2493 val_acc=0.9262 val_macroF1=0.9266
+  [RESISC45_fold4] epoch 04 loss=0.2013 val_acc=0.9337 val_macroF1=0.9339
+  [RESISC45_fold4] epoch 05 loss=0.1631 val_acc=0.9298 val_macroF1=0.9304
+  [RESISC45_fold4] epoch 06 loss=0.1414 val_acc=0.9349 val_macroF1=0.9361
+  [RESISC45_fold4] epoch 07 loss=0.1185 val_acc=0.9341 val_macroF1=0.9354
+  [RESISC45_fold4] epoch 08 loss=0.0989 val_acc=0.9448 val_macroF1=0.9459
+  [RESISC45_fold4] epoch 09 loss=0.0911 val_acc=0.9429 val_macroF1=0.9435
+  [RESISC45_fold4] epoch 10 loss=0.0743 val_acc=0.9484 val_macroF1=0.9491
+  [RESISC45_fold4] epoch 11 loss=0.0687 val_acc=0.9444 val_macroF1=0.9451
+  [RESISC45_fold4] epoch 12 loss=0.0573 val_acc=0.9500 val_macroF1=0.9502
+  [RESISC45_fold4] epoch 13 loss=0.0503 val_acc=0.9468 val_macroF1=0.9474
+  [RESISC45_fold4] epoch 14 loss=0.0437 val_acc=0.9460 val_macroF1=0.9468
+  [RESISC45_fold4] epoch 15 loss=0.0393 val_acc=0.9540 val_macroF1=0.9545
+  [RESISC45_fold4] epoch 16 loss=0.0359 val_acc=0.9536 val_macroF1=0.9545
+  [RESISC45_fold4] epoch 17 loss=0.0298 val_acc=0.9488 val_macroF1=0.9501
+  [RESISC45_fold4] epoch 18 loss=0.0302 val_acc=0.9496 val_macroF1=0.9507
+  [RESISC45_fold4] epoch 19 loss=0.0282 val_acc=0.9532 val_macroF1=0.9540
+  [RESISC45_fold4] early stopping at epoch 19
+  [RESISC45_fold4] DONE acc=0.9519 macroF1=0.9513 (587s, 20 epochs)
+
+=== A3 UCMerced_fold0 === train=1680 test=420
+  [UCMerced_fold0] epoch 00 loss=2.7773 val_acc=0.4940 val_macroF1=0.5109
+  [UCMerced_fold0] epoch 01 loss=2.2503 val_acc=0.7976 val_macroF1=0.8085
+  [UCMerced_fold0] epoch 02 loss=1.5397 val_acc=0.8631 val_macroF1=0.8503
+  [UCMerced_fold0] epoch 03 loss=0.9427 val_acc=0.9345 val_macroF1=0.9376
+  [UCMerced_fold0] epoch 04 loss=0.5845 val_acc=0.9226 val_macroF1=0.9274
+  [UCMerced_fold0] epoch 05 loss=0.4010 val_acc=0.9702 val_macroF1=0.9679
+  [UCMerced_fold0] epoch 06 loss=0.2547 val_acc=0.9762 val_macroF1=0.9775
+  [UCMerced_fold0] epoch 07 loss=0.1890 val_acc=0.9821 val_macroF1=0.9818
+  [UCMerced_fold0] epoch 08 loss=0.1612 val_acc=0.9881 val_macroF1=0.9897
+  [UCMerced_fold0] epoch 09 loss=0.1253 val_acc=0.9821 val_macroF1=0.9818
+  [UCMerced_fold0] epoch 10 loss=0.1111 val_acc=0.9881 val_macroF1=0.9897
+  [UCMerced_fold0] epoch 11 loss=0.1191 val_acc=0.9940 val_macroF1=0.9948
+  [UCMerced_fold0] epoch 12 loss=0.0770 val_acc=0.9940 val_macroF1=0.9948
+  [UCMerced_fold0] epoch 13 loss=0.0666 val_acc=0.9940 val_macroF1=0.9948
+  [UCMerced_fold0] epoch 14 loss=0.0599 val_acc=0.9940 val_macroF1=0.9948
+  [UCMerced_fold0] epoch 15 loss=0.0609 val_acc=0.9940 val_macroF1=0.9948
+  [UCMerced_fold0] early stopping at epoch 15
+  [UCMerced_fold0] DONE acc=0.9738 macroF1=0.9718 (65s, 16 epochs)
+
+=== A3 UCMerced_fold1 === train=1680 test=420
+  [UCMerced_fold1] epoch 00 loss=2.7886 val_acc=0.4762 val_macroF1=0.4702
+  [UCMerced_fold1] epoch 01 loss=2.2747 val_acc=0.7440 val_macroF1=0.7105
+  [UCMerced_fold1] epoch 02 loss=1.5862 val_acc=0.8750 val_macroF1=0.8475
+  [UCMerced_fold1] epoch 03 loss=0.9831 val_acc=0.9107 val_macroF1=0.8855
+  [UCMerced_fold1] epoch 04 loss=0.5819 val_acc=0.9405 val_macroF1=0.9310
+  [UCMerced_fold1] epoch 05 loss=0.3854 val_acc=0.9464 val_macroF1=0.9348
+  [UCMerced_fold1] epoch 06 loss=0.2654 val_acc=0.9524 val_macroF1=0.9424
+  [UCMerced_fold1] epoch 07 loss=0.1950 val_acc=0.9583 val_macroF1=0.9489
+  [UCMerced_fold1] epoch 08 loss=0.1590 val_acc=0.9524 val_macroF1=0.9424
+  [UCMerced_fold1] epoch 09 loss=0.1179 val_acc=0.9583 val_macroF1=0.9497
+  [UCMerced_fold1] epoch 10 loss=0.0993 val_acc=0.9524 val_macroF1=0.9424
+  [UCMerced_fold1] epoch 11 loss=0.0994 val_acc=0.9524 val_macroF1=0.9411
+  [UCMerced_fold1] epoch 12 loss=0.0808 val_acc=0.9524 val_macroF1=0.9424
+  [UCMerced_fold1] epoch 13 loss=0.0671 val_acc=0.9583 val_macroF1=0.9497
+  [UCMerced_fold1] early stopping at epoch 13
+  [UCMerced_fold1] DONE acc=0.9476 macroF1=0.9489 (60s, 14 epochs)
+
+=== A3 UCMerced_fold2 === train=1680 test=420
+  [UCMerced_fold2] epoch 00 loss=2.7993 val_acc=0.4940 val_macroF1=0.4540
+  [UCMerced_fold2] epoch 01 loss=2.3045 val_acc=0.6964 val_macroF1=0.6760
+  [UCMerced_fold2] epoch 02 loss=1.5981 val_acc=0.8393 val_macroF1=0.8124
+  [UCMerced_fold2] epoch 03 loss=0.9561 val_acc=0.9226 val_macroF1=0.9136
+  [UCMerced_fold2] epoch 04 loss=0.5677 val_acc=0.9583 val_macroF1=0.9506
+  [UCMerced_fold2] epoch 05 loss=0.3655 val_acc=0.9524 val_macroF1=0.9401
+  [UCMerced_fold2] epoch 06 loss=0.2477 val_acc=0.9762 val_macroF1=0.9622
+  [UCMerced_fold2] epoch 07 loss=0.1987 val_acc=0.9702 val_macroF1=0.9586
+  [UCMerced_fold2] epoch 08 loss=0.1593 val_acc=0.9762 val_macroF1=0.9656
+  [UCMerced_fold2] epoch 09 loss=0.1170 val_acc=0.9762 val_macroF1=0.9656
+  [UCMerced_fold2] epoch 10 loss=0.0991 val_acc=0.9762 val_macroF1=0.9656
+  [UCMerced_fold2] epoch 11 loss=0.1017 val_acc=0.9702 val_macroF1=0.9586
+  [UCMerced_fold2] epoch 12 loss=0.0832 val_acc=0.9702 val_macroF1=0.9586
+  [UCMerced_fold2] early stopping at epoch 12
+  [UCMerced_fold2] DONE acc=0.9738 macroF1=0.9754 (59s, 13 epochs)
+
+=== A3 UCMerced_fold3 === train=1680 test=420
+  [UCMerced_fold3] epoch 00 loss=2.7865 val_acc=0.4226 val_macroF1=0.4334
+  [UCMerced_fold3] epoch 01 loss=2.2610 val_acc=0.7381 val_macroF1=0.7399
+  [UCMerced_fold3] epoch 02 loss=1.5746 val_acc=0.8571 val_macroF1=0.8457
+  [UCMerced_fold3] epoch 03 loss=0.9502 val_acc=0.9048 val_macroF1=0.8874
+  [UCMerced_fold3] epoch 04 loss=0.5893 val_acc=0.9286 val_macroF1=0.9240
+  [UCMerced_fold3] epoch 05 loss=0.3747 val_acc=0.9464 val_macroF1=0.9460
+  [UCMerced_fold3] epoch 06 loss=0.2527 val_acc=0.9643 val_macroF1=0.9656
+  [UCMerced_fold3] epoch 07 loss=0.1953 val_acc=0.9583 val_macroF1=0.9524
+  [UCMerced_fold3] epoch 08 loss=0.1623 val_acc=0.9762 val_macroF1=0.9752
+  [UCMerced_fold3] epoch 09 loss=0.1251 val_acc=0.9821 val_macroF1=0.9827
+  [UCMerced_fold3] epoch 10 loss=0.1062 val_acc=0.9583 val_macroF1=0.9581
+  [UCMerced_fold3] epoch 11 loss=0.0977 val_acc=0.9643 val_macroF1=0.9632
+  [UCMerced_fold3] epoch 12 loss=0.0843 val_acc=0.9762 val_macroF1=0.9760
+  [UCMerced_fold3] epoch 13 loss=0.0670 val_acc=0.9643 val_macroF1=0.9652
+  [UCMerced_fold3] early stopping at epoch 13
+  [UCMerced_fold3] DONE acc=0.9667 macroF1=0.9660 (61s, 14 epochs)
+
+=== A3 UCMerced_fold4 === train=1680 test=420
+  [UCMerced_fold4] epoch 00 loss=2.7749 val_acc=0.4167 val_macroF1=0.3938
+  [UCMerced_fold4] epoch 01 loss=2.2319 val_acc=0.7262 val_macroF1=0.7021
+  [UCMerced_fold4] epoch 02 loss=1.5611 val_acc=0.8810 val_macroF1=0.8625
+  [UCMerced_fold4] epoch 03 loss=0.9482 val_acc=0.9226 val_macroF1=0.9061
+  [UCMerced_fold4] epoch 04 loss=0.5724 val_acc=0.9464 val_macroF1=0.9423
+  [UCMerced_fold4] epoch 05 loss=0.3647 val_acc=0.9583 val_macroF1=0.9562
+  [UCMerced_fold4] epoch 06 loss=0.2604 val_acc=0.9643 val_macroF1=0.9616
+  [UCMerced_fold4] epoch 07 loss=0.1961 val_acc=0.9643 val_macroF1=0.9614
+  [UCMerced_fold4] epoch 08 loss=0.1611 val_acc=0.9762 val_macroF1=0.9752
+  [UCMerced_fold4] epoch 09 loss=0.1280 val_acc=0.9762 val_macroF1=0.9748
+  [UCMerced_fold4] epoch 10 loss=0.1087 val_acc=0.9702 val_macroF1=0.9668
+  [UCMerced_fold4] epoch 11 loss=0.1142 val_acc=0.9762 val_macroF1=0.9743
+  [UCMerced_fold4] epoch 12 loss=0.0835 val_acc=0.9821 val_macroF1=0.9816
+  [UCMerced_fold4] epoch 13 loss=0.0773 val_acc=0.9881 val_macroF1=0.9885
+  [UCMerced_fold4] epoch 14 loss=0.0705 val_acc=0.9881 val_macroF1=0.9885
+  [UCMerced_fold4] epoch 15 loss=0.0610 val_acc=0.9881 val_macroF1=0.9885
+  [UCMerced_fold4] epoch 16 loss=0.0615 val_acc=0.9821 val_macroF1=0.9811
+  [UCMerced_fold4] epoch 17 loss=0.0578 val_acc=0.9821 val_macroF1=0.9811
+  [UCMerced_fold4] early stopping at epoch 17
+  [UCMerced_fold4] DONE acc=0.9643 macroF1=0.9658 (75s, 18 epochs)
+
+=== A3 AID_fold0 === train=8000 test=2000
+  [AID_fold0] epoch 00 loss=2.4247 val_acc=0.7762 val_macroF1=0.7616
+  [AID_fold0] epoch 01 loss=0.7540 val_acc=0.8750 val_macroF1=0.8653
+  [AID_fold0] epoch 02 loss=0.3830 val_acc=0.9125 val_macroF1=0.9045
+  [AID_fold0] epoch 03 loss=0.2652 val_acc=0.9325 val_macroF1=0.9256
+  [AID_fold0] epoch 04 loss=0.2009 val_acc=0.9237 val_macroF1=0.9172
+  [AID_fold0] epoch 05 loss=0.1568 val_acc=0.9375 val_macroF1=0.9327
+  [AID_fold0] epoch 06 loss=0.1260 val_acc=0.9400 val_macroF1=0.9346
+  [AID_fold0] epoch 07 loss=0.1059 val_acc=0.9450 val_macroF1=0.9406
+  [AID_fold0] epoch 08 loss=0.0812 val_acc=0.9450 val_macroF1=0.9393
+  [AID_fold0] epoch 09 loss=0.0684 val_acc=0.9475 val_macroF1=0.9429
+  [AID_fold0] epoch 10 loss=0.0643 val_acc=0.9550 val_macroF1=0.9480
+  [AID_fold0] epoch 11 loss=0.0558 val_acc=0.9513 val_macroF1=0.9445
+  [AID_fold0] epoch 12 loss=0.0482 val_acc=0.9550 val_macroF1=0.9482
+  [AID_fold0] epoch 13 loss=0.0425 val_acc=0.9550 val_macroF1=0.9498
+  [AID_fold0] epoch 14 loss=0.0390 val_acc=0.9587 val_macroF1=0.9548
+  [AID_fold0] epoch 15 loss=0.0330 val_acc=0.9550 val_macroF1=0.9500
+  [AID_fold0] epoch 16 loss=0.0325 val_acc=0.9600 val_macroF1=0.9554
+  [AID_fold0] epoch 17 loss=0.0271 val_acc=0.9587 val_macroF1=0.9522
+  [AID_fold0] epoch 18 loss=0.0273 val_acc=0.9575 val_macroF1=0.9522
+  [AID_fold0] epoch 19 loss=0.0242 val_acc=0.9600 val_macroF1=0.9554
+  [AID_fold0] epoch 20 loss=0.0226 val_acc=0.9637 val_macroF1=0.9604
+  [AID_fold0] epoch 21 loss=0.0225 val_acc=0.9587 val_macroF1=0.9544
+  [AID_fold0] epoch 22 loss=0.0222 val_acc=0.9650 val_macroF1=0.9606
+  [AID_fold0] epoch 23 loss=0.0247 val_acc=0.9600 val_macroF1=0.9552
+  [AID_fold0] epoch 24 loss=0.0233 val_acc=0.9575 val_macroF1=0.9526
+  [AID_fold0] DONE acc=0.9600 macroF1=0.9585 (384s, 25 epochs)
+
+=== A3 AID_fold1 === train=8000 test=2000
+  [AID_fold1] epoch 00 loss=2.4272 val_acc=0.7875 val_macroF1=0.7754
+  [AID_fold1] epoch 01 loss=0.7482 val_acc=0.9038 val_macroF1=0.8989
+  [AID_fold1] epoch 02 loss=0.3910 val_acc=0.9175 val_macroF1=0.9107
+  [AID_fold1] epoch 03 loss=0.2594 val_acc=0.9237 val_macroF1=0.9174
+  [AID_fold1] epoch 04 loss=0.2016 val_acc=0.9325 val_macroF1=0.9265
+  [AID_fold1] epoch 05 loss=0.1612 val_acc=0.9550 val_macroF1=0.9501
+  [AID_fold1] epoch 06 loss=0.1232 val_acc=0.9400 val_macroF1=0.9338
+  [AID_fold1] epoch 07 loss=0.1100 val_acc=0.9525 val_macroF1=0.9482
+  [AID_fold1] epoch 08 loss=0.0887 val_acc=0.9537 val_macroF1=0.9488
+  [AID_fold1] epoch 09 loss=0.0761 val_acc=0.9600 val_macroF1=0.9564
+  [AID_fold1] epoch 10 loss=0.0660 val_acc=0.9550 val_macroF1=0.9516
+  [AID_fold1] epoch 11 loss=0.0567 val_acc=0.9525 val_macroF1=0.9486
+  [AID_fold1] epoch 12 loss=0.0476 val_acc=0.9575 val_macroF1=0.9526
+  [AID_fold1] epoch 13 loss=0.0421 val_acc=0.9563 val_macroF1=0.9530
+  [AID_fold1] early stopping at epoch 13
+  [AID_fold1] DONE acc=0.9480 macroF1=0.9456 (228s, 14 epochs)
+
+=== A3 AID_fold2 === train=8000 test=2000
+  [AID_fold2] epoch 00 loss=2.4285 val_acc=0.7688 val_macroF1=0.7495
+  [AID_fold2] epoch 01 loss=0.7452 val_acc=0.8888 val_macroF1=0.8822
+  [AID_fold2] epoch 02 loss=0.3683 val_acc=0.8988 val_macroF1=0.8875
+  [AID_fold2] epoch 03 loss=0.2540 val_acc=0.9200 val_macroF1=0.9091
+  [AID_fold2] epoch 04 loss=0.1950 val_acc=0.9275 val_macroF1=0.9180
+  [AID_fold2] epoch 05 loss=0.1478 val_acc=0.9387 val_macroF1=0.9318
+  [AID_fold2] epoch 06 loss=0.1124 val_acc=0.9387 val_macroF1=0.9349
+  [AID_fold2] epoch 07 loss=0.1133 val_acc=0.9450 val_macroF1=0.9416
+  [AID_fold2] epoch 08 loss=0.0912 val_acc=0.9363 val_macroF1=0.9293
+  [AID_fold2] epoch 09 loss=0.0766 val_acc=0.9463 val_macroF1=0.9397
+  [AID_fold2] epoch 10 loss=0.0623 val_acc=0.9475 val_macroF1=0.9411
+  [AID_fold2] epoch 11 loss=0.0553 val_acc=0.9525 val_macroF1=0.9452
+  [AID_fold2] epoch 12 loss=0.0474 val_acc=0.9550 val_macroF1=0.9493
+  [AID_fold2] epoch 13 loss=0.0383 val_acc=0.9625 val_macroF1=0.9571
+  [AID_fold2] epoch 14 loss=0.0364 val_acc=0.9587 val_macroF1=0.9529
+  [AID_fold2] epoch 15 loss=0.0335 val_acc=0.9587 val_macroF1=0.9551
+  [AID_fold2] epoch 16 loss=0.0284 val_acc=0.9587 val_macroF1=0.9534
+  [AID_fold2] epoch 17 loss=0.0267 val_acc=0.9613 val_macroF1=0.9555
+  [AID_fold2] early stopping at epoch 17
+  [AID_fold2] DONE acc=0.9595 macroF1=0.9574 (294s, 18 epochs)
+
+=== A3 AID_fold3 === train=8000 test=2000
+  [AID_fold3] epoch 00 loss=2.4041 val_acc=0.7788 val_macroF1=0.7575
+  [AID_fold3] epoch 01 loss=0.7352 val_acc=0.8662 val_macroF1=0.8513
+  [AID_fold3] epoch 02 loss=0.3795 val_acc=0.9012 val_macroF1=0.8939
+  [AID_fold3] epoch 03 loss=0.2631 val_acc=0.9213 val_macroF1=0.9163
+  [AID_fold3] epoch 04 loss=0.2077 val_acc=0.9300 val_macroF1=0.9284
+  [AID_fold3] epoch 05 loss=0.1568 val_acc=0.9375 val_macroF1=0.9337
+  [AID_fold3] epoch 06 loss=0.1220 val_acc=0.9350 val_macroF1=0.9323
+  [AID_fold3] epoch 07 loss=0.1104 val_acc=0.9463 val_macroF1=0.9436
+  [AID_fold3] epoch 08 loss=0.0910 val_acc=0.9550 val_macroF1=0.9525
+  [AID_fold3] epoch 09 loss=0.0771 val_acc=0.9550 val_macroF1=0.9529
+  [AID_fold3] epoch 10 loss=0.0657 val_acc=0.9487 val_macroF1=0.9475
+  [AID_fold3] epoch 11 loss=0.0559 val_acc=0.9575 val_macroF1=0.9545
+  [AID_fold3] epoch 12 loss=0.0482 val_acc=0.9587 val_macroF1=0.9564
+  [AID_fold3] epoch 13 loss=0.0419 val_acc=0.9613 val_macroF1=0.9584
+  [AID_fold3] epoch 14 loss=0.0379 val_acc=0.9613 val_macroF1=0.9580
+  [AID_fold3] epoch 15 loss=0.0306 val_acc=0.9600 val_macroF1=0.9568
+  [AID_fold3] epoch 16 loss=0.0281 val_acc=0.9600 val_macroF1=0.9581
+  [AID_fold3] epoch 17 loss=0.0273 val_acc=0.9625 val_macroF1=0.9602
+  [AID_fold3] epoch 18 loss=0.0286 val_acc=0.9637 val_macroF1=0.9604
+  [AID_fold3] epoch 19 loss=0.0245 val_acc=0.9675 val_macroF1=0.9641
+  [AID_fold3] epoch 20 loss=0.0241 val_acc=0.9650 val_macroF1=0.9614
+  [AID_fold3] epoch 21 loss=0.0236 val_acc=0.9663 val_macroF1=0.9633
+  [AID_fold3] epoch 22 loss=0.0228 val_acc=0.9675 val_macroF1=0.9645
+  [AID_fold3] epoch 23 loss=0.0250 val_acc=0.9663 val_macroF1=0.9635
+  [AID_fold3] epoch 24 loss=0.0249 val_acc=0.9700 val_macroF1=0.9675
+  [AID_fold3] DONE acc=0.9625 macroF1=0.9608 (368s, 25 epochs)
+
+=== A3 AID_fold4 === train=8000 test=2000
+  [AID_fold4] epoch 00 loss=2.4201 val_acc=0.7575 val_macroF1=0.7503
+  [AID_fold4] epoch 01 loss=0.7294 val_acc=0.8550 val_macroF1=0.8516
+  [AID_fold4] epoch 02 loss=0.3675 val_acc=0.8838 val_macroF1=0.8813
+  [AID_fold4] epoch 03 loss=0.2518 val_acc=0.9012 val_macroF1=0.9010
+  [AID_fold4] epoch 04 loss=0.1978 val_acc=0.9237 val_macroF1=0.9234
+  [AID_fold4] epoch 05 loss=0.1474 val_acc=0.9300 val_macroF1=0.9292
+  [AID_fold4] epoch 06 loss=0.1236 val_acc=0.9337 val_macroF1=0.9332
+  [AID_fold4] epoch 07 loss=0.1058 val_acc=0.9337 val_macroF1=0.9313
+  [AID_fold4] epoch 08 loss=0.0824 val_acc=0.9413 val_macroF1=0.9414
+  [AID_fold4] epoch 09 loss=0.0719 val_acc=0.9425 val_macroF1=0.9412
+  [AID_fold4] epoch 10 loss=0.0652 val_acc=0.9437 val_macroF1=0.9416
+  [AID_fold4] epoch 11 loss=0.0582 val_acc=0.9413 val_macroF1=0.9392
+  [AID_fold4] epoch 12 loss=0.0479 val_acc=0.9413 val_macroF1=0.9387
+  [AID_fold4] epoch 13 loss=0.0396 val_acc=0.9500 val_macroF1=0.9491
+  [AID_fold4] epoch 14 loss=0.0366 val_acc=0.9487 val_macroF1=0.9463
+  [AID_fold4] epoch 15 loss=0.0364 val_acc=0.9550 val_macroF1=0.9538
+  [AID_fold4] epoch 16 loss=0.0312 val_acc=0.9537 val_macroF1=0.9529
+  [AID_fold4] epoch 17 loss=0.0291 val_acc=0.9550 val_macroF1=0.9537
+  [AID_fold4] epoch 18 loss=0.0290 val_acc=0.9525 val_macroF1=0.9510
+  [AID_fold4] epoch 19 loss=0.0244 val_acc=0.9500 val_macroF1=0.9483
+  [AID_fold4] early stopping at epoch 19
+  [AID_fold4] DONE acc=0.9510 macroF1=0.9511 (286s, 20 epochs)
+
+=== A3 NATIVE 5-FOLD SUMMARY ===
+  RESISC45 fold 0 | acc=0.9471 macroF1=0.9469
+  RESISC45 fold 1 | acc=0.9551 macroF1=0.9550
+  RESISC45 fold 2 | acc=0.9408 macroF1=0.9410
+  RESISC45 fold 3 | acc=0.9476 macroF1=0.9478
+  RESISC45 fold 4 | acc=0.9519 macroF1=0.9513
+  UCMerced fold 0 | acc=0.9738 macroF1=0.9718
+  UCMerced fold 1 | acc=0.9476 macroF1=0.9489
+  UCMerced fold 2 | acc=0.9738 macroF1=0.9754
+  UCMerced fold 3 | acc=0.9667 macroF1=0.9660
+  UCMerced fold 4 | acc=0.9643 macroF1=0.9658
+       AID fold 0 | acc=0.9600 macroF1=0.9585
+       AID fold 1 | acc=0.9480 macroF1=0.9456
+       AID fold 2 | acc=0.9595 macroF1=0.9574
+       AID fold 3 | acc=0.9625 macroF1=0.9608
+       AID fold 4 | acc=0.9510 macroF1=0.9511
+
+All Study A CV experiments complete.

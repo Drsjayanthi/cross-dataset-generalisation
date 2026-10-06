@@ -1,0 +1,179 @@
+                                           run_tag  n_test  accuracy  acc_ci95_lo  acc_ci95_hi  macro_f1  f1_ci95_lo  f1_ci95_hi
+                                         AID_fold0    2000  0.960000     0.951500     0.968500  0.958459    0.949294    0.966909
+                              AID_fold0_compactcnn    2000  0.883500     0.869488     0.897000  0.879329    0.864376    0.892587
+                           AID_fold0_convnext_tiny    2000  0.969500     0.961500     0.976500  0.968008    0.959508    0.975221
+            AID_fold0_swin_tiny_patch4_window7_224    2000  0.937500     0.927000     0.948000  0.935682    0.924187    0.945943
+                   AID_fold0_vit_small_patch16_224    2000  0.948500     0.938500     0.958000  0.945375    0.935020    0.954767
+                                         AID_fold1    2000  0.948000     0.938488     0.957500  0.945595    0.935224    0.955054
+                              AID_fold1_compactcnn    2000  0.901500     0.888487     0.914000  0.899471    0.885555    0.911356
+                           AID_fold1_convnext_tiny    2000  0.960000     0.951000     0.968500  0.955729    0.946167    0.964640
+            AID_fold1_swin_tiny_patch4_window7_224    2000  0.975000     0.968000     0.981513  0.973475    0.965626    0.980354
+                   AID_fold1_vit_small_patch16_224    2000  0.934000     0.922500     0.944012  0.931363    0.919410    0.941645
+                                         AID_fold2    2000  0.959500     0.950500     0.967500  0.957439    0.947959    0.965754
+                              AID_fold2_compactcnn    2000  0.908500     0.895500     0.920500  0.906368    0.892685    0.917782
+                           AID_fold2_convnext_tiny    2000  0.973500     0.966000     0.980500  0.971405    0.963241    0.978782
+            AID_fold2_swin_tiny_patch4_window7_224    2000  0.974500     0.967000     0.981500  0.972327    0.964356    0.979585
+                   AID_fold2_vit_small_patch16_224    2000  0.959500     0.950000     0.968000  0.958812    0.949062    0.967092
+                                         AID_fold3    2000  0.962500     0.954000     0.970500  0.960843    0.951718    0.968767
+                              AID_fold3_compactcnn    2000  0.897000     0.883000     0.910013  0.893661    0.879010    0.906749
+                           AID_fold3_convnext_tiny    2000  0.974000     0.967000     0.981000  0.972851    0.965111    0.979587
+            AID_fold3_swin_tiny_patch4_window7_224    2000  0.941000     0.930000     0.951000  0.938095    0.926079    0.948391
+                   AID_fold3_vit_small_patch16_224    2000  0.967000     0.959000     0.974500  0.965036    0.956088    0.972585
+                                         AID_fold4    2000  0.951000     0.941500     0.960500  0.951117    0.941237    0.959797
+                              AID_fold4_compactcnn    2000  0.899000     0.886000     0.912000  0.897414    0.883125    0.909959
+                           AID_fold4_convnext_tiny    2000  0.968500     0.960500     0.976000  0.967330    0.958972    0.974877
+            AID_fold4_swin_tiny_patch4_window7_224    2000  0.973000     0.965500     0.979513  0.972276    0.964204    0.979073
+                   AID_fold4_vit_small_patch16_224    2000  0.972000     0.964500     0.979000  0.971913    0.964248    0.978667
+                                    RESISC45_fold0    6300  0.947143     0.941111     0.952698  0.946851    0.940617    0.952276
+                         RESISC45_fold0_compactcnn    6300  0.901429     0.893968     0.908730  0.901114    0.893169    0.907920
+                      RESISC45_fold0_convnext_tiny    6300  0.967460     0.962857     0.971429  0.967442    0.962748    0.971252
+       RESISC45_fold0_swin_tiny_patch4_window7_224    6300  0.967937     0.963333     0.972222  0.967797    0.963171    0.971895
+              RESISC45_fold0_vit_small_patch16_224    6300  0.963333     0.958413     0.967619  0.963269    0.958327    0.967422
+                                    RESISC45_fold1    6300  0.955079     0.949841     0.960159  0.955015    0.949834    0.959905
+                         RESISC45_fold1_compactcnn    6300  0.904762     0.897460     0.912222  0.905139    0.897707    0.911999
+                      RESISC45_fold1_convnext_tiny    6300  0.936190     0.929996     0.942063  0.936047    0.929744    0.941584
+       RESISC45_fold1_swin_tiny_patch4_window7_224    6300  0.919206     0.912222     0.926190  0.919266    0.912207    0.925797
+              RESISC45_fold1_vit_small_patch16_224    6300  0.966984     0.962540     0.971429  0.966987    0.962501    0.971260
+                                    RESISC45_fold2    6302  0.940812     0.934620     0.946366  0.941016    0.934894    0.946347
+                         RESISC45_fold2_compactcnn    6302  0.908442     0.901142     0.915428  0.908580    0.901138    0.915203
+                      RESISC45_fold2_convnext_tiny    6302  0.949064     0.943827     0.954300  0.949146    0.943814    0.954169
+       RESISC45_fold2_swin_tiny_patch4_window7_224    6302  0.943510     0.937639     0.949064  0.943671    0.937785    0.948990
+              RESISC45_fold2_vit_small_patch16_224    6302  0.925103     0.918597     0.931768  0.924433    0.917959    0.930642
+                                    RESISC45_fold3    6298  0.947602     0.942204     0.953001  0.947767    0.942228    0.953037
+                         RESISC45_fold3_compactcnn    6298  0.909178     0.902028     0.916481  0.908721    0.901307    0.915638
+                      RESISC45_fold3_convnext_tiny    6298  0.934900     0.928708     0.940934  0.934300    0.928099    0.939876
+       RESISC45_fold3_swin_tiny_patch4_window7_224    6298  0.966339     0.961734     0.970784  0.966561    0.961961    0.970794
+              RESISC45_fold3_vit_small_patch16_224    6298  0.963798     0.959193     0.968403  0.963892    0.959178    0.968420
+                                    RESISC45_fold4    6300  0.951905     0.946508     0.956825  0.951301    0.945655    0.956184
+                         RESISC45_fold4_compactcnn    6300  0.911905     0.904603     0.918889  0.910850    0.903477    0.917387
+                      RESISC45_fold4_convnext_tiny    6300  0.926984     0.920631     0.933492  0.925780    0.919149    0.931959
+       RESISC45_fold4_swin_tiny_patch4_window7_224    6300  0.968889     0.964286     0.973016  0.968462    0.963729    0.972587
+              RESISC45_fold4_vit_small_patch16_224    6300  0.970000     0.965714     0.973972  0.969773    0.965221    0.973760
+                                    UCMerced_fold0     420  0.973810     0.959524     0.988095  0.971840    0.954110    0.986863
+                         UCMerced_fold0_compactcnn     420  0.904762     0.876190     0.930952  0.900593    0.867384    0.926553
+                      UCMerced_fold0_convnext_tiny     420  0.959524     0.940476     0.976190  0.960424    0.938914    0.977134
+       UCMerced_fold0_swin_tiny_patch4_window7_224     420  0.945238     0.923810     0.964286  0.944596    0.920252    0.963900
+              UCMerced_fold0_vit_small_patch16_224     420  0.969048     0.952381     0.983333  0.963815    0.941409    0.981482
+                                    UCMerced_fold1     420  0.947619     0.926190     0.969048  0.948865    0.926917    0.967122
+                         UCMerced_fold1_compactcnn     420  0.707143     0.664286     0.750060  0.705717    0.657930    0.744387
+                      UCMerced_fold1_convnext_tiny     420  0.980952     0.966667     0.992857  0.980955    0.965961    0.993005
+       UCMerced_fold1_swin_tiny_patch4_window7_224     420  0.947619     0.926190     0.969048  0.945932    0.921826    0.965284
+              UCMerced_fold1_vit_small_patch16_224     420  0.950000     0.928571     0.969048  0.950170    0.927384    0.968406
+                                    UCMerced_fold2     420  0.973810     0.957143     0.988095  0.975358    0.960010    0.988520
+                         UCMerced_fold2_compactcnn     420  0.759524     0.716667     0.802381  0.755889    0.709673    0.791740
+                      UCMerced_fold2_convnext_tiny     420  0.947619     0.926190     0.966667  0.944623    0.921127    0.964489
+       UCMerced_fold2_swin_tiny_patch4_window7_224     420  0.973810     0.957143     0.988095  0.974046    0.956322    0.987520
+              UCMerced_fold2_vit_small_patch16_224     420  0.973810     0.957143     0.988095  0.973555    0.956425    0.986873
+                                    UCMerced_fold3     420  0.966667     0.950000     0.983333  0.966002    0.947268    0.982175
+                         UCMerced_fold3_compactcnn     420  0.895238     0.864286     0.923810  0.892561    0.860040    0.919295
+                      UCMerced_fold3_convnext_tiny     420  0.957143     0.938036     0.976190  0.956795    0.936725    0.973436
+       UCMerced_fold3_swin_tiny_patch4_window7_224     420  0.966667     0.947619     0.983333  0.967923    0.949608    0.982614
+              UCMerced_fold3_vit_small_patch16_224     420  0.969048     0.952381     0.985714  0.968112    0.949309    0.983638
+                                    UCMerced_fold4     420  0.964286     0.947619     0.980952  0.965763    0.947515    0.981146
+                         UCMerced_fold4_compactcnn     420  0.864286     0.830952     0.895238  0.865948    0.829376    0.893699
+                      UCMerced_fold4_convnext_tiny     420  0.961905     0.942857     0.978571  0.962446    0.942230    0.978917
+       UCMerced_fold4_swin_tiny_patch4_window7_224     420  0.978571     0.964286     0.990476  0.979310    0.963887    0.991132
+              UCMerced_fold4_vit_small_patch16_224     420  0.978571     0.964286     0.990476  0.978439    0.963129    0.990728
+                               cv_fold0_compactcnn    4320  0.976620     0.971991     0.981250  0.975768    0.970968    0.980450
+                            cv_fold0_convnext_tiny    4320  0.977315     0.972917     0.981481  0.976404    0.971818    0.980773
+                                 cv_fold0_resnet18    4320  0.982407     0.978472     0.986343  0.981533    0.977353    0.985690
+             cv_fold0_swin_tiny_patch4_window7_224    4320  0.971759     0.966898     0.976620  0.971327    0.966310    0.976141
+                    cv_fold0_vit_small_patch16_224    4320  0.971528     0.966435     0.976389  0.970120    0.964888    0.975258
+                               cv_fold1_compactcnn    4320  0.971528     0.966435     0.976389  0.970796    0.965476    0.975803
+                            cv_fold1_convnext_tiny    4320  0.978472     0.974074     0.982639  0.977786    0.973134    0.982171
+                                 cv_fold1_resnet18    4320  0.981713     0.977546     0.985648  0.981460    0.977267    0.985323
+             cv_fold1_swin_tiny_patch4_window7_224    4320  0.973148     0.968281     0.977778  0.972300    0.967225    0.977038
+                    cv_fold1_vit_small_patch16_224    4320  0.977315     0.972911     0.981713  0.976749    0.972069    0.981110
+                               cv_fold2_compactcnn    4321  0.970609     0.965749     0.975700  0.970066    0.965079    0.975018
+                            cv_fold2_convnext_tiny    4321  0.982411     0.978477     0.986346  0.982072    0.977936    0.986060
+                                 cv_fold2_resnet18    4321  0.980329     0.976163     0.984031  0.979624    0.975212    0.983460
+             cv_fold2_swin_tiny_patch4_window7_224    4321  0.970840     0.965517     0.975700  0.970153    0.964742    0.974975
+                    cv_fold2_vit_small_patch16_224    4321  0.979866     0.975469     0.983800  0.979330    0.974839    0.983331
+                               cv_fold3_compactcnn    4320  0.977083     0.972454     0.981481  0.976547    0.971924    0.981086
+                            cv_fold3_convnext_tiny    4320  0.983102     0.978935     0.986806  0.982749    0.978591    0.986509
+                                 cv_fold3_resnet18    4320  0.983333     0.979398     0.986806  0.982862    0.978862    0.986514
+             cv_fold3_swin_tiny_patch4_window7_224    4320  0.976157     0.971528     0.980556  0.975639    0.970984    0.980155
+                    cv_fold3_vit_small_patch16_224    4320  0.976157     0.971522     0.980324  0.975624    0.970844    0.980009
+                               cv_fold4_compactcnn    4319  0.973605     0.968743     0.978236  0.972735    0.967621    0.977492
+                            cv_fold4_convnext_tiny    4319  0.985876     0.982172     0.989118  0.985504    0.981867    0.988908
+                                 cv_fold4_resnet18    4319  0.978699     0.974531     0.982866  0.977932    0.973508    0.982269
+             cv_fold4_swin_tiny_patch4_window7_224    4319  0.980783     0.976615     0.984719  0.980072    0.975555    0.984196
+                    cv_fold4_vit_small_patch16_224    4319  0.973142     0.968280     0.977773  0.972757    0.967861    0.977343
+                        final_helodtest_compactcnn    5400  0.953148     0.947773     0.958704  0.951953    0.946219    0.957549
+                     final_helodtest_convnext_tiny    5400  0.972593     0.968148     0.976667  0.971327    0.966546    0.975638
+                          final_helodtest_resnet18    5400  0.981111     0.977588     0.984630  0.980456    0.976743    0.984045
+      final_helodtest_swin_tiny_patch4_window7_224    5400  0.982593     0.978889     0.985931  0.982112    0.978308    0.985633
+             final_helodtest_vit_small_patch16_224    5400  0.980185     0.976296     0.983704  0.979780    0.975798    0.983291
+                       lodo_heldout-AID_compactcnn    4200  0.854524     0.843565     0.865244  0.849018    0.837785    0.859738
+                    lodo_heldout-AID_convnext_tiny    4200  0.956429     0.950476     0.962381  0.954285    0.947644    0.960639
+                         lodo_heldout-AID_resnet18    4200  0.951190     0.944524     0.957381  0.949919    0.942938    0.956305
+     lodo_heldout-AID_swin_tiny_patch4_window7_224    4200  0.915714     0.907143     0.924054  0.910209    0.901052    0.919083
+            lodo_heldout-AID_vit_small_patch16_224    4200  0.899048     0.889762     0.908095  0.893632    0.883943    0.902947
+                  lodo_heldout-RESISC45_compactcnn    9100  0.812637     0.804725     0.820769  0.813966    0.806025    0.821885
+               lodo_heldout-RESISC45_convnext_tiny    9100  0.833626     0.825934     0.841431  0.838730    0.831242    0.846322
+                    lodo_heldout-RESISC45_resnet18    9100  0.863187     0.856151     0.870110  0.873017    0.866421    0.879196
+lodo_heldout-RESISC45_swin_tiny_patch4_window7_224    9100  0.907582     0.901429     0.913407  0.911686    0.905901    0.917286
+       lodo_heldout-RESISC45_vit_small_patch16_224    9100  0.889670     0.883184     0.895824  0.888327    0.881698    0.894583
+                  lodo_heldout-UCMerced_compactcnn    1200  0.657500     0.630812     0.685000  0.643962    0.617427    0.668550
+               lodo_heldout-UCMerced_convnext_tiny    1200  0.867500     0.848333     0.886667  0.863166    0.844353    0.880976
+                    lodo_heldout-UCMerced_resnet18    1200  0.843333     0.821667     0.864167  0.827853    0.807682    0.846602
+lodo_heldout-UCMerced_swin_tiny_patch4_window7_224    1200  0.880000     0.860833     0.897500  0.873620    0.853848    0.891545
+       lodo_heldout-UCMerced_vit_small_patch16_224    1200  0.869167     0.849167     0.888354  0.864768    0.844217    0.883275
+                                      pooled_fold0    2900  0.986552     0.982069     0.990690  0.986346    0.981790    0.990454
+                           pooled_fold0_compactcnn    2900  0.967931     0.961034     0.973802  0.967245    0.960116    0.973431
+                        pooled_fold0_convnext_tiny    2900  0.977586     0.971724     0.983103  0.977111    0.971203    0.982434
+         pooled_fold0_swin_tiny_patch4_window7_224    2900  0.970000     0.963793     0.975862  0.968820    0.962408    0.974851
+                pooled_fold0_vit_small_patch16_224    2900  0.979310     0.973793     0.984138  0.978470    0.972646    0.983457
+                                      pooled_fold1    2900  0.976552     0.971034     0.981724  0.976035    0.970320    0.981172
+                           pooled_fold1_compactcnn    2900  0.960000     0.952759     0.967241  0.959734    0.952396    0.966808
+                        pooled_fold1_convnext_tiny    2900  0.972069     0.966207     0.977586  0.971424    0.965500    0.976854
+         pooled_fold1_swin_tiny_patch4_window7_224    2900  0.963793     0.956897     0.970690  0.962530    0.955277    0.969533
+                pooled_fold1_vit_small_patch16_224    2900  0.970000     0.963793     0.975862  0.968804    0.962386    0.974711
+                                      pooled_fold2    2900  0.978621     0.973448     0.983793  0.977989    0.972538    0.983103
+                           pooled_fold2_compactcnn    2900  0.963793     0.957241     0.970690  0.963035    0.956155    0.969848
+                        pooled_fold2_convnext_tiny    2900  0.975172     0.969310     0.980690  0.973883    0.967957    0.979537
+         pooled_fold2_swin_tiny_patch4_window7_224    2900  0.973793     0.967931     0.979655  0.972745    0.966583    0.978614
+                pooled_fold2_vit_small_patch16_224    2900  0.970690     0.964483     0.976897  0.970142    0.963528    0.976475
+                                      pooled_fold3    2900  0.977931     0.972414     0.983103  0.977391    0.971639    0.982480
+                           pooled_fold3_compactcnn    2900  0.968966     0.962414     0.974828  0.968777    0.962202    0.974648
+                        pooled_fold3_convnext_tiny    2900  0.974138     0.967931     0.980000  0.973412    0.967106    0.979334
+         pooled_fold3_swin_tiny_patch4_window7_224    2900  0.978966     0.973793     0.983793  0.978553    0.973162    0.983505
+                pooled_fold3_vit_small_patch16_224    2900  0.978276     0.973103     0.983448  0.977185    0.971676    0.982544
+                                      pooled_fold4    2900  0.986897     0.982414     0.991034  0.986281    0.981760    0.990464
+                           pooled_fold4_compactcnn    2900  0.968621     0.962069     0.974828  0.967871    0.961166    0.974014
+                        pooled_fold4_convnext_tiny    2900  0.977241     0.971724     0.982414  0.976634    0.970942    0.981859
+         pooled_fold4_swin_tiny_patch4_window7_224    2900  0.975862     0.970345     0.980698  0.974965    0.969370    0.980126
+                pooled_fold4_vit_small_patch16_224    2900  0.974828     0.968966     0.980345  0.973963    0.967868    0.979635
+
+Saved -> D:\SJ\UVMDATA\EuroSAT-RGB\benchmark_study\reports\all_results_with_ci.csv
+
+=== McNemar (resnet18 vs each challenger, per LODO fold) ===
+RESISC45__resnet18_vs_compactcnn: statistic=136.806 p=1.33e-31 (resnet18-only-correct=1000, compactcnn-only-correct=540)
+RESISC45__resnet18_vs_convnext_tiny: statistic=57.876 p=2.792e-14 (resnet18-only-correct=755, convnext_tiny-only-correct=486)
+RESISC45__resnet18_vs_vit_small_patch16_224: statistic=51.659 p=6.602e-13 (resnet18-only-correct=437, vit_small_patch16_224-only-correct=678)
+RESISC45__resnet18_vs_swin_tiny_patch4_window7_224: statistic=198.544 p=4.341e-45 (resnet18-only-correct=207, swin_tiny_patch4_window7_224-only-correct=611)
+UCMerced__resnet18_vs_compactcnn: statistic=164.829 p=9.967e-38 (resnet18-only-correct=261, compactcnn-only-correct=38)
+UCMerced__resnet18_vs_convnext_tiny: statistic=4.994 p=0.02544 (resnet18-only-correct=64, convnext_tiny-only-correct=93)
+UCMerced__resnet18_vs_vit_small_patch16_224: statistic=4.478 p=0.03434 (resnet18-only-correct=85, vit_small_patch16_224-only-correct=116)
+UCMerced__resnet18_vs_swin_tiny_patch4_window7_224: statistic=12.493 p=0.0004084 (resnet18-only-correct=52, swin_tiny_patch4_window7_224-only-correct=96)
+AID__resnet18_vs_compactcnn: statistic=319.115 p=2.258e-71 (resnet18-only-correct=460, compactcnn-only-correct=54)
+AID__resnet18_vs_convnext_tiny: statistic=2.423 p=0.1196 (resnet18-only-correct=80, convnext_tiny-only-correct=102)
+AID__resnet18_vs_vit_small_patch16_224: statistic=128.097 p=1.069e-29 (resnet18-only-correct=295, vit_small_patch16_224-only-correct=76)
+AID__resnet18_vs_swin_tiny_patch4_window7_224: statistic=70.887 p=3.783e-17 (resnet18-only-correct=229, swin_tiny_patch4_window7_224-only-correct=80)
+
+=== TOST equivalence (LODO vs in-distribution pooled CV) ===
+resnet18__RESISC45: LODO_acc=0.8632 vs pooled=0.9813, margin=+/-0.0050, 90%CI diff=[-0.12406309208033353, -0.11240924592648738], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+resnet18__UCMerced: LODO_acc=0.8431 vs pooled=0.9813, margin=+/-0.0050, 90%CI diff=[-0.15631034482758632, -0.12047701149425294], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+resnet18__AID: LODO_acc=0.9512 vs pooled=0.9813, margin=+/-0.0050, 90%CI diff=[-0.03559605911330055, -0.024881773399014873], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+compactcnn__RESISC45: LODO_acc=0.8125 vs pooled=0.9659, margin=+/-0.0039, 90%CI diff=[-0.15992800303145138, -0.14674118984463813], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+compactcnn__UCMerced: LODO_acc=0.6577 vs pooled=0.9659, margin=+/-0.0039, 90%CI diff=[-0.3308620689655173, -0.285028735632184], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+compactcnn__AID: LODO_acc=0.8546 vs pooled=0.9659, margin=+/-0.0039, 90%CI diff=[-0.12039778325123157, -0.10205254515599349], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+convnext_tiny__RESISC45: LODO_acc=0.8337 vs pooled=0.9752, margin=+/-0.0023, 90%CI diff=[-0.1479941265630921, -0.13502159909056466], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+convnext_tiny__UCMerced: LODO_acc=0.8676 vs pooled=0.9752, margin=+/-0.0023, 90%CI diff=[-0.1244080459770115, -0.09107471264367817], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+convnext_tiny__AID: LODO_acc=0.9564 vs pooled=0.9752, margin=+/-0.0023, 90%CI diff=[-0.024050903119868683, -0.013574712643678155], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+vit_small_patch16_224__RESISC45: LODO_acc=0.8897 vs pooled=0.9746, margin=+/-0.0042, 90%CI diff=[-0.09033497536945823, -0.07978552482000767], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+vit_small_patch16_224__UCMerced: LODO_acc=0.8691 vs pooled=0.9746, margin=+/-0.0042, 90%CI diff=[-0.12212068965517242, -0.08962068965517245], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+vit_small_patch16_224__AID: LODO_acc=0.8992 vs pooled=0.9746, margin=+/-0.0042, 90%CI diff=[-0.083192118226601, -0.06771592775041058], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+swin_tiny_patch4_window7_224__RESISC45: LODO_acc=0.9076 vs pooled=0.9725, margin=+/-0.0058, 90%CI diff=[-0.069955286093217, -0.05984539598332694], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+swin_tiny_patch4_window7_224__UCMerced: LODO_acc=0.8799 vs pooled=0.9725, margin=+/-0.0058, 90%CI diff=[-0.10831609195402292, -0.07748275862068954], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0
+swin_tiny_patch4_window7_224__AID: LODO_acc=0.9158 vs pooled=0.9725, margin=+/-0.0058, 90%CI diff=[-0.06391133004926097, -0.04938752052545148], verdict=SIGNIFICANTLY DIFFERENT, holm_p=1.0

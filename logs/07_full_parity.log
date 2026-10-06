@@ -1,0 +1,1952 @@
+
+=== (a) pooled_fold0_compactcnn === train=11600 test=2900
+  [pooled_fold0_compactcnn] epoch 00 loss=1.4083 val_acc=0.6560 val_macroF1=0.6469
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [pooled_fold0_compactcnn] epoch 01 loss=1.1046 val_acc=0.6241 val_macroF1=0.6065
+  [pooled_fold0_compactcnn] epoch 02 loss=0.8999 val_acc=0.6216 val_macroF1=0.6035
+  [pooled_fold0_compactcnn] epoch 03 loss=0.7129 val_acc=0.8233 val_macroF1=0.8206
+  [pooled_fold0_compactcnn] epoch 04 loss=0.6087 val_acc=0.7328 val_macroF1=0.7358
+  [pooled_fold0_compactcnn] epoch 05 loss=0.5479 val_acc=0.7293 val_macroF1=0.7267
+  [pooled_fold0_compactcnn] epoch 06 loss=0.4839 val_acc=0.8353 val_macroF1=0.8347
+  [pooled_fold0_compactcnn] epoch 07 loss=0.4191 val_acc=0.7819 val_macroF1=0.7734
+  [pooled_fold0_compactcnn] epoch 08 loss=0.3648 val_acc=0.8655 val_macroF1=0.8612
+  [pooled_fold0_compactcnn] epoch 09 loss=0.3339 val_acc=0.8871 val_macroF1=0.8871
+  [pooled_fold0_compactcnn] epoch 10 loss=0.3003 val_acc=0.8879 val_macroF1=0.8862
+  [pooled_fold0_compactcnn] epoch 11 loss=0.2762 val_acc=0.9017 val_macroF1=0.9015
+  [pooled_fold0_compactcnn] epoch 12 loss=0.2591 val_acc=0.9034 val_macroF1=0.9002
+  [pooled_fold0_compactcnn] epoch 13 loss=0.2300 val_acc=0.8931 val_macroF1=0.8910
+  [pooled_fold0_compactcnn] epoch 14 loss=0.2215 val_acc=0.8612 val_macroF1=0.8664
+  [pooled_fold0_compactcnn] epoch 15 loss=0.1931 val_acc=0.9362 val_macroF1=0.9356
+  [pooled_fold0_compactcnn] epoch 16 loss=0.1803 val_acc=0.9121 val_macroF1=0.9137
+  [pooled_fold0_compactcnn] epoch 17 loss=0.1681 val_acc=0.9345 val_macroF1=0.9336
+  [pooled_fold0_compactcnn] epoch 18 loss=0.1581 val_acc=0.9250 val_macroF1=0.9238
+  [pooled_fold0_compactcnn] epoch 19 loss=0.1501 val_acc=0.9336 val_macroF1=0.9337
+  [pooled_fold0_compactcnn] epoch 20 loss=0.1264 val_acc=0.9345 val_macroF1=0.9333
+  [pooled_fold0_compactcnn] epoch 21 loss=0.1158 val_acc=0.9431 val_macroF1=0.9422
+  [pooled_fold0_compactcnn] epoch 22 loss=0.1115 val_acc=0.9405 val_macroF1=0.9405
+  [pooled_fold0_compactcnn] epoch 23 loss=0.1021 val_acc=0.9431 val_macroF1=0.9420
+  [pooled_fold0_compactcnn] epoch 24 loss=0.0928 val_acc=0.9422 val_macroF1=0.9414
+  [pooled_fold0_compactcnn] epoch 25 loss=0.0797 val_acc=0.9414 val_macroF1=0.9413
+  [pooled_fold0_compactcnn] epoch 26 loss=0.0766 val_acc=0.9483 val_macroF1=0.9478
+  [pooled_fold0_compactcnn] epoch 27 loss=0.0674 val_acc=0.9552 val_macroF1=0.9549
+  [pooled_fold0_compactcnn] epoch 28 loss=0.0636 val_acc=0.9534 val_macroF1=0.9536
+  [pooled_fold0_compactcnn] epoch 29 loss=0.0593 val_acc=0.9560 val_macroF1=0.9558
+  [pooled_fold0_compactcnn] epoch 30 loss=0.0601 val_acc=0.9586 val_macroF1=0.9586
+  [pooled_fold0_compactcnn] epoch 31 loss=0.0552 val_acc=0.9526 val_macroF1=0.9525
+  [pooled_fold0_compactcnn] epoch 32 loss=0.0479 val_acc=0.9534 val_macroF1=0.9533
+  [pooled_fold0_compactcnn] epoch 33 loss=0.0512 val_acc=0.9552 val_macroF1=0.9553
+  [pooled_fold0_compactcnn] epoch 34 loss=0.0498 val_acc=0.9569 val_macroF1=0.9573
+  [pooled_fold0_compactcnn] DONE acc=0.9679 macroF1=0.9672 (373s, 35 epochs)
+
+=== (a) pooled_fold1_compactcnn === train=11600 test=2900
+  [pooled_fold1_compactcnn] epoch 00 loss=1.4047 val_acc=0.6655 val_macroF1=0.6584
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [pooled_fold1_compactcnn] epoch 01 loss=1.0706 val_acc=0.6241 val_macroF1=0.6073
+  [pooled_fold1_compactcnn] epoch 02 loss=0.8923 val_acc=0.7086 val_macroF1=0.6713
+  [pooled_fold1_compactcnn] epoch 03 loss=0.7182 val_acc=0.7517 val_macroF1=0.7527
+  [pooled_fold1_compactcnn] epoch 04 loss=0.6191 val_acc=0.7629 val_macroF1=0.7571
+  [pooled_fold1_compactcnn] epoch 05 loss=0.5464 val_acc=0.7879 val_macroF1=0.7800
+  [pooled_fold1_compactcnn] epoch 06 loss=0.4949 val_acc=0.8017 val_macroF1=0.7944
+  [pooled_fold1_compactcnn] epoch 07 loss=0.4401 val_acc=0.8560 val_macroF1=0.8573
+  [pooled_fold1_compactcnn] epoch 08 loss=0.3792 val_acc=0.8647 val_macroF1=0.8663
+  [pooled_fold1_compactcnn] epoch 09 loss=0.3591 val_acc=0.8509 val_macroF1=0.8525
+  [pooled_fold1_compactcnn] epoch 10 loss=0.3163 val_acc=0.8750 val_macroF1=0.8718
+  [pooled_fold1_compactcnn] epoch 11 loss=0.2937 val_acc=0.8957 val_macroF1=0.8899
+  [pooled_fold1_compactcnn] epoch 12 loss=0.2500 val_acc=0.9121 val_macroF1=0.9069
+  [pooled_fold1_compactcnn] epoch 13 loss=0.2507 val_acc=0.9207 val_macroF1=0.9205
+  [pooled_fold1_compactcnn] epoch 14 loss=0.2249 val_acc=0.9267 val_macroF1=0.9244
+  [pooled_fold1_compactcnn] epoch 15 loss=0.2116 val_acc=0.9405 val_macroF1=0.9386
+  [pooled_fold1_compactcnn] epoch 16 loss=0.1895 val_acc=0.9259 val_macroF1=0.9266
+  [pooled_fold1_compactcnn] epoch 17 loss=0.1704 val_acc=0.9302 val_macroF1=0.9270
+  [pooled_fold1_compactcnn] epoch 18 loss=0.1474 val_acc=0.9491 val_macroF1=0.9480
+  [pooled_fold1_compactcnn] epoch 19 loss=0.1477 val_acc=0.9405 val_macroF1=0.9402
+  [pooled_fold1_compactcnn] epoch 20 loss=0.1305 val_acc=0.9466 val_macroF1=0.9447
+  [pooled_fold1_compactcnn] epoch 21 loss=0.1291 val_acc=0.9629 val_macroF1=0.9616
+  [pooled_fold1_compactcnn] epoch 22 loss=0.1249 val_acc=0.9552 val_macroF1=0.9531
+  [pooled_fold1_compactcnn] epoch 23 loss=0.1042 val_acc=0.9621 val_macroF1=0.9606
+  [pooled_fold1_compactcnn] epoch 24 loss=0.0973 val_acc=0.9621 val_macroF1=0.9608
+  [pooled_fold1_compactcnn] epoch 25 loss=0.0880 val_acc=0.9664 val_macroF1=0.9654
+  [pooled_fold1_compactcnn] epoch 26 loss=0.0849 val_acc=0.9612 val_macroF1=0.9593
+  [pooled_fold1_compactcnn] epoch 27 loss=0.0800 val_acc=0.9655 val_macroF1=0.9642
+  [pooled_fold1_compactcnn] epoch 28 loss=0.0662 val_acc=0.9638 val_macroF1=0.9620
+  [pooled_fold1_compactcnn] epoch 29 loss=0.0653 val_acc=0.9638 val_macroF1=0.9632
+  [pooled_fold1_compactcnn] epoch 30 loss=0.0592 val_acc=0.9672 val_macroF1=0.9661
+  [pooled_fold1_compactcnn] epoch 31 loss=0.0578 val_acc=0.9672 val_macroF1=0.9659
+  [pooled_fold1_compactcnn] epoch 32 loss=0.0568 val_acc=0.9672 val_macroF1=0.9664
+  [pooled_fold1_compactcnn] epoch 33 loss=0.0562 val_acc=0.9698 val_macroF1=0.9689
+  [pooled_fold1_compactcnn] epoch 34 loss=0.0540 val_acc=0.9707 val_macroF1=0.9700
+  [pooled_fold1_compactcnn] DONE acc=0.9600 macroF1=0.9597 (360s, 35 epochs)
+
+=== (a) pooled_fold2_compactcnn === train=11600 test=2900
+  [pooled_fold2_compactcnn] epoch 00 loss=1.4082 val_acc=0.5922 val_macroF1=0.5898
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [pooled_fold2_compactcnn] epoch 01 loss=1.0993 val_acc=0.6405 val_macroF1=0.6384
+  [pooled_fold2_compactcnn] epoch 02 loss=0.8941 val_acc=0.6940 val_macroF1=0.6845
+  [pooled_fold2_compactcnn] epoch 03 loss=0.7158 val_acc=0.7164 val_macroF1=0.7116
+  [pooled_fold2_compactcnn] epoch 04 loss=0.6197 val_acc=0.8155 val_macroF1=0.8162
+  [pooled_fold2_compactcnn] epoch 05 loss=0.5500 val_acc=0.7552 val_macroF1=0.7473
+  [pooled_fold2_compactcnn] epoch 06 loss=0.4846 val_acc=0.8259 val_macroF1=0.8304
+  [pooled_fold2_compactcnn] epoch 07 loss=0.4446 val_acc=0.8543 val_macroF1=0.8540
+  [pooled_fold2_compactcnn] epoch 08 loss=0.3824 val_acc=0.7664 val_macroF1=0.7628
+  [pooled_fold2_compactcnn] epoch 09 loss=0.3513 val_acc=0.9026 val_macroF1=0.9033
+  [pooled_fold2_compactcnn] epoch 10 loss=0.3096 val_acc=0.8784 val_macroF1=0.8766
+  [pooled_fold2_compactcnn] epoch 11 loss=0.3004 val_acc=0.9138 val_macroF1=0.9147
+  [pooled_fold2_compactcnn] epoch 12 loss=0.2588 val_acc=0.9147 val_macroF1=0.9118
+  [pooled_fold2_compactcnn] epoch 13 loss=0.2398 val_acc=0.9233 val_macroF1=0.9224
+  [pooled_fold2_compactcnn] epoch 14 loss=0.2270 val_acc=0.9086 val_macroF1=0.9046
+  [pooled_fold2_compactcnn] epoch 15 loss=0.2026 val_acc=0.9379 val_macroF1=0.9370
+  [pooled_fold2_compactcnn] epoch 16 loss=0.1851 val_acc=0.9147 val_macroF1=0.9123
+  [pooled_fold2_compactcnn] epoch 17 loss=0.1835 val_acc=0.9431 val_macroF1=0.9412
+  [pooled_fold2_compactcnn] epoch 18 loss=0.1514 val_acc=0.9483 val_macroF1=0.9466
+  [pooled_fold2_compactcnn] epoch 19 loss=0.1452 val_acc=0.9319 val_macroF1=0.9306
+  [pooled_fold2_compactcnn] epoch 20 loss=0.1318 val_acc=0.9379 val_macroF1=0.9367
+  [pooled_fold2_compactcnn] epoch 21 loss=0.1305 val_acc=0.9431 val_macroF1=0.9406
+  [pooled_fold2_compactcnn] epoch 22 loss=0.1147 val_acc=0.9509 val_macroF1=0.9497
+  [pooled_fold2_compactcnn] epoch 23 loss=0.1076 val_acc=0.9241 val_macroF1=0.9210
+  [pooled_fold2_compactcnn] epoch 24 loss=0.1012 val_acc=0.9552 val_macroF1=0.9530
+  [pooled_fold2_compactcnn] epoch 25 loss=0.0875 val_acc=0.9578 val_macroF1=0.9568
+  [pooled_fold2_compactcnn] epoch 26 loss=0.0796 val_acc=0.9586 val_macroF1=0.9559
+  [pooled_fold2_compactcnn] epoch 27 loss=0.0782 val_acc=0.9569 val_macroF1=0.9545
+  [pooled_fold2_compactcnn] epoch 28 loss=0.0654 val_acc=0.9629 val_macroF1=0.9610
+  [pooled_fold2_compactcnn] epoch 29 loss=0.0628 val_acc=0.9655 val_macroF1=0.9639
+  [pooled_fold2_compactcnn] epoch 30 loss=0.0608 val_acc=0.9681 val_macroF1=0.9670
+  [pooled_fold2_compactcnn] epoch 31 loss=0.0561 val_acc=0.9681 val_macroF1=0.9667
+  [pooled_fold2_compactcnn] epoch 32 loss=0.0530 val_acc=0.9672 val_macroF1=0.9659
+  [pooled_fold2_compactcnn] epoch 33 loss=0.0530 val_acc=0.9664 val_macroF1=0.9649
+  [pooled_fold2_compactcnn] epoch 34 loss=0.0535 val_acc=0.9655 val_macroF1=0.9640
+  [pooled_fold2_compactcnn] DONE acc=0.9638 macroF1=0.9630 (358s, 35 epochs)
+
+=== (a) pooled_fold3_compactcnn === train=11600 test=2900
+  [pooled_fold3_compactcnn] epoch 00 loss=1.3905 val_acc=0.5897 val_macroF1=0.5752
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [pooled_fold3_compactcnn] epoch 01 loss=1.0953 val_acc=0.5741 val_macroF1=0.5448
+  [pooled_fold3_compactcnn] epoch 02 loss=0.8875 val_acc=0.4379 val_macroF1=0.4330
+  [pooled_fold3_compactcnn] epoch 03 loss=0.7232 val_acc=0.7328 val_macroF1=0.7438
+  [pooled_fold3_compactcnn] epoch 04 loss=0.6190 val_acc=0.7216 val_macroF1=0.7039
+  [pooled_fold3_compactcnn] epoch 05 loss=0.5531 val_acc=0.8155 val_macroF1=0.8177
+  [pooled_fold3_compactcnn] epoch 06 loss=0.4760 val_acc=0.7664 val_macroF1=0.7567
+  [pooled_fold3_compactcnn] epoch 07 loss=0.4308 val_acc=0.8138 val_macroF1=0.8123
+  [pooled_fold3_compactcnn] epoch 08 loss=0.3859 val_acc=0.8379 val_macroF1=0.8377
+  [pooled_fold3_compactcnn] epoch 09 loss=0.3534 val_acc=0.8698 val_macroF1=0.8706
+  [pooled_fold3_compactcnn] epoch 10 loss=0.3197 val_acc=0.8853 val_macroF1=0.8855
+  [pooled_fold3_compactcnn] epoch 11 loss=0.3008 val_acc=0.9121 val_macroF1=0.9108
+  [pooled_fold3_compactcnn] epoch 12 loss=0.2728 val_acc=0.8914 val_macroF1=0.8864
+  [pooled_fold3_compactcnn] epoch 13 loss=0.2418 val_acc=0.9069 val_macroF1=0.9065
+  [pooled_fold3_compactcnn] epoch 14 loss=0.2247 val_acc=0.8647 val_macroF1=0.8574
+  [pooled_fold3_compactcnn] epoch 15 loss=0.2018 val_acc=0.9293 val_macroF1=0.9283
+  [pooled_fold3_compactcnn] epoch 16 loss=0.1921 val_acc=0.9009 val_macroF1=0.9005
+  [pooled_fold3_compactcnn] epoch 17 loss=0.1715 val_acc=0.9190 val_macroF1=0.9193
+  [pooled_fold3_compactcnn] epoch 18 loss=0.1573 val_acc=0.9319 val_macroF1=0.9324
+  [pooled_fold3_compactcnn] epoch 19 loss=0.1540 val_acc=0.9284 val_macroF1=0.9281
+  [pooled_fold3_compactcnn] epoch 20 loss=0.1473 val_acc=0.9474 val_macroF1=0.9480
+  [pooled_fold3_compactcnn] epoch 21 loss=0.1310 val_acc=0.9491 val_macroF1=0.9493
+  [pooled_fold3_compactcnn] epoch 22 loss=0.1136 val_acc=0.9552 val_macroF1=0.9559
+  [pooled_fold3_compactcnn] epoch 23 loss=0.1066 val_acc=0.9526 val_macroF1=0.9521
+  [pooled_fold3_compactcnn] epoch 24 loss=0.0968 val_acc=0.9526 val_macroF1=0.9523
+  [pooled_fold3_compactcnn] epoch 25 loss=0.0878 val_acc=0.9526 val_macroF1=0.9532
+  [pooled_fold3_compactcnn] epoch 26 loss=0.0840 val_acc=0.9569 val_macroF1=0.9566
+  [pooled_fold3_compactcnn] epoch 27 loss=0.0794 val_acc=0.9595 val_macroF1=0.9590
+  [pooled_fold3_compactcnn] epoch 28 loss=0.0736 val_acc=0.9543 val_macroF1=0.9542
+  [pooled_fold3_compactcnn] epoch 29 loss=0.0653 val_acc=0.9612 val_macroF1=0.9614
+  [pooled_fold3_compactcnn] epoch 30 loss=0.0645 val_acc=0.9603 val_macroF1=0.9606
+  [pooled_fold3_compactcnn] epoch 31 loss=0.0617 val_acc=0.9612 val_macroF1=0.9617
+  [pooled_fold3_compactcnn] epoch 32 loss=0.0540 val_acc=0.9603 val_macroF1=0.9607
+  [pooled_fold3_compactcnn] epoch 33 loss=0.0583 val_acc=0.9612 val_macroF1=0.9615
+  [pooled_fold3_compactcnn] epoch 34 loss=0.0517 val_acc=0.9612 val_macroF1=0.9618
+  [pooled_fold3_compactcnn] DONE acc=0.9690 macroF1=0.9688 (357s, 35 epochs)
+
+=== (a) pooled_fold4_compactcnn === train=11600 test=2900
+  [pooled_fold4_compactcnn] epoch 00 loss=1.4089 val_acc=0.6440 val_macroF1=0.6407
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [pooled_fold4_compactcnn] epoch 01 loss=1.1060 val_acc=0.6457 val_macroF1=0.6441
+  [pooled_fold4_compactcnn] epoch 02 loss=0.9020 val_acc=0.5207 val_macroF1=0.5174
+  [pooled_fold4_compactcnn] epoch 03 loss=0.7256 val_acc=0.7526 val_macroF1=0.7531
+  [pooled_fold4_compactcnn] epoch 04 loss=0.6256 val_acc=0.7905 val_macroF1=0.7954
+  [pooled_fold4_compactcnn] epoch 05 loss=0.5506 val_acc=0.7862 val_macroF1=0.7886
+  [pooled_fold4_compactcnn] epoch 06 loss=0.4763 val_acc=0.8517 val_macroF1=0.8561
+  [pooled_fold4_compactcnn] epoch 07 loss=0.4442 val_acc=0.8647 val_macroF1=0.8675
+  [pooled_fold4_compactcnn] epoch 08 loss=0.3873 val_acc=0.8069 val_macroF1=0.8132
+  [pooled_fold4_compactcnn] epoch 09 loss=0.3365 val_acc=0.8629 val_macroF1=0.8642
+  [pooled_fold4_compactcnn] epoch 10 loss=0.3137 val_acc=0.8164 val_macroF1=0.8171
+  [pooled_fold4_compactcnn] epoch 11 loss=0.3002 val_acc=0.8897 val_macroF1=0.8918
+  [pooled_fold4_compactcnn] epoch 12 loss=0.2613 val_acc=0.9034 val_macroF1=0.9040
+  [pooled_fold4_compactcnn] epoch 13 loss=0.2303 val_acc=0.8914 val_macroF1=0.8883
+  [pooled_fold4_compactcnn] epoch 14 loss=0.2148 val_acc=0.9224 val_macroF1=0.9227
+  [pooled_fold4_compactcnn] epoch 15 loss=0.2160 val_acc=0.9250 val_macroF1=0.9261
+  [pooled_fold4_compactcnn] epoch 16 loss=0.1775 val_acc=0.9207 val_macroF1=0.9237
+  [pooled_fold4_compactcnn] epoch 17 loss=0.1610 val_acc=0.9293 val_macroF1=0.9322
+  [pooled_fold4_compactcnn] epoch 18 loss=0.1592 val_acc=0.9362 val_macroF1=0.9386
+  [pooled_fold4_compactcnn] epoch 19 loss=0.1418 val_acc=0.9440 val_macroF1=0.9449
+  [pooled_fold4_compactcnn] epoch 20 loss=0.1320 val_acc=0.9431 val_macroF1=0.9459
+  [pooled_fold4_compactcnn] epoch 21 loss=0.1334 val_acc=0.9422 val_macroF1=0.9443
+  [pooled_fold4_compactcnn] epoch 22 loss=0.1159 val_acc=0.9552 val_macroF1=0.9566
+  [pooled_fold4_compactcnn] epoch 23 loss=0.1049 val_acc=0.9569 val_macroF1=0.9587
+  [pooled_fold4_compactcnn] epoch 24 loss=0.0951 val_acc=0.9448 val_macroF1=0.9462
+  [pooled_fold4_compactcnn] epoch 25 loss=0.0883 val_acc=0.9328 val_macroF1=0.9334
+  [pooled_fold4_compactcnn] epoch 26 loss=0.0831 val_acc=0.9603 val_macroF1=0.9615
+  [pooled_fold4_compactcnn] epoch 27 loss=0.0792 val_acc=0.9621 val_macroF1=0.9636
+  [pooled_fold4_compactcnn] epoch 28 loss=0.0732 val_acc=0.9586 val_macroF1=0.9591
+  [pooled_fold4_compactcnn] epoch 29 loss=0.0616 val_acc=0.9655 val_macroF1=0.9665
+  [pooled_fold4_compactcnn] epoch 30 loss=0.0609 val_acc=0.9655 val_macroF1=0.9670
+  [pooled_fold4_compactcnn] epoch 31 loss=0.0577 val_acc=0.9681 val_macroF1=0.9693
+  [pooled_fold4_compactcnn] epoch 32 loss=0.0549 val_acc=0.9698 val_macroF1=0.9709
+  [pooled_fold4_compactcnn] epoch 33 loss=0.0543 val_acc=0.9664 val_macroF1=0.9673
+  [pooled_fold4_compactcnn] epoch 34 loss=0.0532 val_acc=0.9664 val_macroF1=0.9674
+  [pooled_fold4_compactcnn] DONE acc=0.9686 macroF1=0.9679 (360s, 35 epochs)
+
+=== (b) cv_fold0_convnext_tiny === train=17280 test=4320
+  [cv_fold0_convnext_tiny] epoch 00 loss=0.2845 val_acc=0.9809 val_macroF1=0.9802
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold0_convnext_tiny] epoch 01 loss=0.1862 val_acc=0.9549 val_macroF1=0.9529
+  [cv_fold0_convnext_tiny] epoch 02 loss=0.1566 val_acc=0.9525 val_macroF1=0.9518
+  [cv_fold0_convnext_tiny] epoch 03 loss=0.0889 val_acc=0.9659 val_macroF1=0.9656
+  [cv_fold0_convnext_tiny] epoch 04 loss=0.0777 val_acc=0.9635 val_macroF1=0.9621
+  [cv_fold0_convnext_tiny] early stopping at epoch 4
+  [cv_fold0_convnext_tiny] DONE acc=0.9773 macroF1=0.9764 (304s, 5 epochs)
+
+=== (b) cv_fold1_convnext_tiny === train=17280 test=4320
+  [cv_fold1_convnext_tiny] epoch 00 loss=0.2714 val_acc=0.9664 val_macroF1=0.9667
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold1_convnext_tiny] epoch 01 loss=0.1832 val_acc=0.9543 val_macroF1=0.9542
+  [cv_fold1_convnext_tiny] epoch 02 loss=0.1439 val_acc=0.9699 val_macroF1=0.9698
+  [cv_fold1_convnext_tiny] epoch 03 loss=0.1029 val_acc=0.9497 val_macroF1=0.9491
+  [cv_fold1_convnext_tiny] epoch 04 loss=0.0882 val_acc=0.9769 val_macroF1=0.9761
+  [cv_fold1_convnext_tiny] epoch 05 loss=0.0618 val_acc=0.9705 val_macroF1=0.9696
+  [cv_fold1_convnext_tiny] epoch 06 loss=0.0704 val_acc=0.9693 val_macroF1=0.9687
+  [cv_fold1_convnext_tiny] epoch 07 loss=0.0633 val_acc=0.9844 val_macroF1=0.9839
+  [cv_fold1_convnext_tiny] epoch 08 loss=0.0436 val_acc=0.9740 val_macroF1=0.9734
+  [cv_fold1_convnext_tiny] epoch 09 loss=0.0507 val_acc=0.9659 val_macroF1=0.9645
+  [cv_fold1_convnext_tiny] epoch 10 loss=0.0335 val_acc=0.9826 val_macroF1=0.9822
+  [cv_fold1_convnext_tiny] epoch 11 loss=0.0360 val_acc=0.9763 val_macroF1=0.9757
+  [cv_fold1_convnext_tiny] early stopping at epoch 11
+  [cv_fold1_convnext_tiny] DONE acc=0.9785 macroF1=0.9778 (687s, 12 epochs)
+
+=== (b) cv_fold2_convnext_tiny === train=17279 test=4321
+  [cv_fold2_convnext_tiny] epoch 00 loss=0.2730 val_acc=0.9404 val_macroF1=0.9380
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold2_convnext_tiny] epoch 01 loss=0.1720 val_acc=0.9323 val_macroF1=0.9286
+  [cv_fold2_convnext_tiny] epoch 02 loss=0.1601 val_acc=0.9502 val_macroF1=0.9480
+  [cv_fold2_convnext_tiny] epoch 03 loss=0.0907 val_acc=0.9491 val_macroF1=0.9476
+  [cv_fold2_convnext_tiny] epoch 04 loss=0.0802 val_acc=0.9554 val_macroF1=0.9535
+  [cv_fold2_convnext_tiny] epoch 05 loss=0.0763 val_acc=0.9682 val_macroF1=0.9676
+  [cv_fold2_convnext_tiny] epoch 06 loss=0.0523 val_acc=0.9769 val_macroF1=0.9770
+  [cv_fold2_convnext_tiny] epoch 07 loss=0.0536 val_acc=0.9688 val_macroF1=0.9680
+  [cv_fold2_convnext_tiny] epoch 08 loss=0.0674 val_acc=0.9769 val_macroF1=0.9760
+  [cv_fold2_convnext_tiny] epoch 09 loss=0.0399 val_acc=0.9815 val_macroF1=0.9809
+  [cv_fold2_convnext_tiny] epoch 10 loss=0.0364 val_acc=0.9757 val_macroF1=0.9755
+  [cv_fold2_convnext_tiny] epoch 11 loss=0.0327 val_acc=0.9826 val_macroF1=0.9821
+  [cv_fold2_convnext_tiny] epoch 12 loss=0.0257 val_acc=0.9774 val_macroF1=0.9767
+  [cv_fold2_convnext_tiny] epoch 13 loss=0.0136 val_acc=0.9740 val_macroF1=0.9728
+  [cv_fold2_convnext_tiny] epoch 14 loss=0.0214 val_acc=0.9751 val_macroF1=0.9744
+  [cv_fold2_convnext_tiny] epoch 15 loss=0.0139 val_acc=0.9774 val_macroF1=0.9767
+  [cv_fold2_convnext_tiny] early stopping at epoch 15
+  [cv_fold2_convnext_tiny] DONE acc=0.9824 macroF1=0.9821 (903s, 16 epochs)
+
+=== (b) cv_fold3_convnext_tiny === train=17280 test=4320
+  [cv_fold3_convnext_tiny] epoch 00 loss=0.2825 val_acc=0.9659 val_macroF1=0.9659
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold3_convnext_tiny] epoch 01 loss=0.1660 val_acc=0.9711 val_macroF1=0.9704
+  [cv_fold3_convnext_tiny] epoch 02 loss=0.1465 val_acc=0.9728 val_macroF1=0.9728
+  [cv_fold3_convnext_tiny] epoch 03 loss=0.0979 val_acc=0.9722 val_macroF1=0.9713
+  [cv_fold3_convnext_tiny] epoch 04 loss=0.0858 val_acc=0.9699 val_macroF1=0.9691
+  [cv_fold3_convnext_tiny] epoch 05 loss=0.0793 val_acc=0.9821 val_macroF1=0.9817
+  [cv_fold3_convnext_tiny] epoch 06 loss=0.0590 val_acc=0.9491 val_macroF1=0.9487
+  [cv_fold3_convnext_tiny] epoch 07 loss=0.0655 val_acc=0.9682 val_macroF1=0.9676
+  [cv_fold3_convnext_tiny] epoch 08 loss=0.0555 val_acc=0.9711 val_macroF1=0.9711
+  [cv_fold3_convnext_tiny] epoch 09 loss=0.0469 val_acc=0.9757 val_macroF1=0.9752
+  [cv_fold3_convnext_tiny] early stopping at epoch 9
+  [cv_fold3_convnext_tiny] DONE acc=0.9831 macroF1=0.9827 (577s, 10 epochs)
+
+=== (b) cv_fold4_convnext_tiny === train=17281 test=4319
+  [cv_fold4_convnext_tiny] epoch 00 loss=0.2865 val_acc=0.9746 val_macroF1=0.9738
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold4_convnext_tiny] epoch 01 loss=0.1786 val_acc=0.9740 val_macroF1=0.9738
+  [cv_fold4_convnext_tiny] epoch 02 loss=0.1552 val_acc=0.9665 val_macroF1=0.9659
+  [cv_fold4_convnext_tiny] epoch 03 loss=0.1076 val_acc=0.9636 val_macroF1=0.9633
+  [cv_fold4_convnext_tiny] epoch 04 loss=0.0841 val_acc=0.9774 val_macroF1=0.9766
+  [cv_fold4_convnext_tiny] epoch 05 loss=0.0708 val_acc=0.9746 val_macroF1=0.9742
+  [cv_fold4_convnext_tiny] epoch 06 loss=0.0570 val_acc=0.9786 val_macroF1=0.9778
+  [cv_fold4_convnext_tiny] epoch 07 loss=0.0694 val_acc=0.9589 val_macroF1=0.9570
+  [cv_fold4_convnext_tiny] epoch 08 loss=0.0444 val_acc=0.9751 val_macroF1=0.9743
+  [cv_fold4_convnext_tiny] epoch 09 loss=0.0545 val_acc=0.9647 val_macroF1=0.9647
+  [cv_fold4_convnext_tiny] epoch 10 loss=0.0435 val_acc=0.9832 val_macroF1=0.9826
+  [cv_fold4_convnext_tiny] epoch 11 loss=0.0356 val_acc=0.9774 val_macroF1=0.9778
+  [cv_fold4_convnext_tiny] epoch 12 loss=0.0259 val_acc=0.9636 val_macroF1=0.9628
+  [cv_fold4_convnext_tiny] epoch 13 loss=0.0168 val_acc=0.9832 val_macroF1=0.9830
+  [cv_fold4_convnext_tiny] epoch 14 loss=0.0119 val_acc=0.9803 val_macroF1=0.9795
+  [cv_fold4_convnext_tiny] epoch 15 loss=0.0123 val_acc=0.9919 val_macroF1=0.9917
+  [cv_fold4_convnext_tiny] epoch 16 loss=0.0119 val_acc=0.9890 val_macroF1=0.9889
+  [cv_fold4_convnext_tiny] epoch 17 loss=0.0060 val_acc=0.9925 val_macroF1=0.9922
+  [cv_fold4_convnext_tiny] epoch 18 loss=0.0030 val_acc=0.9931 val_macroF1=0.9929
+  [cv_fold4_convnext_tiny] epoch 19 loss=0.0016 val_acc=0.9925 val_macroF1=0.9922
+  [cv_fold4_convnext_tiny] epoch 20 loss=0.0005 val_acc=0.9931 val_macroF1=0.9928
+  [cv_fold4_convnext_tiny] epoch 21 loss=0.0004 val_acc=0.9931 val_macroF1=0.9928
+  [cv_fold4_convnext_tiny] epoch 22 loss=0.0003 val_acc=0.9931 val_macroF1=0.9928
+  [cv_fold4_convnext_tiny] early stopping at epoch 22
+  [cv_fold4_convnext_tiny] DONE acc=0.9859 macroF1=0.9855 (1290s, 23 epochs)
+
+=== (b) cv_fold0_vit_small_patch16_224 === train=17280 test=4320
+  [cv_fold0_vit_small_patch16_224] epoch 00 loss=0.2608 val_acc=0.9664 val_macroF1=0.9660
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold0_vit_small_patch16_224] epoch 01 loss=0.1533 val_acc=0.9688 val_macroF1=0.9688
+  [cv_fold0_vit_small_patch16_224] epoch 02 loss=0.1450 val_acc=0.9601 val_macroF1=0.9578
+  [cv_fold0_vit_small_patch16_224] epoch 03 loss=0.0863 val_acc=0.9612 val_macroF1=0.9597
+  [cv_fold0_vit_small_patch16_224] epoch 04 loss=0.0698 val_acc=0.9589 val_macroF1=0.9584
+  [cv_fold0_vit_small_patch16_224] epoch 05 loss=0.0628 val_acc=0.9751 val_macroF1=0.9739
+  [cv_fold0_vit_small_patch16_224] epoch 06 loss=0.0564 val_acc=0.9745 val_macroF1=0.9727
+  [cv_fold0_vit_small_patch16_224] epoch 07 loss=0.0649 val_acc=0.9751 val_macroF1=0.9739
+  [cv_fold0_vit_small_patch16_224] epoch 08 loss=0.0491 val_acc=0.9722 val_macroF1=0.9711
+  [cv_fold0_vit_small_patch16_224] epoch 09 loss=0.0420 val_acc=0.9740 val_macroF1=0.9734
+  [cv_fold0_vit_small_patch16_224] early stopping at epoch 9
+  [cv_fold0_vit_small_patch16_224] DONE acc=0.9715 macroF1=0.9701 (421s, 10 epochs)
+
+=== (b) cv_fold1_vit_small_patch16_224 === train=17280 test=4320
+  [cv_fold1_vit_small_patch16_224] epoch 00 loss=0.2635 val_acc=0.9676 val_macroF1=0.9686
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold1_vit_small_patch16_224] epoch 01 loss=0.1516 val_acc=0.9682 val_macroF1=0.9689
+  [cv_fold1_vit_small_patch16_224] epoch 02 loss=0.1555 val_acc=0.9653 val_macroF1=0.9643
+  [cv_fold1_vit_small_patch16_224] epoch 03 loss=0.0826 val_acc=0.9751 val_macroF1=0.9749
+  [cv_fold1_vit_small_patch16_224] epoch 04 loss=0.0874 val_acc=0.9699 val_macroF1=0.9695
+  [cv_fold1_vit_small_patch16_224] epoch 05 loss=0.0674 val_acc=0.9682 val_macroF1=0.9670
+  [cv_fold1_vit_small_patch16_224] epoch 06 loss=0.0581 val_acc=0.9711 val_macroF1=0.9715
+  [cv_fold1_vit_small_patch16_224] epoch 07 loss=0.0481 val_acc=0.9728 val_macroF1=0.9727
+  [cv_fold1_vit_small_patch16_224] early stopping at epoch 7
+  [cv_fold1_vit_small_patch16_224] DONE acc=0.9773 macroF1=0.9767 (342s, 8 epochs)
+
+=== (b) cv_fold2_vit_small_patch16_224 === train=17279 test=4321
+  [cv_fold2_vit_small_patch16_224] epoch 00 loss=0.2535 val_acc=0.9525 val_macroF1=0.9518
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold2_vit_small_patch16_224] epoch 01 loss=0.1516 val_acc=0.9774 val_macroF1=0.9763
+  [cv_fold2_vit_small_patch16_224] epoch 02 loss=0.1550 val_acc=0.9572 val_macroF1=0.9551
+  [cv_fold2_vit_small_patch16_224] epoch 03 loss=0.0852 val_acc=0.9821 val_macroF1=0.9814
+  [cv_fold2_vit_small_patch16_224] epoch 04 loss=0.0725 val_acc=0.9450 val_macroF1=0.9425
+  [cv_fold2_vit_small_patch16_224] epoch 05 loss=0.0720 val_acc=0.9566 val_macroF1=0.9546
+  [cv_fold2_vit_small_patch16_224] epoch 06 loss=0.0718 val_acc=0.9757 val_macroF1=0.9751
+  [cv_fold2_vit_small_patch16_224] epoch 07 loss=0.0488 val_acc=0.9757 val_macroF1=0.9757
+  [cv_fold2_vit_small_patch16_224] early stopping at epoch 7
+  [cv_fold2_vit_small_patch16_224] DONE acc=0.9799 macroF1=0.9793 (342s, 8 epochs)
+
+=== (b) cv_fold3_vit_small_patch16_224 === train=17280 test=4320
+  [cv_fold3_vit_small_patch16_224] epoch 00 loss=0.2647 val_acc=0.9606 val_macroF1=0.9607
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold3_vit_small_patch16_224] epoch 01 loss=0.1573 val_acc=0.9728 val_macroF1=0.9722
+  [cv_fold3_vit_small_patch16_224] epoch 02 loss=0.1572 val_acc=0.9763 val_macroF1=0.9758
+  [cv_fold3_vit_small_patch16_224] epoch 03 loss=0.0827 val_acc=0.9751 val_macroF1=0.9749
+  [cv_fold3_vit_small_patch16_224] epoch 04 loss=0.0752 val_acc=0.9630 val_macroF1=0.9617
+  [cv_fold3_vit_small_patch16_224] epoch 05 loss=0.0611 val_acc=0.9745 val_macroF1=0.9743
+  [cv_fold3_vit_small_patch16_224] epoch 06 loss=0.0573 val_acc=0.9734 val_macroF1=0.9729
+  [cv_fold3_vit_small_patch16_224] early stopping at epoch 6
+  [cv_fold3_vit_small_patch16_224] DONE acc=0.9762 macroF1=0.9756 (304s, 7 epochs)
+
+=== (b) cv_fold4_vit_small_patch16_224 === train=17281 test=4319
+  [cv_fold4_vit_small_patch16_224] epoch 00 loss=0.2739 val_acc=0.9618 val_macroF1=0.9615
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold4_vit_small_patch16_224] epoch 01 loss=0.1514 val_acc=0.9769 val_macroF1=0.9764
+  [cv_fold4_vit_small_patch16_224] epoch 02 loss=0.1389 val_acc=0.9717 val_macroF1=0.9703
+  [cv_fold4_vit_small_patch16_224] epoch 03 loss=0.0896 val_acc=0.9717 val_macroF1=0.9713
+  [cv_fold4_vit_small_patch16_224] epoch 04 loss=0.0829 val_acc=0.9740 val_macroF1=0.9731
+  [cv_fold4_vit_small_patch16_224] epoch 05 loss=0.0649 val_acc=0.9641 val_macroF1=0.9629
+  [cv_fold4_vit_small_patch16_224] early stopping at epoch 5
+  [cv_fold4_vit_small_patch16_224] DONE acc=0.9731 macroF1=0.9728 (265s, 6 epochs)
+
+=== (b) cv_fold0_swin_tiny_patch4_window7_224 === train=17280 test=4320
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 00 loss=0.3012 val_acc=0.9670 val_macroF1=0.9652
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 01 loss=0.1839 val_acc=0.9554 val_macroF1=0.9534
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 02 loss=0.1862 val_acc=0.9769 val_macroF1=0.9754
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 03 loss=0.1058 val_acc=0.9664 val_macroF1=0.9659
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 04 loss=0.0986 val_acc=0.9815 val_macroF1=0.9809
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 05 loss=0.0872 val_acc=0.9670 val_macroF1=0.9658
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 06 loss=0.0775 val_acc=0.9601 val_macroF1=0.9572
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 07 loss=0.0724 val_acc=0.9624 val_macroF1=0.9602
+  [cv_fold0_swin_tiny_patch4_window7_224] epoch 08 loss=0.0671 val_acc=0.9803 val_macroF1=0.9799
+  [cv_fold0_swin_tiny_patch4_window7_224] early stopping at epoch 8
+  [cv_fold0_swin_tiny_patch4_window7_224] DONE acc=0.9718 macroF1=0.9713 (666s, 9 epochs)
+
+=== (b) cv_fold1_swin_tiny_patch4_window7_224 === train=17280 test=4320
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 00 loss=0.3098 val_acc=0.9716 val_macroF1=0.9716
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 01 loss=0.1865 val_acc=0.9682 val_macroF1=0.9675
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 02 loss=0.1806 val_acc=0.9502 val_macroF1=0.9494
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 03 loss=0.1107 val_acc=0.9722 val_macroF1=0.9714
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 04 loss=0.0971 val_acc=0.9774 val_macroF1=0.9768
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 05 loss=0.0930 val_acc=0.9751 val_macroF1=0.9741
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 06 loss=0.0752 val_acc=0.9745 val_macroF1=0.9751
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 07 loss=0.0767 val_acc=0.9745 val_macroF1=0.9737
+  [cv_fold1_swin_tiny_patch4_window7_224] epoch 08 loss=0.0634 val_acc=0.9612 val_macroF1=0.9606
+  [cv_fold1_swin_tiny_patch4_window7_224] early stopping at epoch 8
+  [cv_fold1_swin_tiny_patch4_window7_224] DONE acc=0.9731 macroF1=0.9723 (671s, 9 epochs)
+
+=== (b) cv_fold2_swin_tiny_patch4_window7_224 === train=17279 test=4321
+  [cv_fold2_swin_tiny_patch4_window7_224] epoch 00 loss=0.2927 val_acc=0.9699 val_macroF1=0.9693
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold2_swin_tiny_patch4_window7_224] epoch 01 loss=0.1873 val_acc=0.9549 val_macroF1=0.9525
+  [cv_fold2_swin_tiny_patch4_window7_224] epoch 02 loss=0.1702 val_acc=0.9693 val_macroF1=0.9680
+  [cv_fold2_swin_tiny_patch4_window7_224] epoch 03 loss=0.1163 val_acc=0.9630 val_macroF1=0.9616
+  [cv_fold2_swin_tiny_patch4_window7_224] epoch 04 loss=0.0873 val_acc=0.9664 val_macroF1=0.9653
+  [cv_fold2_swin_tiny_patch4_window7_224] early stopping at epoch 4
+  [cv_fold2_swin_tiny_patch4_window7_224] DONE acc=0.9708 macroF1=0.9702 (395s, 5 epochs)
+
+=== (b) cv_fold3_swin_tiny_patch4_window7_224 === train=17280 test=4320
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 00 loss=0.2874 val_acc=0.9740 val_macroF1=0.9733
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 01 loss=0.1863 val_acc=0.9757 val_macroF1=0.9754
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 02 loss=0.1721 val_acc=0.9410 val_macroF1=0.9416
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 03 loss=0.1226 val_acc=0.9763 val_macroF1=0.9761
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 04 loss=0.1055 val_acc=0.9705 val_macroF1=0.9706
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 05 loss=0.0799 val_acc=0.9664 val_macroF1=0.9657
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 06 loss=0.0844 val_acc=0.9676 val_macroF1=0.9660
+  [cv_fold3_swin_tiny_patch4_window7_224] epoch 07 loss=0.0754 val_acc=0.9745 val_macroF1=0.9741
+  [cv_fold3_swin_tiny_patch4_window7_224] early stopping at epoch 7
+  [cv_fold3_swin_tiny_patch4_window7_224] DONE acc=0.9762 macroF1=0.9756 (614s, 8 epochs)
+
+=== (b) cv_fold4_swin_tiny_patch4_window7_224 === train=17281 test=4319
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 00 loss=0.2992 val_acc=0.9711 val_macroF1=0.9718
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 01 loss=0.1911 val_acc=0.9699 val_macroF1=0.9687
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 02 loss=0.1770 val_acc=0.9572 val_macroF1=0.9575
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 03 loss=0.1097 val_acc=0.9445 val_macroF1=0.9446
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 04 loss=0.0956 val_acc=0.9769 val_macroF1=0.9761
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 05 loss=0.0854 val_acc=0.9433 val_macroF1=0.9458
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 06 loss=0.0861 val_acc=0.9821 val_macroF1=0.9811
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 07 loss=0.0695 val_acc=0.9757 val_macroF1=0.9753
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 08 loss=0.0661 val_acc=0.9636 val_macroF1=0.9637
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 09 loss=0.0618 val_acc=0.9832 val_macroF1=0.9830
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 10 loss=0.0535 val_acc=0.9815 val_macroF1=0.9808
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 11 loss=0.0508 val_acc=0.9861 val_macroF1=0.9858
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 12 loss=0.0427 val_acc=0.9826 val_macroF1=0.9819
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 13 loss=0.0252 val_acc=0.9809 val_macroF1=0.9803
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 14 loss=0.0260 val_acc=0.9844 val_macroF1=0.9836
+  [cv_fold4_swin_tiny_patch4_window7_224] epoch 15 loss=0.0220 val_acc=0.9832 val_macroF1=0.9833
+  [cv_fold4_swin_tiny_patch4_window7_224] early stopping at epoch 15
+  [cv_fold4_swin_tiny_patch4_window7_224] DONE acc=0.9808 macroF1=0.9801 (1196s, 16 epochs)
+
+=== (c) RESISC45_fold0_compactcnn === train=25200 test=6300
+  [RESISC45_fold0_compactcnn] epoch 00 loss=2.6861 val_acc=0.4373 val_macroF1=0.4103
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold0_compactcnn] epoch 01 loss=2.1223 val_acc=0.4349 val_macroF1=0.4243
+  [RESISC45_fold0_compactcnn] epoch 02 loss=1.7741 val_acc=0.4917 val_macroF1=0.4707
+  [RESISC45_fold0_compactcnn] epoch 03 loss=1.4820 val_acc=0.5746 val_macroF1=0.5789
+  [RESISC45_fold0_compactcnn] epoch 04 loss=1.3002 val_acc=0.6179 val_macroF1=0.6150
+  [RESISC45_fold0_compactcnn] epoch 05 loss=1.1683 val_acc=0.6218 val_macroF1=0.6181
+  [RESISC45_fold0_compactcnn] epoch 06 loss=1.0592 val_acc=0.6548 val_macroF1=0.6509
+  [RESISC45_fold0_compactcnn] epoch 07 loss=0.9557 val_acc=0.7107 val_macroF1=0.7079
+  [RESISC45_fold0_compactcnn] epoch 08 loss=0.8661 val_acc=0.7571 val_macroF1=0.7588
+  [RESISC45_fold0_compactcnn] epoch 09 loss=0.8049 val_acc=0.7754 val_macroF1=0.7783
+  [RESISC45_fold0_compactcnn] epoch 10 loss=0.7396 val_acc=0.7643 val_macroF1=0.7652
+  [RESISC45_fold0_compactcnn] epoch 11 loss=0.6847 val_acc=0.7651 val_macroF1=0.7692
+  [RESISC45_fold0_compactcnn] epoch 12 loss=0.6356 val_acc=0.8012 val_macroF1=0.8006
+  [RESISC45_fold0_compactcnn] epoch 13 loss=0.5838 val_acc=0.7794 val_macroF1=0.7843
+  [RESISC45_fold0_compactcnn] epoch 14 loss=0.5556 val_acc=0.8167 val_macroF1=0.8148
+  [RESISC45_fold0_compactcnn] epoch 15 loss=0.5072 val_acc=0.8155 val_macroF1=0.8173
+  [RESISC45_fold0_compactcnn] epoch 16 loss=0.4817 val_acc=0.8329 val_macroF1=0.8317
+  [RESISC45_fold0_compactcnn] epoch 17 loss=0.4475 val_acc=0.8397 val_macroF1=0.8417
+  [RESISC45_fold0_compactcnn] epoch 18 loss=0.4162 val_acc=0.8524 val_macroF1=0.8557
+  [RESISC45_fold0_compactcnn] epoch 19 loss=0.3874 val_acc=0.8651 val_macroF1=0.8654
+  [RESISC45_fold0_compactcnn] epoch 20 loss=0.3725 val_acc=0.8579 val_macroF1=0.8597
+  [RESISC45_fold0_compactcnn] epoch 21 loss=0.3383 val_acc=0.8742 val_macroF1=0.8759
+  [RESISC45_fold0_compactcnn] epoch 22 loss=0.3232 val_acc=0.8738 val_macroF1=0.8761
+  [RESISC45_fold0_compactcnn] epoch 23 loss=0.2986 val_acc=0.8750 val_macroF1=0.8763
+  [RESISC45_fold0_compactcnn] epoch 24 loss=0.2768 val_acc=0.8897 val_macroF1=0.8913
+  [RESISC45_fold0_compactcnn] epoch 25 loss=0.2564 val_acc=0.8885 val_macroF1=0.8900
+  [RESISC45_fold0_compactcnn] epoch 26 loss=0.2422 val_acc=0.8893 val_macroF1=0.8903
+  [RESISC45_fold0_compactcnn] epoch 27 loss=0.2287 val_acc=0.9044 val_macroF1=0.9056
+  [RESISC45_fold0_compactcnn] epoch 28 loss=0.2218 val_acc=0.9024 val_macroF1=0.9038
+  [RESISC45_fold0_compactcnn] epoch 29 loss=0.2081 val_acc=0.9012 val_macroF1=0.9023
+  [RESISC45_fold0_compactcnn] epoch 30 loss=0.1968 val_acc=0.9111 val_macroF1=0.9120
+  [RESISC45_fold0_compactcnn] epoch 31 loss=0.1931 val_acc=0.9083 val_macroF1=0.9096
+  [RESISC45_fold0_compactcnn] epoch 32 loss=0.1889 val_acc=0.9087 val_macroF1=0.9102
+  [RESISC45_fold0_compactcnn] epoch 33 loss=0.1808 val_acc=0.9063 val_macroF1=0.9078
+  [RESISC45_fold0_compactcnn] epoch 34 loss=0.1817 val_acc=0.9067 val_macroF1=0.9082
+  [RESISC45_fold0_compactcnn] DONE acc=0.9014 macroF1=0.9011 (842s, 35 epochs)
+
+=== (c) RESISC45_fold1_compactcnn === train=25200 test=6300
+  [RESISC45_fold1_compactcnn] epoch 00 loss=2.6762 val_acc=0.3983 val_macroF1=0.3676
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold1_compactcnn] epoch 01 loss=2.1142 val_acc=0.4526 val_macroF1=0.4255
+  [RESISC45_fold1_compactcnn] epoch 02 loss=1.7616 val_acc=0.5101 val_macroF1=0.5152
+  [RESISC45_fold1_compactcnn] epoch 03 loss=1.4748 val_acc=0.5478 val_macroF1=0.5371
+  [RESISC45_fold1_compactcnn] epoch 04 loss=1.2889 val_acc=0.5815 val_macroF1=0.5753
+  [RESISC45_fold1_compactcnn] epoch 05 loss=1.1484 val_acc=0.5668 val_macroF1=0.5540
+  [RESISC45_fold1_compactcnn] epoch 06 loss=1.0556 val_acc=0.6843 val_macroF1=0.6759
+  [RESISC45_fold1_compactcnn] epoch 07 loss=0.9567 val_acc=0.6882 val_macroF1=0.6856
+  [RESISC45_fold1_compactcnn] epoch 08 loss=0.8623 val_acc=0.6981 val_macroF1=0.7001
+  [RESISC45_fold1_compactcnn] epoch 09 loss=0.8087 val_acc=0.7560 val_macroF1=0.7522
+  [RESISC45_fold1_compactcnn] epoch 10 loss=0.7378 val_acc=0.7557 val_macroF1=0.7551
+  [RESISC45_fold1_compactcnn] epoch 11 loss=0.6662 val_acc=0.7660 val_macroF1=0.7637
+  [RESISC45_fold1_compactcnn] epoch 12 loss=0.6236 val_acc=0.8036 val_macroF1=0.8023
+  [RESISC45_fold1_compactcnn] epoch 13 loss=0.5902 val_acc=0.8112 val_macroF1=0.8117
+  [RESISC45_fold1_compactcnn] epoch 14 loss=0.5490 val_acc=0.8310 val_macroF1=0.8296
+  [RESISC45_fold1_compactcnn] epoch 15 loss=0.5161 val_acc=0.8171 val_macroF1=0.8148
+  [RESISC45_fold1_compactcnn] epoch 16 loss=0.4845 val_acc=0.8485 val_macroF1=0.8477
+  [RESISC45_fold1_compactcnn] epoch 17 loss=0.4415 val_acc=0.8397 val_macroF1=0.8395
+  [RESISC45_fold1_compactcnn] epoch 18 loss=0.4217 val_acc=0.8572 val_macroF1=0.8569
+  [RESISC45_fold1_compactcnn] epoch 19 loss=0.3948 val_acc=0.8683 val_macroF1=0.8684
+  [RESISC45_fold1_compactcnn] epoch 20 loss=0.3655 val_acc=0.8711 val_macroF1=0.8695
+  [RESISC45_fold1_compactcnn] epoch 21 loss=0.3382 val_acc=0.8675 val_macroF1=0.8672
+  [RESISC45_fold1_compactcnn] epoch 22 loss=0.3210 val_acc=0.8838 val_macroF1=0.8841
+  [RESISC45_fold1_compactcnn] epoch 23 loss=0.3027 val_acc=0.8869 val_macroF1=0.8864
+  [RESISC45_fold1_compactcnn] epoch 24 loss=0.2726 val_acc=0.8961 val_macroF1=0.8955
+  [RESISC45_fold1_compactcnn] epoch 25 loss=0.2645 val_acc=0.8969 val_macroF1=0.8964
+  [RESISC45_fold1_compactcnn] epoch 26 loss=0.2465 val_acc=0.9004 val_macroF1=0.9004
+  [RESISC45_fold1_compactcnn] epoch 27 loss=0.2299 val_acc=0.8961 val_macroF1=0.8956
+  [RESISC45_fold1_compactcnn] epoch 28 loss=0.2197 val_acc=0.9040 val_macroF1=0.9029
+  [RESISC45_fold1_compactcnn] epoch 29 loss=0.2052 val_acc=0.9072 val_macroF1=0.9067
+  [RESISC45_fold1_compactcnn] epoch 30 loss=0.2016 val_acc=0.9092 val_macroF1=0.9086
+  [RESISC45_fold1_compactcnn] epoch 31 loss=0.1949 val_acc=0.9088 val_macroF1=0.9078
+  [RESISC45_fold1_compactcnn] epoch 32 loss=0.1886 val_acc=0.9084 val_macroF1=0.9079
+  [RESISC45_fold1_compactcnn] epoch 33 loss=0.1893 val_acc=0.9040 val_macroF1=0.9032
+  [RESISC45_fold1_compactcnn] epoch 34 loss=0.1841 val_acc=0.9092 val_macroF1=0.9087
+  [RESISC45_fold1_compactcnn] DONE acc=0.9048 macroF1=0.9051 (681s, 35 epochs)
+
+=== (c) RESISC45_fold2_compactcnn === train=25198 test=6302
+  [RESISC45_fold2_compactcnn] epoch 00 loss=2.6837 val_acc=0.4063 val_macroF1=0.3780
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold2_compactcnn] epoch 01 loss=2.1072 val_acc=0.4806 val_macroF1=0.4579
+  [RESISC45_fold2_compactcnn] epoch 02 loss=1.7662 val_acc=0.5147 val_macroF1=0.5102
+  [RESISC45_fold2_compactcnn] epoch 03 loss=1.4957 val_acc=0.5817 val_macroF1=0.5734
+  [RESISC45_fold2_compactcnn] epoch 04 loss=1.3008 val_acc=0.6111 val_macroF1=0.6002
+  [RESISC45_fold2_compactcnn] epoch 05 loss=1.1752 val_acc=0.6167 val_macroF1=0.6104
+  [RESISC45_fold2_compactcnn] epoch 06 loss=1.0542 val_acc=0.7222 val_macroF1=0.7178
+  [RESISC45_fold2_compactcnn] epoch 07 loss=0.9622 val_acc=0.6587 val_macroF1=0.6628
+  [RESISC45_fold2_compactcnn] epoch 08 loss=0.8814 val_acc=0.7187 val_macroF1=0.7138
+  [RESISC45_fold2_compactcnn] epoch 09 loss=0.8050 val_acc=0.7202 val_macroF1=0.7186
+  [RESISC45_fold2_compactcnn] epoch 10 loss=0.7424 val_acc=0.7484 val_macroF1=0.7456
+  [RESISC45_fold2_compactcnn] epoch 11 loss=0.6959 val_acc=0.7710 val_macroF1=0.7688
+  [RESISC45_fold2_compactcnn] epoch 12 loss=0.6395 val_acc=0.7671 val_macroF1=0.7654
+  [RESISC45_fold2_compactcnn] epoch 13 loss=0.6088 val_acc=0.8099 val_macroF1=0.8081
+  [RESISC45_fold2_compactcnn] epoch 14 loss=0.5548 val_acc=0.8052 val_macroF1=0.8035
+  [RESISC45_fold2_compactcnn] epoch 15 loss=0.5224 val_acc=0.8214 val_macroF1=0.8203
+  [RESISC45_fold2_compactcnn] epoch 16 loss=0.4865 val_acc=0.8306 val_macroF1=0.8255
+  [RESISC45_fold2_compactcnn] epoch 17 loss=0.4571 val_acc=0.8472 val_macroF1=0.8463
+  [RESISC45_fold2_compactcnn] epoch 18 loss=0.4251 val_acc=0.8528 val_macroF1=0.8494
+  [RESISC45_fold2_compactcnn] epoch 19 loss=0.3986 val_acc=0.8603 val_macroF1=0.8598
+  [RESISC45_fold2_compactcnn] epoch 20 loss=0.3703 val_acc=0.8468 val_macroF1=0.8449
+  [RESISC45_fold2_compactcnn] epoch 21 loss=0.3475 val_acc=0.8762 val_macroF1=0.8750
+  [RESISC45_fold2_compactcnn] epoch 22 loss=0.3225 val_acc=0.8778 val_macroF1=0.8781
+  [RESISC45_fold2_compactcnn] epoch 23 loss=0.3028 val_acc=0.8794 val_macroF1=0.8775
+  [RESISC45_fold2_compactcnn] epoch 24 loss=0.2837 val_acc=0.8897 val_macroF1=0.8896
+  [RESISC45_fold2_compactcnn] epoch 25 loss=0.2652 val_acc=0.8905 val_macroF1=0.8894
+  [RESISC45_fold2_compactcnn] epoch 26 loss=0.2475 val_acc=0.8929 val_macroF1=0.8919
+  [RESISC45_fold2_compactcnn] epoch 27 loss=0.2334 val_acc=0.9024 val_macroF1=0.9011
+  [RESISC45_fold2_compactcnn] epoch 28 loss=0.2195 val_acc=0.9048 val_macroF1=0.9035
+  [RESISC45_fold2_compactcnn] epoch 29 loss=0.2118 val_acc=0.9012 val_macroF1=0.9007
+  [RESISC45_fold2_compactcnn] epoch 30 loss=0.2042 val_acc=0.9056 val_macroF1=0.9046
+  [RESISC45_fold2_compactcnn] epoch 31 loss=0.1953 val_acc=0.9063 val_macroF1=0.9058
+  [RESISC45_fold2_compactcnn] epoch 32 loss=0.1907 val_acc=0.9060 val_macroF1=0.9048
+  [RESISC45_fold2_compactcnn] epoch 33 loss=0.1877 val_acc=0.9063 val_macroF1=0.9054
+  [RESISC45_fold2_compactcnn] epoch 34 loss=0.1863 val_acc=0.9063 val_macroF1=0.9052
+  [RESISC45_fold2_compactcnn] DONE acc=0.9084 macroF1=0.9086 (669s, 35 epochs)
+
+=== (c) RESISC45_fold3_compactcnn === train=25202 test=6298
+  [RESISC45_fold3_compactcnn] epoch 00 loss=2.6892 val_acc=0.4046 val_macroF1=0.3834
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold3_compactcnn] epoch 01 loss=2.1024 val_acc=0.4701 val_macroF1=0.4520
+  [RESISC45_fold3_compactcnn] epoch 02 loss=1.7782 val_acc=0.5351 val_macroF1=0.5148
+  [RESISC45_fold3_compactcnn] epoch 03 loss=1.4750 val_acc=0.5649 val_macroF1=0.5460
+  [RESISC45_fold3_compactcnn] epoch 04 loss=1.2980 val_acc=0.6212 val_macroF1=0.6083
+  [RESISC45_fold3_compactcnn] epoch 05 loss=1.1650 val_acc=0.6775 val_macroF1=0.6657
+  [RESISC45_fold3_compactcnn] epoch 06 loss=1.0492 val_acc=0.6486 val_macroF1=0.6379
+  [RESISC45_fold3_compactcnn] epoch 07 loss=0.9566 val_acc=0.6735 val_macroF1=0.6544
+  [RESISC45_fold3_compactcnn] epoch 08 loss=0.8851 val_acc=0.6874 val_macroF1=0.6811
+  [RESISC45_fold3_compactcnn] epoch 09 loss=0.8012 val_acc=0.7311 val_macroF1=0.7245
+  [RESISC45_fold3_compactcnn] epoch 10 loss=0.7522 val_acc=0.7695 val_macroF1=0.7617
+  [RESISC45_fold3_compactcnn] epoch 11 loss=0.6917 val_acc=0.7461 val_macroF1=0.7447
+  [RESISC45_fold3_compactcnn] epoch 12 loss=0.6416 val_acc=0.8044 val_macroF1=0.7992
+  [RESISC45_fold3_compactcnn] epoch 13 loss=0.5913 val_acc=0.7814 val_macroF1=0.7754
+  [RESISC45_fold3_compactcnn] epoch 14 loss=0.5543 val_acc=0.8005 val_macroF1=0.7946
+  [RESISC45_fold3_compactcnn] epoch 15 loss=0.5195 val_acc=0.8231 val_macroF1=0.8190
+  [RESISC45_fold3_compactcnn] epoch 16 loss=0.4862 val_acc=0.8203 val_macroF1=0.8179
+  [RESISC45_fold3_compactcnn] epoch 17 loss=0.4525 val_acc=0.8346 val_macroF1=0.8316
+  [RESISC45_fold3_compactcnn] epoch 18 loss=0.4235 val_acc=0.8532 val_macroF1=0.8491
+  [RESISC45_fold3_compactcnn] epoch 19 loss=0.3960 val_acc=0.8675 val_macroF1=0.8651
+  [RESISC45_fold3_compactcnn] epoch 20 loss=0.3776 val_acc=0.8663 val_macroF1=0.8637
+  [RESISC45_fold3_compactcnn] epoch 21 loss=0.3425 val_acc=0.8786 val_macroF1=0.8768
+  [RESISC45_fold3_compactcnn] epoch 22 loss=0.3252 val_acc=0.8719 val_macroF1=0.8695
+  [RESISC45_fold3_compactcnn] epoch 23 loss=0.3053 val_acc=0.8862 val_macroF1=0.8834
+  [RESISC45_fold3_compactcnn] epoch 24 loss=0.2885 val_acc=0.8885 val_macroF1=0.8867
+  [RESISC45_fold3_compactcnn] epoch 25 loss=0.2672 val_acc=0.8905 val_macroF1=0.8875
+  [RESISC45_fold3_compactcnn] epoch 26 loss=0.2517 val_acc=0.9004 val_macroF1=0.8982
+  [RESISC45_fold3_compactcnn] epoch 27 loss=0.2371 val_acc=0.9056 val_macroF1=0.9042
+  [RESISC45_fold3_compactcnn] epoch 28 loss=0.2249 val_acc=0.9032 val_macroF1=0.9017
+  [RESISC45_fold3_compactcnn] epoch 29 loss=0.2131 val_acc=0.9036 val_macroF1=0.9022
+  [RESISC45_fold3_compactcnn] epoch 30 loss=0.2030 val_acc=0.9131 val_macroF1=0.9112
+  [RESISC45_fold3_compactcnn] epoch 31 loss=0.1967 val_acc=0.9107 val_macroF1=0.9091
+  [RESISC45_fold3_compactcnn] epoch 32 loss=0.1924 val_acc=0.9115 val_macroF1=0.9101
+  [RESISC45_fold3_compactcnn] epoch 33 loss=0.1900 val_acc=0.9135 val_macroF1=0.9118
+  [RESISC45_fold3_compactcnn] epoch 34 loss=0.1867 val_acc=0.9119 val_macroF1=0.9104
+  [RESISC45_fold3_compactcnn] DONE acc=0.9092 macroF1=0.9087 (666s, 35 epochs)
+
+=== (c) RESISC45_fold4_compactcnn === train=25200 test=6300
+  [RESISC45_fold4_compactcnn] epoch 00 loss=2.6934 val_acc=0.4111 val_macroF1=0.3806
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold4_compactcnn] epoch 01 loss=2.1198 val_acc=0.4619 val_macroF1=0.4504
+  [RESISC45_fold4_compactcnn] epoch 02 loss=1.7742 val_acc=0.5206 val_macroF1=0.5105
+  [RESISC45_fold4_compactcnn] epoch 03 loss=1.4786 val_acc=0.5706 val_macroF1=0.5731
+  [RESISC45_fold4_compactcnn] epoch 04 loss=1.3048 val_acc=0.5821 val_macroF1=0.5737
+  [RESISC45_fold4_compactcnn] epoch 05 loss=1.1588 val_acc=0.6317 val_macroF1=0.6220
+  [RESISC45_fold4_compactcnn] epoch 06 loss=1.0383 val_acc=0.7163 val_macroF1=0.7128
+  [RESISC45_fold4_compactcnn] epoch 07 loss=0.9447 val_acc=0.7417 val_macroF1=0.7410
+  [RESISC45_fold4_compactcnn] epoch 08 loss=0.8700 val_acc=0.7425 val_macroF1=0.7443
+  [RESISC45_fold4_compactcnn] epoch 09 loss=0.8098 val_acc=0.7571 val_macroF1=0.7593
+  [RESISC45_fold4_compactcnn] epoch 10 loss=0.7401 val_acc=0.7266 val_macroF1=0.7292
+  [RESISC45_fold4_compactcnn] epoch 11 loss=0.6812 val_acc=0.7790 val_macroF1=0.7794
+  [RESISC45_fold4_compactcnn] epoch 12 loss=0.6428 val_acc=0.7714 val_macroF1=0.7775
+  [RESISC45_fold4_compactcnn] epoch 13 loss=0.5919 val_acc=0.8250 val_macroF1=0.8262
+  [RESISC45_fold4_compactcnn] epoch 14 loss=0.5560 val_acc=0.8270 val_macroF1=0.8275
+  [RESISC45_fold4_compactcnn] epoch 15 loss=0.5249 val_acc=0.8282 val_macroF1=0.8297
+  [RESISC45_fold4_compactcnn] epoch 16 loss=0.4740 val_acc=0.8282 val_macroF1=0.8302
+  [RESISC45_fold4_compactcnn] epoch 17 loss=0.4502 val_acc=0.8488 val_macroF1=0.8505
+  [RESISC45_fold4_compactcnn] epoch 18 loss=0.4172 val_acc=0.8548 val_macroF1=0.8545
+  [RESISC45_fold4_compactcnn] epoch 19 loss=0.3942 val_acc=0.8579 val_macroF1=0.8594
+  [RESISC45_fold4_compactcnn] epoch 20 loss=0.3630 val_acc=0.8706 val_macroF1=0.8724
+  [RESISC45_fold4_compactcnn] epoch 21 loss=0.3431 val_acc=0.8794 val_macroF1=0.8804
+  [RESISC45_fold4_compactcnn] epoch 22 loss=0.3216 val_acc=0.8802 val_macroF1=0.8806
+  [RESISC45_fold4_compactcnn] epoch 23 loss=0.2983 val_acc=0.8881 val_macroF1=0.8895
+  [RESISC45_fold4_compactcnn] epoch 24 loss=0.2792 val_acc=0.8837 val_macroF1=0.8844
+  [RESISC45_fold4_compactcnn] epoch 25 loss=0.2658 val_acc=0.8956 val_macroF1=0.8968
+  [RESISC45_fold4_compactcnn] epoch 26 loss=0.2487 val_acc=0.8956 val_macroF1=0.8971
+  [RESISC45_fold4_compactcnn] epoch 27 loss=0.2287 val_acc=0.8956 val_macroF1=0.8963
+  [RESISC45_fold4_compactcnn] epoch 28 loss=0.2207 val_acc=0.9008 val_macroF1=0.9025
+  [RESISC45_fold4_compactcnn] epoch 29 loss=0.2118 val_acc=0.9000 val_macroF1=0.9004
+  [RESISC45_fold4_compactcnn] epoch 30 loss=0.2067 val_acc=0.9036 val_macroF1=0.9042
+  [RESISC45_fold4_compactcnn] epoch 31 loss=0.1990 val_acc=0.9052 val_macroF1=0.9059
+  [RESISC45_fold4_compactcnn] epoch 32 loss=0.1910 val_acc=0.9075 val_macroF1=0.9085
+  [RESISC45_fold4_compactcnn] epoch 33 loss=0.1913 val_acc=0.9040 val_macroF1=0.9046
+  [RESISC45_fold4_compactcnn] epoch 34 loss=0.1851 val_acc=0.9048 val_macroF1=0.9050
+  [RESISC45_fold4_compactcnn] DONE acc=0.9119 macroF1=0.9108 (667s, 35 epochs)
+
+=== (c) UCMerced_fold0_compactcnn === train=1680 test=420
+  [UCMerced_fold0_compactcnn] epoch 00 loss=2.5238 val_acc=0.0893 val_macroF1=0.0373
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold0_compactcnn] epoch 01 loss=1.9009 val_acc=0.3512 val_macroF1=0.3025
+  [UCMerced_fold0_compactcnn] epoch 02 loss=1.6939 val_acc=0.3929 val_macroF1=0.3593
+  [UCMerced_fold0_compactcnn] epoch 03 loss=1.4625 val_acc=0.4940 val_macroF1=0.4598
+  [UCMerced_fold0_compactcnn] epoch 04 loss=1.3157 val_acc=0.4702 val_macroF1=0.4449
+  [UCMerced_fold0_compactcnn] epoch 05 loss=1.2248 val_acc=0.4821 val_macroF1=0.4484
+  [UCMerced_fold0_compactcnn] epoch 06 loss=1.1070 val_acc=0.5298 val_macroF1=0.5334
+  [UCMerced_fold0_compactcnn] epoch 07 loss=0.9902 val_acc=0.6845 val_macroF1=0.6768
+  [UCMerced_fold0_compactcnn] epoch 08 loss=0.9242 val_acc=0.6548 val_macroF1=0.6672
+  [UCMerced_fold0_compactcnn] epoch 09 loss=0.8954 val_acc=0.6250 val_macroF1=0.6361
+  [UCMerced_fold0_compactcnn] epoch 10 loss=0.8308 val_acc=0.5893 val_macroF1=0.5933
+  [UCMerced_fold0_compactcnn] epoch 11 loss=0.7583 val_acc=0.7083 val_macroF1=0.6997
+  [UCMerced_fold0_compactcnn] epoch 12 loss=0.7071 val_acc=0.6726 val_macroF1=0.6787
+  [UCMerced_fold0_compactcnn] epoch 13 loss=0.6856 val_acc=0.7083 val_macroF1=0.7158
+  [UCMerced_fold0_compactcnn] epoch 14 loss=0.6149 val_acc=0.7857 val_macroF1=0.7882
+  [UCMerced_fold0_compactcnn] epoch 15 loss=0.5925 val_acc=0.7857 val_macroF1=0.7984
+  [UCMerced_fold0_compactcnn] epoch 16 loss=0.5524 val_acc=0.7679 val_macroF1=0.7803
+  [UCMerced_fold0_compactcnn] epoch 17 loss=0.4759 val_acc=0.8333 val_macroF1=0.8351
+  [UCMerced_fold0_compactcnn] epoch 18 loss=0.4634 val_acc=0.7917 val_macroF1=0.7792
+  [UCMerced_fold0_compactcnn] epoch 19 loss=0.4380 val_acc=0.7738 val_macroF1=0.7724
+  [UCMerced_fold0_compactcnn] epoch 20 loss=0.4315 val_acc=0.7500 val_macroF1=0.7747
+  [UCMerced_fold0_compactcnn] epoch 21 loss=0.3694 val_acc=0.8333 val_macroF1=0.8334
+  [UCMerced_fold0_compactcnn] epoch 22 loss=0.3399 val_acc=0.8571 val_macroF1=0.8670
+  [UCMerced_fold0_compactcnn] epoch 23 loss=0.3156 val_acc=0.8214 val_macroF1=0.8227
+  [UCMerced_fold0_compactcnn] epoch 24 loss=0.2950 val_acc=0.8333 val_macroF1=0.8401
+  [UCMerced_fold0_compactcnn] epoch 25 loss=0.2993 val_acc=0.8571 val_macroF1=0.8652
+  [UCMerced_fold0_compactcnn] epoch 26 loss=0.2638 val_acc=0.8631 val_macroF1=0.8772
+  [UCMerced_fold0_compactcnn] epoch 27 loss=0.2621 val_acc=0.8571 val_macroF1=0.8579
+  [UCMerced_fold0_compactcnn] epoch 28 loss=0.2359 val_acc=0.8750 val_macroF1=0.8817
+  [UCMerced_fold0_compactcnn] epoch 29 loss=0.2238 val_acc=0.8929 val_macroF1=0.8961
+  [UCMerced_fold0_compactcnn] epoch 30 loss=0.2080 val_acc=0.8810 val_macroF1=0.8844
+  [UCMerced_fold0_compactcnn] epoch 31 loss=0.2057 val_acc=0.8810 val_macroF1=0.8853
+  [UCMerced_fold0_compactcnn] epoch 32 loss=0.2044 val_acc=0.8869 val_macroF1=0.8913
+  [UCMerced_fold0_compactcnn] epoch 33 loss=0.1974 val_acc=0.8869 val_macroF1=0.8913
+  [UCMerced_fold0_compactcnn] epoch 34 loss=0.1893 val_acc=0.8869 val_macroF1=0.8913
+  [UCMerced_fold0_compactcnn] DONE acc=0.9048 macroF1=0.9006 (79s, 35 epochs)
+
+=== (c) UCMerced_fold1_compactcnn === train=1680 test=420
+  [UCMerced_fold1_compactcnn] epoch 00 loss=2.5370 val_acc=0.0952 val_macroF1=0.0316
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold1_compactcnn] epoch 01 loss=1.9593 val_acc=0.4524 val_macroF1=0.3689
+  [UCMerced_fold1_compactcnn] epoch 02 loss=1.7018 val_acc=0.3452 val_macroF1=0.2220
+  [UCMerced_fold1_compactcnn] epoch 03 loss=1.4237 val_acc=0.5298 val_macroF1=0.4296
+  [UCMerced_fold1_compactcnn] epoch 04 loss=1.3161 val_acc=0.5476 val_macroF1=0.4589
+  [UCMerced_fold1_compactcnn] epoch 05 loss=1.1954 val_acc=0.6190 val_macroF1=0.5656
+  [UCMerced_fold1_compactcnn] epoch 06 loss=1.0927 val_acc=0.6548 val_macroF1=0.5826
+  [UCMerced_fold1_compactcnn] epoch 07 loss=1.0111 val_acc=0.6726 val_macroF1=0.5809
+  [UCMerced_fold1_compactcnn] epoch 08 loss=0.9146 val_acc=0.5952 val_macroF1=0.5338
+  [UCMerced_fold1_compactcnn] epoch 09 loss=0.8940 val_acc=0.6845 val_macroF1=0.6345
+  [UCMerced_fold1_compactcnn] epoch 10 loss=0.8196 val_acc=0.8214 val_macroF1=0.8011
+  [UCMerced_fold1_compactcnn] epoch 11 loss=0.7630 val_acc=0.7440 val_macroF1=0.6930
+  [UCMerced_fold1_compactcnn] epoch 12 loss=0.6710 val_acc=0.7798 val_macroF1=0.7288
+  [UCMerced_fold1_compactcnn] epoch 13 loss=0.6750 val_acc=0.7738 val_macroF1=0.7370
+  [UCMerced_fold1_compactcnn] epoch 14 loss=0.6127 val_acc=0.7619 val_macroF1=0.7409
+  [UCMerced_fold1_compactcnn] epoch 15 loss=0.5502 val_acc=0.7857 val_macroF1=0.7632
+  [UCMerced_fold1_compactcnn] epoch 16 loss=0.5297 val_acc=0.8036 val_macroF1=0.7871
+  [UCMerced_fold1_compactcnn] early stopping at epoch 16
+  [UCMerced_fold1_compactcnn] DONE acc=0.7071 macroF1=0.7057 (52s, 17 epochs)
+
+=== (c) UCMerced_fold2_compactcnn === train=1680 test=420
+  [UCMerced_fold2_compactcnn] epoch 00 loss=2.5167 val_acc=0.0714 val_macroF1=0.0273
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold2_compactcnn] epoch 01 loss=1.8787 val_acc=0.4345 val_macroF1=0.3595
+  [UCMerced_fold2_compactcnn] epoch 02 loss=1.6354 val_acc=0.4583 val_macroF1=0.3560
+  [UCMerced_fold2_compactcnn] epoch 03 loss=1.4496 val_acc=0.4405 val_macroF1=0.3255
+  [UCMerced_fold2_compactcnn] epoch 04 loss=1.3166 val_acc=0.4702 val_macroF1=0.3868
+  [UCMerced_fold2_compactcnn] epoch 05 loss=1.2432 val_acc=0.5357 val_macroF1=0.4442
+  [UCMerced_fold2_compactcnn] epoch 06 loss=1.1431 val_acc=0.6488 val_macroF1=0.5973
+  [UCMerced_fold2_compactcnn] epoch 07 loss=1.0556 val_acc=0.6905 val_macroF1=0.6259
+  [UCMerced_fold2_compactcnn] epoch 08 loss=0.9621 val_acc=0.6786 val_macroF1=0.6202
+  [UCMerced_fold2_compactcnn] epoch 09 loss=0.8793 val_acc=0.6964 val_macroF1=0.6567
+  [UCMerced_fold2_compactcnn] epoch 10 loss=0.7610 val_acc=0.6310 val_macroF1=0.5749
+  [UCMerced_fold2_compactcnn] epoch 11 loss=0.7142 val_acc=0.7857 val_macroF1=0.7548
+  [UCMerced_fold2_compactcnn] epoch 12 loss=0.6739 val_acc=0.6429 val_macroF1=0.6096
+  [UCMerced_fold2_compactcnn] epoch 13 loss=0.6427 val_acc=0.7440 val_macroF1=0.7192
+  [UCMerced_fold2_compactcnn] epoch 14 loss=0.5848 val_acc=0.8333 val_macroF1=0.8084
+  [UCMerced_fold2_compactcnn] epoch 15 loss=0.5479 val_acc=0.7857 val_macroF1=0.7593
+  [UCMerced_fold2_compactcnn] epoch 16 loss=0.4853 val_acc=0.7917 val_macroF1=0.7527
+  [UCMerced_fold2_compactcnn] epoch 17 loss=0.4704 val_acc=0.7738 val_macroF1=0.7334
+  [UCMerced_fold2_compactcnn] epoch 18 loss=0.4708 val_acc=0.8095 val_macroF1=0.7823
+  [UCMerced_fold2_compactcnn] epoch 19 loss=0.4337 val_acc=0.8095 val_macroF1=0.7797
+  [UCMerced_fold2_compactcnn] epoch 20 loss=0.3930 val_acc=0.8333 val_macroF1=0.8056
+  [UCMerced_fold2_compactcnn] early stopping at epoch 20
+  [UCMerced_fold2_compactcnn] DONE acc=0.7595 macroF1=0.7559 (57s, 21 epochs)
+
+=== (c) UCMerced_fold3_compactcnn === train=1680 test=420
+  [UCMerced_fold3_compactcnn] epoch 00 loss=2.5606 val_acc=0.0833 val_macroF1=0.0192
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold3_compactcnn] epoch 01 loss=1.9278 val_acc=0.3750 val_macroF1=0.2791
+  [UCMerced_fold3_compactcnn] epoch 02 loss=1.6288 val_acc=0.3869 val_macroF1=0.3251
+  [UCMerced_fold3_compactcnn] epoch 03 loss=1.4353 val_acc=0.4583 val_macroF1=0.3799
+  [UCMerced_fold3_compactcnn] epoch 04 loss=1.2991 val_acc=0.4226 val_macroF1=0.3918
+  [UCMerced_fold3_compactcnn] epoch 05 loss=1.2224 val_acc=0.4821 val_macroF1=0.4258
+  [UCMerced_fold3_compactcnn] epoch 06 loss=1.0738 val_acc=0.6250 val_macroF1=0.5840
+  [UCMerced_fold3_compactcnn] epoch 07 loss=0.9710 val_acc=0.6190 val_macroF1=0.5757
+  [UCMerced_fold3_compactcnn] epoch 08 loss=0.9047 val_acc=0.5595 val_macroF1=0.5483
+  [UCMerced_fold3_compactcnn] epoch 09 loss=0.8675 val_acc=0.7143 val_macroF1=0.7006
+  [UCMerced_fold3_compactcnn] epoch 10 loss=0.7849 val_acc=0.6131 val_macroF1=0.5825
+  [UCMerced_fold3_compactcnn] epoch 11 loss=0.7213 val_acc=0.7262 val_macroF1=0.7051
+  [UCMerced_fold3_compactcnn] epoch 12 loss=0.6703 val_acc=0.7262 val_macroF1=0.7000
+  [UCMerced_fold3_compactcnn] epoch 13 loss=0.6173 val_acc=0.6786 val_macroF1=0.6679
+  [UCMerced_fold3_compactcnn] epoch 14 loss=0.5446 val_acc=0.7262 val_macroF1=0.7219
+  [UCMerced_fold3_compactcnn] epoch 15 loss=0.5399 val_acc=0.7976 val_macroF1=0.7868
+  [UCMerced_fold3_compactcnn] epoch 16 loss=0.4962 val_acc=0.7560 val_macroF1=0.7374
+  [UCMerced_fold3_compactcnn] epoch 17 loss=0.4328 val_acc=0.8214 val_macroF1=0.8176
+  [UCMerced_fold3_compactcnn] epoch 18 loss=0.4546 val_acc=0.7976 val_macroF1=0.7849
+  [UCMerced_fold3_compactcnn] epoch 19 loss=0.3852 val_acc=0.8631 val_macroF1=0.8534
+  [UCMerced_fold3_compactcnn] epoch 20 loss=0.3904 val_acc=0.8333 val_macroF1=0.8211
+  [UCMerced_fold3_compactcnn] epoch 21 loss=0.3672 val_acc=0.8214 val_macroF1=0.8001
+  [UCMerced_fold3_compactcnn] epoch 22 loss=0.3134 val_acc=0.8810 val_macroF1=0.8703
+  [UCMerced_fold3_compactcnn] epoch 23 loss=0.2685 val_acc=0.8631 val_macroF1=0.8513
+  [UCMerced_fold3_compactcnn] epoch 24 loss=0.2578 val_acc=0.8988 val_macroF1=0.8968
+  [UCMerced_fold3_compactcnn] epoch 25 loss=0.2545 val_acc=0.8869 val_macroF1=0.8763
+  [UCMerced_fold3_compactcnn] epoch 26 loss=0.2191 val_acc=0.8988 val_macroF1=0.8847
+  [UCMerced_fold3_compactcnn] epoch 27 loss=0.2245 val_acc=0.9107 val_macroF1=0.9101
+  [UCMerced_fold3_compactcnn] epoch 28 loss=0.1939 val_acc=0.9107 val_macroF1=0.9009
+  [UCMerced_fold3_compactcnn] epoch 29 loss=0.1769 val_acc=0.9167 val_macroF1=0.9144
+  [UCMerced_fold3_compactcnn] epoch 30 loss=0.1772 val_acc=0.9226 val_macroF1=0.9148
+  [UCMerced_fold3_compactcnn] epoch 31 loss=0.1799 val_acc=0.9345 val_macroF1=0.9305
+  [UCMerced_fold3_compactcnn] epoch 32 loss=0.1700 val_acc=0.9286 val_macroF1=0.9243
+  [UCMerced_fold3_compactcnn] epoch 33 loss=0.1708 val_acc=0.9286 val_macroF1=0.9256
+  [UCMerced_fold3_compactcnn] epoch 34 loss=0.1648 val_acc=0.9286 val_macroF1=0.9249
+  [UCMerced_fold3_compactcnn] DONE acc=0.8952 macroF1=0.8926 (76s, 35 epochs)
+
+=== (c) UCMerced_fold4_compactcnn === train=1680 test=420
+  [UCMerced_fold4_compactcnn] epoch 00 loss=2.5407 val_acc=0.1250 val_macroF1=0.0330
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold4_compactcnn] epoch 01 loss=1.9116 val_acc=0.3512 val_macroF1=0.3123
+  [UCMerced_fold4_compactcnn] epoch 02 loss=1.6279 val_acc=0.4286 val_macroF1=0.3408
+  [UCMerced_fold4_compactcnn] epoch 03 loss=1.4306 val_acc=0.4405 val_macroF1=0.3735
+  [UCMerced_fold4_compactcnn] epoch 04 loss=1.2778 val_acc=0.4643 val_macroF1=0.3934
+  [UCMerced_fold4_compactcnn] epoch 05 loss=1.2023 val_acc=0.5536 val_macroF1=0.5020
+  [UCMerced_fold4_compactcnn] epoch 06 loss=1.0527 val_acc=0.5238 val_macroF1=0.4862
+  [UCMerced_fold4_compactcnn] epoch 07 loss=0.9981 val_acc=0.4881 val_macroF1=0.4787
+  [UCMerced_fold4_compactcnn] epoch 08 loss=0.9389 val_acc=0.4524 val_macroF1=0.4551
+  [UCMerced_fold4_compactcnn] epoch 09 loss=0.8649 val_acc=0.6607 val_macroF1=0.6557
+  [UCMerced_fold4_compactcnn] epoch 10 loss=0.7428 val_acc=0.7083 val_macroF1=0.7063
+  [UCMerced_fold4_compactcnn] epoch 11 loss=0.7081 val_acc=0.7202 val_macroF1=0.6989
+  [UCMerced_fold4_compactcnn] epoch 12 loss=0.6857 val_acc=0.6726 val_macroF1=0.6672
+  [UCMerced_fold4_compactcnn] epoch 13 loss=0.7041 val_acc=0.7262 val_macroF1=0.7193
+  [UCMerced_fold4_compactcnn] epoch 14 loss=0.5875 val_acc=0.7024 val_macroF1=0.7031
+  [UCMerced_fold4_compactcnn] epoch 15 loss=0.5882 val_acc=0.7857 val_macroF1=0.7874
+  [UCMerced_fold4_compactcnn] epoch 16 loss=0.4991 val_acc=0.7500 val_macroF1=0.7506
+  [UCMerced_fold4_compactcnn] epoch 17 loss=0.4995 val_acc=0.7202 val_macroF1=0.7160
+  [UCMerced_fold4_compactcnn] epoch 18 loss=0.4759 val_acc=0.7917 val_macroF1=0.8007
+  [UCMerced_fold4_compactcnn] epoch 19 loss=0.4286 val_acc=0.8155 val_macroF1=0.8176
+  [UCMerced_fold4_compactcnn] epoch 20 loss=0.3966 val_acc=0.7619 val_macroF1=0.7496
+  [UCMerced_fold4_compactcnn] epoch 21 loss=0.4035 val_acc=0.8036 val_macroF1=0.7999
+  [UCMerced_fold4_compactcnn] epoch 22 loss=0.3355 val_acc=0.8393 val_macroF1=0.8400
+  [UCMerced_fold4_compactcnn] epoch 23 loss=0.2862 val_acc=0.8690 val_macroF1=0.8699
+  [UCMerced_fold4_compactcnn] epoch 24 loss=0.2677 val_acc=0.8750 val_macroF1=0.8770
+  [UCMerced_fold4_compactcnn] epoch 25 loss=0.2718 val_acc=0.8869 val_macroF1=0.8852
+  [UCMerced_fold4_compactcnn] epoch 26 loss=0.2372 val_acc=0.8810 val_macroF1=0.8752
+  [UCMerced_fold4_compactcnn] epoch 27 loss=0.2493 val_acc=0.9048 val_macroF1=0.9053
+  [UCMerced_fold4_compactcnn] epoch 28 loss=0.2113 val_acc=0.8988 val_macroF1=0.8955
+  [UCMerced_fold4_compactcnn] epoch 29 loss=0.2084 val_acc=0.9107 val_macroF1=0.9134
+  [UCMerced_fold4_compactcnn] epoch 30 loss=0.2097 val_acc=0.8988 val_macroF1=0.8965
+  [UCMerced_fold4_compactcnn] epoch 31 loss=0.2028 val_acc=0.8988 val_macroF1=0.8989
+  [UCMerced_fold4_compactcnn] epoch 32 loss=0.1949 val_acc=0.9048 val_macroF1=0.9068
+  [UCMerced_fold4_compactcnn] epoch 33 loss=0.1789 val_acc=0.8988 val_macroF1=0.9006
+  [UCMerced_fold4_compactcnn] epoch 34 loss=0.1797 val_acc=0.8929 val_macroF1=0.8935
+  [UCMerced_fold4_compactcnn] DONE acc=0.8643 macroF1=0.8659 (75s, 35 epochs)
+
+=== (c) AID_fold0_compactcnn === train=8000 test=2000
+  [AID_fold0_compactcnn] epoch 00 loss=2.4959 val_acc=0.4050 val_macroF1=0.3862
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold0_compactcnn] epoch 01 loss=2.0402 val_acc=0.4763 val_macroF1=0.4600
+  [AID_fold0_compactcnn] epoch 02 loss=1.7475 val_acc=0.3375 val_macroF1=0.3345
+  [AID_fold0_compactcnn] epoch 03 loss=1.4829 val_acc=0.4963 val_macroF1=0.4766
+  [AID_fold0_compactcnn] epoch 04 loss=1.3128 val_acc=0.5837 val_macroF1=0.5771
+  [AID_fold0_compactcnn] epoch 05 loss=1.1836 val_acc=0.5938 val_macroF1=0.5829
+  [AID_fold0_compactcnn] epoch 06 loss=1.0691 val_acc=0.5900 val_macroF1=0.5864
+  [AID_fold0_compactcnn] epoch 07 loss=1.0371 val_acc=0.6112 val_macroF1=0.5970
+  [AID_fold0_compactcnn] epoch 08 loss=0.9405 val_acc=0.6062 val_macroF1=0.6137
+  [AID_fold0_compactcnn] epoch 09 loss=0.8681 val_acc=0.6587 val_macroF1=0.6426
+  [AID_fold0_compactcnn] epoch 10 loss=0.8020 val_acc=0.7325 val_macroF1=0.7228
+  [AID_fold0_compactcnn] epoch 11 loss=0.7538 val_acc=0.7575 val_macroF1=0.7556
+  [AID_fold0_compactcnn] epoch 12 loss=0.7106 val_acc=0.7625 val_macroF1=0.7541
+  [AID_fold0_compactcnn] epoch 13 loss=0.6633 val_acc=0.7925 val_macroF1=0.7929
+  [AID_fold0_compactcnn] epoch 14 loss=0.6112 val_acc=0.7450 val_macroF1=0.7404
+  [AID_fold0_compactcnn] epoch 15 loss=0.5804 val_acc=0.7825 val_macroF1=0.7779
+  [AID_fold0_compactcnn] epoch 16 loss=0.5338 val_acc=0.8137 val_macroF1=0.8090
+  [AID_fold0_compactcnn] epoch 17 loss=0.5022 val_acc=0.8037 val_macroF1=0.8058
+  [AID_fold0_compactcnn] epoch 18 loss=0.4934 val_acc=0.8350 val_macroF1=0.8289
+  [AID_fold0_compactcnn] epoch 19 loss=0.4443 val_acc=0.8200 val_macroF1=0.8075
+  [AID_fold0_compactcnn] epoch 20 loss=0.4130 val_acc=0.7975 val_macroF1=0.8004
+  [AID_fold0_compactcnn] epoch 21 loss=0.3765 val_acc=0.8450 val_macroF1=0.8380
+  [AID_fold0_compactcnn] epoch 22 loss=0.3737 val_acc=0.8625 val_macroF1=0.8575
+  [AID_fold0_compactcnn] epoch 23 loss=0.3453 val_acc=0.8600 val_macroF1=0.8552
+  [AID_fold0_compactcnn] epoch 24 loss=0.3092 val_acc=0.8600 val_macroF1=0.8580
+  [AID_fold0_compactcnn] epoch 25 loss=0.2932 val_acc=0.8675 val_macroF1=0.8638
+  [AID_fold0_compactcnn] epoch 26 loss=0.2712 val_acc=0.8862 val_macroF1=0.8825
+  [AID_fold0_compactcnn] epoch 27 loss=0.2593 val_acc=0.8925 val_macroF1=0.8891
+  [AID_fold0_compactcnn] epoch 28 loss=0.2463 val_acc=0.8812 val_macroF1=0.8788
+  [AID_fold0_compactcnn] epoch 29 loss=0.2288 val_acc=0.8925 val_macroF1=0.8890
+  [AID_fold0_compactcnn] epoch 30 loss=0.2265 val_acc=0.8962 val_macroF1=0.8923
+  [AID_fold0_compactcnn] epoch 31 loss=0.2183 val_acc=0.8838 val_macroF1=0.8804
+  [AID_fold0_compactcnn] epoch 32 loss=0.2132 val_acc=0.8950 val_macroF1=0.8919
+  [AID_fold0_compactcnn] epoch 33 loss=0.2059 val_acc=0.8912 val_macroF1=0.8888
+  [AID_fold0_compactcnn] epoch 34 loss=0.2040 val_acc=0.8925 val_macroF1=0.8898
+  [AID_fold0_compactcnn] DONE acc=0.8835 macroF1=0.8793 (443s, 35 epochs)
+
+=== (c) AID_fold1_compactcnn === train=8000 test=2000
+  [AID_fold1_compactcnn] epoch 00 loss=2.5106 val_acc=0.4113 val_macroF1=0.3829
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold1_compactcnn] epoch 01 loss=2.0559 val_acc=0.5075 val_macroF1=0.5003
+  [AID_fold1_compactcnn] epoch 02 loss=1.7522 val_acc=0.5175 val_macroF1=0.5080
+  [AID_fold1_compactcnn] epoch 03 loss=1.4966 val_acc=0.5813 val_macroF1=0.5721
+  [AID_fold1_compactcnn] epoch 04 loss=1.3117 val_acc=0.6188 val_macroF1=0.6022
+  [AID_fold1_compactcnn] epoch 05 loss=1.2029 val_acc=0.6538 val_macroF1=0.6391
+  [AID_fold1_compactcnn] epoch 06 loss=1.0486 val_acc=0.6663 val_macroF1=0.6563
+  [AID_fold1_compactcnn] epoch 07 loss=0.9885 val_acc=0.6538 val_macroF1=0.6441
+  [AID_fold1_compactcnn] epoch 08 loss=0.9172 val_acc=0.7125 val_macroF1=0.7088
+  [AID_fold1_compactcnn] epoch 09 loss=0.8269 val_acc=0.6837 val_macroF1=0.6695
+  [AID_fold1_compactcnn] epoch 10 loss=0.8002 val_acc=0.6675 val_macroF1=0.6599
+  [AID_fold1_compactcnn] epoch 11 loss=0.7447 val_acc=0.6650 val_macroF1=0.6422
+  [AID_fold1_compactcnn] epoch 12 loss=0.6843 val_acc=0.7562 val_macroF1=0.7512
+  [AID_fold1_compactcnn] epoch 13 loss=0.6438 val_acc=0.8087 val_macroF1=0.8033
+  [AID_fold1_compactcnn] epoch 14 loss=0.5792 val_acc=0.7225 val_macroF1=0.7145
+  [AID_fold1_compactcnn] epoch 15 loss=0.5515 val_acc=0.7937 val_macroF1=0.7899
+  [AID_fold1_compactcnn] epoch 16 loss=0.5173 val_acc=0.7950 val_macroF1=0.7943
+  [AID_fold1_compactcnn] epoch 17 loss=0.4858 val_acc=0.8163 val_macroF1=0.8044
+  [AID_fold1_compactcnn] epoch 18 loss=0.4413 val_acc=0.8175 val_macroF1=0.8138
+  [AID_fold1_compactcnn] epoch 19 loss=0.4200 val_acc=0.8625 val_macroF1=0.8588
+  [AID_fold1_compactcnn] epoch 20 loss=0.4137 val_acc=0.8450 val_macroF1=0.8379
+  [AID_fold1_compactcnn] epoch 21 loss=0.3709 val_acc=0.8775 val_macroF1=0.8738
+  [AID_fold1_compactcnn] epoch 22 loss=0.3494 val_acc=0.8250 val_macroF1=0.8257
+  [AID_fold1_compactcnn] epoch 23 loss=0.3262 val_acc=0.8862 val_macroF1=0.8807
+  [AID_fold1_compactcnn] epoch 24 loss=0.3045 val_acc=0.8812 val_macroF1=0.8708
+  [AID_fold1_compactcnn] epoch 25 loss=0.2771 val_acc=0.8900 val_macroF1=0.8836
+  [AID_fold1_compactcnn] epoch 26 loss=0.2598 val_acc=0.8900 val_macroF1=0.8828
+  [AID_fold1_compactcnn] epoch 27 loss=0.2483 val_acc=0.9000 val_macroF1=0.8919
+  [AID_fold1_compactcnn] epoch 28 loss=0.2359 val_acc=0.9012 val_macroF1=0.8965
+  [AID_fold1_compactcnn] epoch 29 loss=0.2233 val_acc=0.9113 val_macroF1=0.9044
+  [AID_fold1_compactcnn] epoch 30 loss=0.2112 val_acc=0.9113 val_macroF1=0.9078
+  [AID_fold1_compactcnn] epoch 31 loss=0.2095 val_acc=0.9087 val_macroF1=0.9038
+  [AID_fold1_compactcnn] epoch 32 loss=0.1998 val_acc=0.9125 val_macroF1=0.9076
+  [AID_fold1_compactcnn] epoch 33 loss=0.2002 val_acc=0.9137 val_macroF1=0.9088
+  [AID_fold1_compactcnn] epoch 34 loss=0.1969 val_acc=0.9113 val_macroF1=0.9067
+  [AID_fold1_compactcnn] DONE acc=0.9015 macroF1=0.8995 (403s, 35 epochs)
+
+=== (c) AID_fold2_compactcnn === train=8000 test=2000
+  [AID_fold2_compactcnn] epoch 00 loss=2.4906 val_acc=0.4138 val_macroF1=0.3945
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold2_compactcnn] epoch 01 loss=2.0319 val_acc=0.4075 val_macroF1=0.3789
+  [AID_fold2_compactcnn] epoch 02 loss=1.7407 val_acc=0.4325 val_macroF1=0.4335
+  [AID_fold2_compactcnn] epoch 03 loss=1.4957 val_acc=0.4300 val_macroF1=0.4334
+  [AID_fold2_compactcnn] epoch 04 loss=1.3066 val_acc=0.5650 val_macroF1=0.5637
+  [AID_fold2_compactcnn] epoch 05 loss=1.1994 val_acc=0.5150 val_macroF1=0.4934
+  [AID_fold2_compactcnn] epoch 06 loss=1.0660 val_acc=0.5637 val_macroF1=0.5461
+  [AID_fold2_compactcnn] epoch 07 loss=1.0168 val_acc=0.6325 val_macroF1=0.6092
+  [AID_fold2_compactcnn] epoch 08 loss=0.9553 val_acc=0.6837 val_macroF1=0.6639
+  [AID_fold2_compactcnn] epoch 09 loss=0.8765 val_acc=0.7150 val_macroF1=0.7004
+  [AID_fold2_compactcnn] epoch 10 loss=0.8072 val_acc=0.6713 val_macroF1=0.6559
+  [AID_fold2_compactcnn] epoch 11 loss=0.7611 val_acc=0.7150 val_macroF1=0.7048
+  [AID_fold2_compactcnn] epoch 12 loss=0.7053 val_acc=0.7625 val_macroF1=0.7461
+  [AID_fold2_compactcnn] epoch 13 loss=0.6631 val_acc=0.7675 val_macroF1=0.7532
+  [AID_fold2_compactcnn] epoch 14 loss=0.6466 val_acc=0.7525 val_macroF1=0.7396
+  [AID_fold2_compactcnn] epoch 15 loss=0.5841 val_acc=0.7538 val_macroF1=0.7364
+  [AID_fold2_compactcnn] epoch 16 loss=0.5391 val_acc=0.7825 val_macroF1=0.7713
+  [AID_fold2_compactcnn] epoch 17 loss=0.5051 val_acc=0.7875 val_macroF1=0.7776
+  [AID_fold2_compactcnn] epoch 18 loss=0.4748 val_acc=0.8150 val_macroF1=0.8136
+  [AID_fold2_compactcnn] epoch 19 loss=0.4465 val_acc=0.8275 val_macroF1=0.8225
+  [AID_fold2_compactcnn] epoch 20 loss=0.4280 val_acc=0.8075 val_macroF1=0.7964
+  [AID_fold2_compactcnn] epoch 21 loss=0.4021 val_acc=0.8387 val_macroF1=0.8344
+  [AID_fold2_compactcnn] epoch 22 loss=0.3642 val_acc=0.8562 val_macroF1=0.8496
+  [AID_fold2_compactcnn] epoch 23 loss=0.3472 val_acc=0.8538 val_macroF1=0.8453
+  [AID_fold2_compactcnn] epoch 24 loss=0.3135 val_acc=0.8688 val_macroF1=0.8600
+  [AID_fold2_compactcnn] epoch 25 loss=0.2957 val_acc=0.8662 val_macroF1=0.8550
+  [AID_fold2_compactcnn] epoch 26 loss=0.2821 val_acc=0.8675 val_macroF1=0.8594
+  [AID_fold2_compactcnn] epoch 27 loss=0.2681 val_acc=0.8800 val_macroF1=0.8727
+  [AID_fold2_compactcnn] epoch 28 loss=0.2557 val_acc=0.8875 val_macroF1=0.8779
+  [AID_fold2_compactcnn] epoch 29 loss=0.2336 val_acc=0.8862 val_macroF1=0.8788
+  [AID_fold2_compactcnn] epoch 30 loss=0.2220 val_acc=0.8888 val_macroF1=0.8790
+  [AID_fold2_compactcnn] epoch 31 loss=0.2204 val_acc=0.8925 val_macroF1=0.8845
+  [AID_fold2_compactcnn] epoch 32 loss=0.2187 val_acc=0.8925 val_macroF1=0.8850
+  [AID_fold2_compactcnn] epoch 33 loss=0.2079 val_acc=0.8912 val_macroF1=0.8836
+  [AID_fold2_compactcnn] epoch 34 loss=0.2060 val_acc=0.8912 val_macroF1=0.8841
+  [AID_fold2_compactcnn] DONE acc=0.9085 macroF1=0.9064 (399s, 35 epochs)
+
+=== (c) AID_fold3_compactcnn === train=8000 test=2000
+  [AID_fold3_compactcnn] epoch 00 loss=2.5092 val_acc=0.4225 val_macroF1=0.4085
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold3_compactcnn] epoch 01 loss=2.0481 val_acc=0.4963 val_macroF1=0.4941
+  [AID_fold3_compactcnn] epoch 02 loss=1.7396 val_acc=0.4300 val_macroF1=0.4291
+  [AID_fold3_compactcnn] epoch 03 loss=1.4578 val_acc=0.5625 val_macroF1=0.5502
+  [AID_fold3_compactcnn] epoch 04 loss=1.3121 val_acc=0.5863 val_macroF1=0.5701
+  [AID_fold3_compactcnn] epoch 05 loss=1.1901 val_acc=0.5637 val_macroF1=0.5583
+  [AID_fold3_compactcnn] epoch 06 loss=1.0581 val_acc=0.5450 val_macroF1=0.5254
+  [AID_fold3_compactcnn] epoch 07 loss=1.0072 val_acc=0.6663 val_macroF1=0.6528
+  [AID_fold3_compactcnn] epoch 08 loss=0.9085 val_acc=0.6350 val_macroF1=0.6147
+  [AID_fold3_compactcnn] epoch 09 loss=0.8596 val_acc=0.6475 val_macroF1=0.6336
+  [AID_fold3_compactcnn] epoch 10 loss=0.7959 val_acc=0.7312 val_macroF1=0.7334
+  [AID_fold3_compactcnn] epoch 11 loss=0.7448 val_acc=0.7150 val_macroF1=0.7075
+  [AID_fold3_compactcnn] epoch 12 loss=0.6720 val_acc=0.7450 val_macroF1=0.7411
+  [AID_fold3_compactcnn] epoch 13 loss=0.6393 val_acc=0.6837 val_macroF1=0.6945
+  [AID_fold3_compactcnn] epoch 14 loss=0.6169 val_acc=0.7600 val_macroF1=0.7520
+  [AID_fold3_compactcnn] epoch 15 loss=0.5857 val_acc=0.7388 val_macroF1=0.7373
+  [AID_fold3_compactcnn] epoch 16 loss=0.5275 val_acc=0.8150 val_macroF1=0.8084
+  [AID_fold3_compactcnn] epoch 17 loss=0.5021 val_acc=0.7950 val_macroF1=0.7941
+  [AID_fold3_compactcnn] epoch 18 loss=0.4678 val_acc=0.7963 val_macroF1=0.7953
+  [AID_fold3_compactcnn] epoch 19 loss=0.4404 val_acc=0.8163 val_macroF1=0.8149
+  [AID_fold3_compactcnn] epoch 20 loss=0.4076 val_acc=0.8163 val_macroF1=0.8130
+  [AID_fold3_compactcnn] epoch 21 loss=0.3841 val_acc=0.8375 val_macroF1=0.8343
+  [AID_fold3_compactcnn] epoch 22 loss=0.3639 val_acc=0.8562 val_macroF1=0.8536
+  [AID_fold3_compactcnn] epoch 23 loss=0.3331 val_acc=0.8588 val_macroF1=0.8581
+  [AID_fold3_compactcnn] epoch 24 loss=0.3097 val_acc=0.8738 val_macroF1=0.8730
+  [AID_fold3_compactcnn] epoch 25 loss=0.2860 val_acc=0.8750 val_macroF1=0.8762
+  [AID_fold3_compactcnn] epoch 26 loss=0.2697 val_acc=0.8938 val_macroF1=0.8905
+  [AID_fold3_compactcnn] epoch 27 loss=0.2596 val_acc=0.8900 val_macroF1=0.8893
+  [AID_fold3_compactcnn] epoch 28 loss=0.2384 val_acc=0.8900 val_macroF1=0.8876
+  [AID_fold3_compactcnn] epoch 29 loss=0.2382 val_acc=0.8988 val_macroF1=0.8955
+  [AID_fold3_compactcnn] epoch 30 loss=0.2211 val_acc=0.9038 val_macroF1=0.9022
+  [AID_fold3_compactcnn] epoch 31 loss=0.2076 val_acc=0.8950 val_macroF1=0.8945
+  [AID_fold3_compactcnn] epoch 32 loss=0.2101 val_acc=0.9025 val_macroF1=0.9017
+  [AID_fold3_compactcnn] epoch 33 loss=0.2043 val_acc=0.9012 val_macroF1=0.9012
+  [AID_fold3_compactcnn] epoch 34 loss=0.2056 val_acc=0.9038 val_macroF1=0.9019
+  [AID_fold3_compactcnn] DONE acc=0.8970 macroF1=0.8937 (398s, 35 epochs)
+
+=== (c) AID_fold4_compactcnn === train=8000 test=2000
+  [AID_fold4_compactcnn] epoch 00 loss=2.5001 val_acc=0.4238 val_macroF1=0.3947
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold4_compactcnn] epoch 01 loss=2.0604 val_acc=0.4637 val_macroF1=0.4396
+  [AID_fold4_compactcnn] epoch 02 loss=1.7564 val_acc=0.4088 val_macroF1=0.3884
+  [AID_fold4_compactcnn] epoch 03 loss=1.4734 val_acc=0.4675 val_macroF1=0.4627
+  [AID_fold4_compactcnn] epoch 04 loss=1.3272 val_acc=0.5550 val_macroF1=0.5493
+  [AID_fold4_compactcnn] epoch 05 loss=1.1993 val_acc=0.6162 val_macroF1=0.6091
+  [AID_fold4_compactcnn] epoch 06 loss=1.0855 val_acc=0.5988 val_macroF1=0.5907
+  [AID_fold4_compactcnn] epoch 07 loss=1.0132 val_acc=0.6538 val_macroF1=0.6465
+  [AID_fold4_compactcnn] epoch 08 loss=0.9109 val_acc=0.6375 val_macroF1=0.6377
+  [AID_fold4_compactcnn] epoch 09 loss=0.8346 val_acc=0.6250 val_macroF1=0.6181
+  [AID_fold4_compactcnn] epoch 10 loss=0.7925 val_acc=0.6325 val_macroF1=0.6377
+  [AID_fold4_compactcnn] epoch 11 loss=0.7553 val_acc=0.6950 val_macroF1=0.6880
+  [AID_fold4_compactcnn] epoch 12 loss=0.6934 val_acc=0.7100 val_macroF1=0.7170
+  [AID_fold4_compactcnn] epoch 13 loss=0.6391 val_acc=0.7238 val_macroF1=0.7262
+  [AID_fold4_compactcnn] epoch 14 loss=0.5924 val_acc=0.7438 val_macroF1=0.7331
+  [AID_fold4_compactcnn] epoch 15 loss=0.5658 val_acc=0.7550 val_macroF1=0.7507
+  [AID_fold4_compactcnn] epoch 16 loss=0.5290 val_acc=0.7325 val_macroF1=0.7365
+  [AID_fold4_compactcnn] epoch 17 loss=0.4920 val_acc=0.8137 val_macroF1=0.8125
+  [AID_fold4_compactcnn] epoch 18 loss=0.4584 val_acc=0.7612 val_macroF1=0.7614
+  [AID_fold4_compactcnn] epoch 19 loss=0.4234 val_acc=0.8275 val_macroF1=0.8266
+  [AID_fold4_compactcnn] epoch 20 loss=0.4143 val_acc=0.8237 val_macroF1=0.8205
+  [AID_fold4_compactcnn] epoch 21 loss=0.3875 val_acc=0.8337 val_macroF1=0.8315
+  [AID_fold4_compactcnn] epoch 22 loss=0.3522 val_acc=0.8500 val_macroF1=0.8501
+  [AID_fold4_compactcnn] epoch 23 loss=0.3210 val_acc=0.8500 val_macroF1=0.8461
+  [AID_fold4_compactcnn] epoch 24 loss=0.2954 val_acc=0.8500 val_macroF1=0.8488
+  [AID_fold4_compactcnn] epoch 25 loss=0.2789 val_acc=0.8375 val_macroF1=0.8394
+  [AID_fold4_compactcnn] epoch 26 loss=0.2656 val_acc=0.8525 val_macroF1=0.8499
+  [AID_fold4_compactcnn] epoch 27 loss=0.2545 val_acc=0.8738 val_macroF1=0.8719
+  [AID_fold4_compactcnn] epoch 28 loss=0.2321 val_acc=0.8775 val_macroF1=0.8760
+  [AID_fold4_compactcnn] epoch 29 loss=0.2309 val_acc=0.8812 val_macroF1=0.8806
+  [AID_fold4_compactcnn] epoch 30 loss=0.2147 val_acc=0.8775 val_macroF1=0.8767
+  [AID_fold4_compactcnn] epoch 31 loss=0.2063 val_acc=0.8875 val_macroF1=0.8866
+  [AID_fold4_compactcnn] epoch 32 loss=0.2013 val_acc=0.8800 val_macroF1=0.8782
+  [AID_fold4_compactcnn] epoch 33 loss=0.1971 val_acc=0.8788 val_macroF1=0.8764
+  [AID_fold4_compactcnn] epoch 34 loss=0.1973 val_acc=0.8775 val_macroF1=0.8760
+  [AID_fold4_compactcnn] DONE acc=0.8990 macroF1=0.8974 (400s, 35 epochs)
+
+=== (c) RESISC45_fold0_convnext_tiny === train=25200 test=6300
+  [RESISC45_fold0_convnext_tiny] epoch 00 loss=0.7041 val_acc=0.9091 val_macroF1=0.9120
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold0_convnext_tiny] epoch 01 loss=0.3629 val_acc=0.9167 val_macroF1=0.9152
+  [RESISC45_fold0_convnext_tiny] epoch 02 loss=0.3316 val_acc=0.9095 val_macroF1=0.9115
+  [RESISC45_fold0_convnext_tiny] epoch 03 loss=0.2115 val_acc=0.9091 val_macroF1=0.9086
+  [RESISC45_fold0_convnext_tiny] epoch 04 loss=0.1797 val_acc=0.9190 val_macroF1=0.9191
+  [RESISC45_fold0_convnext_tiny] epoch 05 loss=0.1425 val_acc=0.9087 val_macroF1=0.9086
+  [RESISC45_fold0_convnext_tiny] epoch 06 loss=0.1283 val_acc=0.9337 val_macroF1=0.9326
+  [RESISC45_fold0_convnext_tiny] epoch 07 loss=0.1097 val_acc=0.9179 val_macroF1=0.9184
+  [RESISC45_fold0_convnext_tiny] epoch 08 loss=0.0908 val_acc=0.9274 val_macroF1=0.9289
+  [RESISC45_fold0_convnext_tiny] epoch 09 loss=0.0766 val_acc=0.9377 val_macroF1=0.9382
+  [RESISC45_fold0_convnext_tiny] epoch 10 loss=0.0741 val_acc=0.9333 val_macroF1=0.9325
+  [RESISC45_fold0_convnext_tiny] epoch 11 loss=0.0582 val_acc=0.9369 val_macroF1=0.9368
+  [RESISC45_fold0_convnext_tiny] epoch 12 loss=0.0431 val_acc=0.9552 val_macroF1=0.9547
+  [RESISC45_fold0_convnext_tiny] epoch 13 loss=0.0319 val_acc=0.9437 val_macroF1=0.9438
+  [RESISC45_fold0_convnext_tiny] epoch 14 loss=0.0230 val_acc=0.9528 val_macroF1=0.9525
+  [RESISC45_fold0_convnext_tiny] epoch 15 loss=0.0174 val_acc=0.9504 val_macroF1=0.9507
+  [RESISC45_fold0_convnext_tiny] epoch 16 loss=0.0142 val_acc=0.9579 val_macroF1=0.9583
+  [RESISC45_fold0_convnext_tiny] epoch 17 loss=0.0058 val_acc=0.9575 val_macroF1=0.9575
+  [RESISC45_fold0_convnext_tiny] epoch 18 loss=0.0023 val_acc=0.9663 val_macroF1=0.9667
+  [RESISC45_fold0_convnext_tiny] epoch 19 loss=0.0016 val_acc=0.9659 val_macroF1=0.9660
+  [RESISC45_fold0_convnext_tiny] epoch 20 loss=0.0009 val_acc=0.9639 val_macroF1=0.9637
+  [RESISC45_fold0_convnext_tiny] epoch 21 loss=0.0008 val_acc=0.9651 val_macroF1=0.9651
+  [RESISC45_fold0_convnext_tiny] epoch 22 loss=0.0005 val_acc=0.9667 val_macroF1=0.9667
+  [RESISC45_fold0_convnext_tiny] early stopping at epoch 22
+  [RESISC45_fold0_convnext_tiny] DONE acc=0.9675 macroF1=0.9674 (1870s, 23 epochs)
+
+=== (c) RESISC45_fold1_convnext_tiny === train=25200 test=6300
+  [RESISC45_fold1_convnext_tiny] epoch 00 loss=0.7058 val_acc=0.9266 val_macroF1=0.9268
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold1_convnext_tiny] epoch 01 loss=0.3640 val_acc=0.9234 val_macroF1=0.9234
+  [RESISC45_fold1_convnext_tiny] epoch 02 loss=0.3295 val_acc=0.9016 val_macroF1=0.8978
+  [RESISC45_fold1_convnext_tiny] epoch 03 loss=0.2107 val_acc=0.9100 val_macroF1=0.9089
+  [RESISC45_fold1_convnext_tiny] epoch 04 loss=0.1752 val_acc=0.9361 val_macroF1=0.9349
+  [RESISC45_fold1_convnext_tiny] epoch 05 loss=0.1479 val_acc=0.9230 val_macroF1=0.9239
+  [RESISC45_fold1_convnext_tiny] epoch 06 loss=0.1218 val_acc=0.9310 val_macroF1=0.9295
+  [RESISC45_fold1_convnext_tiny] epoch 07 loss=0.1179 val_acc=0.9254 val_macroF1=0.9263
+  [RESISC45_fold1_convnext_tiny] epoch 08 loss=0.0960 val_acc=0.9167 val_macroF1=0.9163
+  [RESISC45_fold1_convnext_tiny] early stopping at epoch 8
+  [RESISC45_fold1_convnext_tiny] DONE acc=0.9362 macroF1=0.9360 (751s, 9 epochs)
+
+=== (c) RESISC45_fold2_convnext_tiny === train=25198 test=6302
+  [RESISC45_fold2_convnext_tiny] epoch 00 loss=0.7650 val_acc=0.9159 val_macroF1=0.9152
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold2_convnext_tiny] epoch 01 loss=0.3815 val_acc=0.9206 val_macroF1=0.9196
+  [RESISC45_fold2_convnext_tiny] epoch 02 loss=0.3250 val_acc=0.8940 val_macroF1=0.8927
+  [RESISC45_fold2_convnext_tiny] epoch 03 loss=0.2064 val_acc=0.9282 val_macroF1=0.9282
+  [RESISC45_fold2_convnext_tiny] epoch 04 loss=0.1616 val_acc=0.9294 val_macroF1=0.9287
+  [RESISC45_fold2_convnext_tiny] epoch 05 loss=0.1369 val_acc=0.9337 val_macroF1=0.9331
+  [RESISC45_fold2_convnext_tiny] epoch 06 loss=0.1268 val_acc=0.9278 val_macroF1=0.9285
+  [RESISC45_fold2_convnext_tiny] epoch 07 loss=0.1067 val_acc=0.9266 val_macroF1=0.9257
+  [RESISC45_fold2_convnext_tiny] epoch 08 loss=0.1043 val_acc=0.9357 val_macroF1=0.9355
+  [RESISC45_fold2_convnext_tiny] epoch 09 loss=0.0860 val_acc=0.9238 val_macroF1=0.9252
+  [RESISC45_fold2_convnext_tiny] epoch 10 loss=0.0619 val_acc=0.9500 val_macroF1=0.9504
+  [RESISC45_fold2_convnext_tiny] epoch 11 loss=0.0465 val_acc=0.9357 val_macroF1=0.9357
+  [RESISC45_fold2_convnext_tiny] epoch 12 loss=0.0421 val_acc=0.9313 val_macroF1=0.9314
+  [RESISC45_fold2_convnext_tiny] epoch 13 loss=0.0359 val_acc=0.9389 val_macroF1=0.9387
+  [RESISC45_fold2_convnext_tiny] epoch 14 loss=0.0245 val_acc=0.9437 val_macroF1=0.9433
+  [RESISC45_fold2_convnext_tiny] early stopping at epoch 14
+  [RESISC45_fold2_convnext_tiny] DONE acc=0.9491 macroF1=0.9491 (1240s, 15 epochs)
+
+=== (c) RESISC45_fold3_convnext_tiny === train=25202 test=6298
+  [RESISC45_fold3_convnext_tiny] epoch 00 loss=0.7469 val_acc=0.9349 val_macroF1=0.9339
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold3_convnext_tiny] epoch 01 loss=0.3611 val_acc=0.9167 val_macroF1=0.9158
+  [RESISC45_fold3_convnext_tiny] epoch 02 loss=0.3298 val_acc=0.9127 val_macroF1=0.9118
+  [RESISC45_fold3_convnext_tiny] epoch 03 loss=0.2084 val_acc=0.9151 val_macroF1=0.9128
+  [RESISC45_fold3_convnext_tiny] epoch 04 loss=0.1789 val_acc=0.9302 val_macroF1=0.9285
+  [RESISC45_fold3_convnext_tiny] early stopping at epoch 4
+  [RESISC45_fold3_convnext_tiny] DONE acc=0.9349 macroF1=0.9343 (433s, 5 epochs)
+
+=== (c) RESISC45_fold4_convnext_tiny === train=25200 test=6300
+  [RESISC45_fold4_convnext_tiny] epoch 00 loss=0.7301 val_acc=0.9286 val_macroF1=0.9281
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold4_convnext_tiny] epoch 01 loss=0.3639 val_acc=0.9246 val_macroF1=0.9260
+  [RESISC45_fold4_convnext_tiny] epoch 02 loss=0.3355 val_acc=0.8968 val_macroF1=0.8983
+  [RESISC45_fold4_convnext_tiny] epoch 03 loss=0.2086 val_acc=0.9210 val_macroF1=0.9225
+  [RESISC45_fold4_convnext_tiny] epoch 04 loss=0.1578 val_acc=0.9250 val_macroF1=0.9267
+  [RESISC45_fold4_convnext_tiny] early stopping at epoch 4
+  [RESISC45_fold4_convnext_tiny] DONE acc=0.9270 macroF1=0.9258 (444s, 5 epochs)
+
+=== (c) UCMerced_fold0_convnext_tiny === train=1680 test=420
+  [UCMerced_fold0_convnext_tiny] epoch 00 loss=1.9283 val_acc=0.8214 val_macroF1=0.8249
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold0_convnext_tiny] epoch 01 loss=0.2934 val_acc=0.9286 val_macroF1=0.9295
+  [UCMerced_fold0_convnext_tiny] epoch 02 loss=0.2531 val_acc=0.9583 val_macroF1=0.9541
+  [UCMerced_fold0_convnext_tiny] epoch 03 loss=0.1473 val_acc=0.9107 val_macroF1=0.9127
+  [UCMerced_fold0_convnext_tiny] epoch 04 loss=0.1259 val_acc=0.9702 val_macroF1=0.9773
+  [UCMerced_fold0_convnext_tiny] epoch 05 loss=0.1205 val_acc=0.9345 val_macroF1=0.9432
+  [UCMerced_fold0_convnext_tiny] epoch 06 loss=0.0667 val_acc=0.9762 val_macroF1=0.9774
+  [UCMerced_fold0_convnext_tiny] epoch 07 loss=0.0512 val_acc=0.9762 val_macroF1=0.9686
+  [UCMerced_fold0_convnext_tiny] epoch 08 loss=0.0496 val_acc=0.9762 val_macroF1=0.9757
+  [UCMerced_fold0_convnext_tiny] early stopping at epoch 8
+  [UCMerced_fold0_convnext_tiny] DONE acc=0.9595 macroF1=0.9604 (81s, 9 epochs)
+
+=== (c) UCMerced_fold1_convnext_tiny === train=1680 test=420
+  [UCMerced_fold1_convnext_tiny] epoch 00 loss=1.9342 val_acc=0.9048 val_macroF1=0.8879
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold1_convnext_tiny] epoch 01 loss=0.2966 val_acc=0.9226 val_macroF1=0.9148
+  [UCMerced_fold1_convnext_tiny] epoch 02 loss=0.2781 val_acc=0.9286 val_macroF1=0.9020
+  [UCMerced_fold1_convnext_tiny] epoch 03 loss=0.1598 val_acc=0.9286 val_macroF1=0.9090
+  [UCMerced_fold1_convnext_tiny] epoch 04 loss=0.1269 val_acc=0.9583 val_macroF1=0.9387
+  [UCMerced_fold1_convnext_tiny] epoch 05 loss=0.0628 val_acc=0.9583 val_macroF1=0.9503
+  [UCMerced_fold1_convnext_tiny] epoch 06 loss=0.0795 val_acc=0.9464 val_macroF1=0.9276
+  [UCMerced_fold1_convnext_tiny] epoch 07 loss=0.0788 val_acc=0.9702 val_macroF1=0.9653
+  [UCMerced_fold1_convnext_tiny] epoch 08 loss=0.0495 val_acc=0.9464 val_macroF1=0.9285
+  [UCMerced_fold1_convnext_tiny] epoch 09 loss=0.0227 val_acc=0.9702 val_macroF1=0.9635
+  [UCMerced_fold1_convnext_tiny] epoch 10 loss=0.0027 val_acc=0.9821 val_macroF1=0.9781
+  [UCMerced_fold1_convnext_tiny] epoch 11 loss=0.0049 val_acc=0.9821 val_macroF1=0.9763
+  [UCMerced_fold1_convnext_tiny] epoch 12 loss=0.0024 val_acc=0.9643 val_macroF1=0.9557
+  [UCMerced_fold1_convnext_tiny] epoch 13 loss=0.0012 val_acc=0.9881 val_macroF1=0.9861
+  [UCMerced_fold1_convnext_tiny] epoch 14 loss=0.0003 val_acc=0.9881 val_macroF1=0.9861
+  [UCMerced_fold1_convnext_tiny] epoch 15 loss=0.0003 val_acc=0.9881 val_macroF1=0.9861
+  [UCMerced_fold1_convnext_tiny] epoch 16 loss=0.0005 val_acc=0.9881 val_macroF1=0.9861
+  [UCMerced_fold1_convnext_tiny] epoch 17 loss=0.0003 val_acc=0.9881 val_macroF1=0.9861
+  [UCMerced_fold1_convnext_tiny] early stopping at epoch 17
+  [UCMerced_fold1_convnext_tiny] DONE acc=0.9810 macroF1=0.9810 (131s, 18 epochs)
+
+=== (c) UCMerced_fold2_convnext_tiny === train=1680 test=420
+  [UCMerced_fold2_convnext_tiny] epoch 00 loss=1.9899 val_acc=0.8512 val_macroF1=0.8378
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold2_convnext_tiny] epoch 01 loss=0.2706 val_acc=0.9762 val_macroF1=0.9771
+  [UCMerced_fold2_convnext_tiny] epoch 02 loss=0.1664 val_acc=0.9643 val_macroF1=0.9582
+  [UCMerced_fold2_convnext_tiny] epoch 03 loss=0.2365 val_acc=0.9345 val_macroF1=0.9152
+  [UCMerced_fold2_convnext_tiny] epoch 04 loss=0.0739 val_acc=0.9464 val_macroF1=0.9437
+  [UCMerced_fold2_convnext_tiny] epoch 05 loss=0.0945 val_acc=0.9583 val_macroF1=0.9487
+  [UCMerced_fold2_convnext_tiny] early stopping at epoch 5
+  [UCMerced_fold2_convnext_tiny] DONE acc=0.9476 macroF1=0.9446 (64s, 6 epochs)
+
+=== (c) UCMerced_fold3_convnext_tiny === train=1680 test=420
+  [UCMerced_fold3_convnext_tiny] epoch 00 loss=1.9816 val_acc=0.8988 val_macroF1=0.8799
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold3_convnext_tiny] epoch 01 loss=0.3062 val_acc=0.9702 val_macroF1=0.9651
+  [UCMerced_fold3_convnext_tiny] epoch 02 loss=0.1933 val_acc=0.9524 val_macroF1=0.9572
+  [UCMerced_fold3_convnext_tiny] epoch 03 loss=0.1625 val_acc=0.9881 val_macroF1=0.9870
+  [UCMerced_fold3_convnext_tiny] epoch 04 loss=0.0954 val_acc=0.9464 val_macroF1=0.9437
+  [UCMerced_fold3_convnext_tiny] epoch 05 loss=0.0889 val_acc=0.9702 val_macroF1=0.9698
+  [UCMerced_fold3_convnext_tiny] epoch 06 loss=0.0795 val_acc=0.9821 val_macroF1=0.9802
+  [UCMerced_fold3_convnext_tiny] epoch 07 loss=0.0507 val_acc=0.9643 val_macroF1=0.9605
+  [UCMerced_fold3_convnext_tiny] early stopping at epoch 7
+  [UCMerced_fold3_convnext_tiny] DONE acc=0.9571 macroF1=0.9568 (75s, 8 epochs)
+
+=== (c) UCMerced_fold4_convnext_tiny === train=1680 test=420
+  [UCMerced_fold4_convnext_tiny] epoch 00 loss=1.9319 val_acc=0.9226 val_macroF1=0.9241
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold4_convnext_tiny] epoch 01 loss=0.2976 val_acc=0.9643 val_macroF1=0.9638
+  [UCMerced_fold4_convnext_tiny] epoch 02 loss=0.2590 val_acc=0.9464 val_macroF1=0.9191
+  [UCMerced_fold4_convnext_tiny] epoch 03 loss=0.1863 val_acc=0.9464 val_macroF1=0.9523
+  [UCMerced_fold4_convnext_tiny] epoch 04 loss=0.1690 val_acc=0.9583 val_macroF1=0.9536
+  [UCMerced_fold4_convnext_tiny] epoch 05 loss=0.0859 val_acc=0.9464 val_macroF1=0.9477
+  [UCMerced_fold4_convnext_tiny] early stopping at epoch 5
+  [UCMerced_fold4_convnext_tiny] DONE acc=0.9619 macroF1=0.9624 (63s, 6 epochs)
+
+=== (c) AID_fold0_convnext_tiny === train=8000 test=2000
+  [AID_fold0_convnext_tiny] epoch 00 loss=1.0089 val_acc=0.9175 val_macroF1=0.9122
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold0_convnext_tiny] epoch 01 loss=0.3713 val_acc=0.9150 val_macroF1=0.9044
+  [AID_fold0_convnext_tiny] epoch 02 loss=0.2860 val_acc=0.9187 val_macroF1=0.9148
+  [AID_fold0_convnext_tiny] epoch 03 loss=0.1604 val_acc=0.9363 val_macroF1=0.9339
+  [AID_fold0_convnext_tiny] epoch 04 loss=0.1145 val_acc=0.9475 val_macroF1=0.9459
+  [AID_fold0_convnext_tiny] epoch 05 loss=0.1342 val_acc=0.9513 val_macroF1=0.9477
+  [AID_fold0_convnext_tiny] epoch 06 loss=0.0850 val_acc=0.9375 val_macroF1=0.9321
+  [AID_fold0_convnext_tiny] epoch 07 loss=0.0655 val_acc=0.9513 val_macroF1=0.9482
+  [AID_fold0_convnext_tiny] epoch 08 loss=0.0435 val_acc=0.9437 val_macroF1=0.9428
+  [AID_fold0_convnext_tiny] epoch 09 loss=0.0352 val_acc=0.9387 val_macroF1=0.9373
+  [AID_fold0_convnext_tiny] epoch 10 loss=0.0309 val_acc=0.9613 val_macroF1=0.9591
+  [AID_fold0_convnext_tiny] epoch 11 loss=0.0308 val_acc=0.9563 val_macroF1=0.9573
+  [AID_fold0_convnext_tiny] epoch 12 loss=0.0230 val_acc=0.9575 val_macroF1=0.9536
+  [AID_fold0_convnext_tiny] epoch 13 loss=0.0120 val_acc=0.9738 val_macroF1=0.9741
+  [AID_fold0_convnext_tiny] epoch 14 loss=0.0098 val_acc=0.9650 val_macroF1=0.9606
+  [AID_fold0_convnext_tiny] epoch 15 loss=0.0054 val_acc=0.9688 val_macroF1=0.9654
+  [AID_fold0_convnext_tiny] epoch 16 loss=0.0012 val_acc=0.9700 val_macroF1=0.9662
+  [AID_fold0_convnext_tiny] epoch 17 loss=0.0004 val_acc=0.9762 val_macroF1=0.9747
+  [AID_fold0_convnext_tiny] epoch 18 loss=0.0003 val_acc=0.9750 val_macroF1=0.9726
+  [AID_fold0_convnext_tiny] epoch 19 loss=0.0002 val_acc=0.9762 val_macroF1=0.9737
+  [AID_fold0_convnext_tiny] epoch 20 loss=0.0002 val_acc=0.9762 val_macroF1=0.9737
+  [AID_fold0_convnext_tiny] epoch 21 loss=0.0002 val_acc=0.9775 val_macroF1=0.9751
+  [AID_fold0_convnext_tiny] epoch 22 loss=0.0003 val_acc=0.9775 val_macroF1=0.9749
+  [AID_fold0_convnext_tiny] epoch 23 loss=0.0002 val_acc=0.9762 val_macroF1=0.9732
+  [AID_fold0_convnext_tiny] epoch 24 loss=0.0002 val_acc=0.9762 val_macroF1=0.9732
+  [AID_fold0_convnext_tiny] DONE acc=0.9695 macroF1=0.9680 (720s, 25 epochs)
+
+=== (c) AID_fold1_convnext_tiny === train=8000 test=2000
+  [AID_fold1_convnext_tiny] epoch 00 loss=0.9942 val_acc=0.9463 val_macroF1=0.9395
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold1_convnext_tiny] epoch 01 loss=0.3367 val_acc=0.9287 val_macroF1=0.9232
+  [AID_fold1_convnext_tiny] epoch 02 loss=0.3569 val_acc=0.9237 val_macroF1=0.9209
+  [AID_fold1_convnext_tiny] epoch 03 loss=0.1485 val_acc=0.9250 val_macroF1=0.9186
+  [AID_fold1_convnext_tiny] epoch 04 loss=0.1397 val_acc=0.9563 val_macroF1=0.9552
+  [AID_fold1_convnext_tiny] epoch 05 loss=0.1114 val_acc=0.9487 val_macroF1=0.9454
+  [AID_fold1_convnext_tiny] epoch 06 loss=0.0986 val_acc=0.9500 val_macroF1=0.9477
+  [AID_fold1_convnext_tiny] epoch 07 loss=0.0452 val_acc=0.9700 val_macroF1=0.9662
+  [AID_fold1_convnext_tiny] epoch 08 loss=0.0781 val_acc=0.9675 val_macroF1=0.9634
+  [AID_fold1_convnext_tiny] epoch 09 loss=0.0278 val_acc=0.9587 val_macroF1=0.9576
+  [AID_fold1_convnext_tiny] epoch 10 loss=0.0386 val_acc=0.9575 val_macroF1=0.9552
+  [AID_fold1_convnext_tiny] epoch 11 loss=0.0348 val_acc=0.9513 val_macroF1=0.9483
+  [AID_fold1_convnext_tiny] early stopping at epoch 11
+  [AID_fold1_convnext_tiny] DONE acc=0.9600 macroF1=0.9557 (362s, 12 epochs)
+
+=== (c) AID_fold2_convnext_tiny === train=8000 test=2000
+  [AID_fold2_convnext_tiny] epoch 00 loss=1.0437 val_acc=0.8925 val_macroF1=0.8884
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold2_convnext_tiny] epoch 01 loss=0.3514 val_acc=0.8475 val_macroF1=0.8399
+  [AID_fold2_convnext_tiny] epoch 02 loss=0.3122 val_acc=0.8975 val_macroF1=0.8850
+  [AID_fold2_convnext_tiny] epoch 03 loss=0.1805 val_acc=0.9062 val_macroF1=0.8985
+  [AID_fold2_convnext_tiny] epoch 04 loss=0.1112 val_acc=0.9400 val_macroF1=0.9363
+  [AID_fold2_convnext_tiny] epoch 05 loss=0.0952 val_acc=0.9125 val_macroF1=0.8987
+  [AID_fold2_convnext_tiny] epoch 06 loss=0.0981 val_acc=0.9325 val_macroF1=0.9276
+  [AID_fold2_convnext_tiny] epoch 07 loss=0.0513 val_acc=0.9537 val_macroF1=0.9503
+  [AID_fold2_convnext_tiny] epoch 08 loss=0.0806 val_acc=0.9263 val_macroF1=0.9132
+  [AID_fold2_convnext_tiny] epoch 09 loss=0.0440 val_acc=0.9475 val_macroF1=0.9424
+  [AID_fold2_convnext_tiny] epoch 10 loss=0.0414 val_acc=0.9563 val_macroF1=0.9520
+  [AID_fold2_convnext_tiny] epoch 11 loss=0.0249 val_acc=0.9613 val_macroF1=0.9567
+  [AID_fold2_convnext_tiny] epoch 12 loss=0.0114 val_acc=0.9663 val_macroF1=0.9605
+  [AID_fold2_convnext_tiny] epoch 13 loss=0.0037 val_acc=0.9663 val_macroF1=0.9604
+  [AID_fold2_convnext_tiny] epoch 14 loss=0.0049 val_acc=0.9712 val_macroF1=0.9673
+  [AID_fold2_convnext_tiny] epoch 15 loss=0.0007 val_acc=0.9712 val_macroF1=0.9671
+  [AID_fold2_convnext_tiny] epoch 16 loss=0.0003 val_acc=0.9712 val_macroF1=0.9664
+  [AID_fold2_convnext_tiny] epoch 17 loss=0.0002 val_acc=0.9712 val_macroF1=0.9664
+  [AID_fold2_convnext_tiny] epoch 18 loss=0.0002 val_acc=0.9738 val_macroF1=0.9695
+  [AID_fold2_convnext_tiny] epoch 19 loss=0.0002 val_acc=0.9738 val_macroF1=0.9690
+  [AID_fold2_convnext_tiny] epoch 20 loss=0.0001 val_acc=0.9738 val_macroF1=0.9690
+  [AID_fold2_convnext_tiny] epoch 21 loss=0.0002 val_acc=0.9738 val_macroF1=0.9693
+  [AID_fold2_convnext_tiny] epoch 22 loss=0.0001 val_acc=0.9738 val_macroF1=0.9693
+  [AID_fold2_convnext_tiny] early stopping at epoch 22
+  [AID_fold2_convnext_tiny] DONE acc=0.9735 macroF1=0.9714 (665s, 23 epochs)
+
+=== (c) AID_fold3_convnext_tiny === train=8000 test=2000
+  [AID_fold3_convnext_tiny] epoch 00 loss=1.0387 val_acc=0.9187 val_macroF1=0.9126
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold3_convnext_tiny] epoch 01 loss=0.3471 val_acc=0.9187 val_macroF1=0.9094
+  [AID_fold3_convnext_tiny] epoch 02 loss=0.3071 val_acc=0.9250 val_macroF1=0.9215
+  [AID_fold3_convnext_tiny] epoch 03 loss=0.1849 val_acc=0.9313 val_macroF1=0.9254
+  [AID_fold3_convnext_tiny] epoch 04 loss=0.1333 val_acc=0.9513 val_macroF1=0.9469
+  [AID_fold3_convnext_tiny] epoch 05 loss=0.0838 val_acc=0.9500 val_macroF1=0.9433
+  [AID_fold3_convnext_tiny] epoch 06 loss=0.0772 val_acc=0.9563 val_macroF1=0.9542
+  [AID_fold3_convnext_tiny] epoch 07 loss=0.0502 val_acc=0.9563 val_macroF1=0.9514
+  [AID_fold3_convnext_tiny] epoch 08 loss=0.0561 val_acc=0.9437 val_macroF1=0.9393
+  [AID_fold3_convnext_tiny] epoch 09 loss=0.0429 val_acc=0.9500 val_macroF1=0.9476
+  [AID_fold3_convnext_tiny] epoch 10 loss=0.0382 val_acc=0.9637 val_macroF1=0.9620
+  [AID_fold3_convnext_tiny] epoch 11 loss=0.0295 val_acc=0.9750 val_macroF1=0.9717
+  [AID_fold3_convnext_tiny] epoch 12 loss=0.0173 val_acc=0.9738 val_macroF1=0.9707
+  [AID_fold3_convnext_tiny] epoch 13 loss=0.0049 val_acc=0.9750 val_macroF1=0.9717
+  [AID_fold3_convnext_tiny] epoch 14 loss=0.0075 val_acc=0.9750 val_macroF1=0.9730
+  [AID_fold3_convnext_tiny] epoch 15 loss=0.0016 val_acc=0.9800 val_macroF1=0.9783
+  [AID_fold3_convnext_tiny] epoch 16 loss=0.0006 val_acc=0.9725 val_macroF1=0.9698
+  [AID_fold3_convnext_tiny] epoch 17 loss=0.0004 val_acc=0.9762 val_macroF1=0.9738
+  [AID_fold3_convnext_tiny] epoch 18 loss=0.0003 val_acc=0.9750 val_macroF1=0.9725
+  [AID_fold3_convnext_tiny] epoch 19 loss=0.0002 val_acc=0.9750 val_macroF1=0.9725
+  [AID_fold3_convnext_tiny] early stopping at epoch 19
+  [AID_fold3_convnext_tiny] DONE acc=0.9740 macroF1=0.9729 (583s, 20 epochs)
+
+=== (c) AID_fold4_convnext_tiny === train=8000 test=2000
+  [AID_fold4_convnext_tiny] epoch 00 loss=1.0023 val_acc=0.8862 val_macroF1=0.8876
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold4_convnext_tiny] epoch 01 loss=0.3495 val_acc=0.8862 val_macroF1=0.8814
+  [AID_fold4_convnext_tiny] epoch 02 loss=0.2772 val_acc=0.8912 val_macroF1=0.8901
+  [AID_fold4_convnext_tiny] epoch 03 loss=0.1907 val_acc=0.9175 val_macroF1=0.9164
+  [AID_fold4_convnext_tiny] epoch 04 loss=0.1444 val_acc=0.9175 val_macroF1=0.9261
+  [AID_fold4_convnext_tiny] epoch 05 loss=0.1110 val_acc=0.9437 val_macroF1=0.9436
+  [AID_fold4_convnext_tiny] epoch 06 loss=0.0783 val_acc=0.9263 val_macroF1=0.9270
+  [AID_fold4_convnext_tiny] epoch 07 loss=0.0582 val_acc=0.9387 val_macroF1=0.9407
+  [AID_fold4_convnext_tiny] epoch 08 loss=0.0643 val_acc=0.9437 val_macroF1=0.9437
+  [AID_fold4_convnext_tiny] epoch 09 loss=0.0344 val_acc=0.9650 val_macroF1=0.9664
+  [AID_fold4_convnext_tiny] epoch 10 loss=0.0253 val_acc=0.9425 val_macroF1=0.9448
+  [AID_fold4_convnext_tiny] epoch 11 loss=0.0321 val_acc=0.9563 val_macroF1=0.9566
+  [AID_fold4_convnext_tiny] epoch 12 loss=0.0135 val_acc=0.9663 val_macroF1=0.9676
+  [AID_fold4_convnext_tiny] epoch 13 loss=0.0022 val_acc=0.9637 val_macroF1=0.9640
+  [AID_fold4_convnext_tiny] epoch 14 loss=0.0016 val_acc=0.9650 val_macroF1=0.9659
+  [AID_fold4_convnext_tiny] epoch 15 loss=0.0008 val_acc=0.9637 val_macroF1=0.9645
+  [AID_fold4_convnext_tiny] epoch 16 loss=0.0003 val_acc=0.9650 val_macroF1=0.9657
+  [AID_fold4_convnext_tiny] early stopping at epoch 16
+  [AID_fold4_convnext_tiny] DONE acc=0.9685 macroF1=0.9673 (501s, 17 epochs)
+
+=== (c) RESISC45_fold0_vit_small_patch16_224 === train=25200 test=6300
+  [RESISC45_fold0_vit_small_patch16_224] epoch 00 loss=0.9225 val_acc=0.9075 val_macroF1=0.9081
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold0_vit_small_patch16_224] epoch 01 loss=0.3344 val_acc=0.9087 val_macroF1=0.9086
+  [RESISC45_fold0_vit_small_patch16_224] epoch 02 loss=0.3268 val_acc=0.9115 val_macroF1=0.9114
+  [RESISC45_fold0_vit_small_patch16_224] epoch 03 loss=0.2225 val_acc=0.9214 val_macroF1=0.9209
+  [RESISC45_fold0_vit_small_patch16_224] epoch 04 loss=0.1786 val_acc=0.9020 val_macroF1=0.9015
+  [RESISC45_fold0_vit_small_patch16_224] epoch 05 loss=0.1654 val_acc=0.9254 val_macroF1=0.9255
+  [RESISC45_fold0_vit_small_patch16_224] epoch 06 loss=0.1297 val_acc=0.9222 val_macroF1=0.9220
+  [RESISC45_fold0_vit_small_patch16_224] epoch 07 loss=0.1131 val_acc=0.9306 val_macroF1=0.9299
+  [RESISC45_fold0_vit_small_patch16_224] epoch 08 loss=0.0992 val_acc=0.9310 val_macroF1=0.9307
+  [RESISC45_fold0_vit_small_patch16_224] epoch 09 loss=0.0725 val_acc=0.9310 val_macroF1=0.9304
+  [RESISC45_fold0_vit_small_patch16_224] epoch 10 loss=0.0630 val_acc=0.9357 val_macroF1=0.9364
+  [RESISC45_fold0_vit_small_patch16_224] epoch 11 loss=0.0528 val_acc=0.9413 val_macroF1=0.9414
+  [RESISC45_fold0_vit_small_patch16_224] epoch 12 loss=0.0363 val_acc=0.9460 val_macroF1=0.9462
+  [RESISC45_fold0_vit_small_patch16_224] epoch 13 loss=0.0308 val_acc=0.9452 val_macroF1=0.9453
+  [RESISC45_fold0_vit_small_patch16_224] epoch 14 loss=0.0192 val_acc=0.9508 val_macroF1=0.9515
+  [RESISC45_fold0_vit_small_patch16_224] epoch 15 loss=0.0192 val_acc=0.9500 val_macroF1=0.9500
+  [RESISC45_fold0_vit_small_patch16_224] epoch 16 loss=0.0117 val_acc=0.9560 val_macroF1=0.9554
+  [RESISC45_fold0_vit_small_patch16_224] epoch 17 loss=0.0054 val_acc=0.9607 val_macroF1=0.9603
+  [RESISC45_fold0_vit_small_patch16_224] epoch 18 loss=0.0035 val_acc=0.9627 val_macroF1=0.9622
+  [RESISC45_fold0_vit_small_patch16_224] epoch 19 loss=0.0025 val_acc=0.9643 val_macroF1=0.9642
+  [RESISC45_fold0_vit_small_patch16_224] epoch 20 loss=0.0016 val_acc=0.9663 val_macroF1=0.9660
+  [RESISC45_fold0_vit_small_patch16_224] epoch 21 loss=0.0008 val_acc=0.9683 val_macroF1=0.9679
+  [RESISC45_fold0_vit_small_patch16_224] epoch 22 loss=0.0008 val_acc=0.9683 val_macroF1=0.9685
+  [RESISC45_fold0_vit_small_patch16_224] epoch 23 loss=0.0006 val_acc=0.9679 val_macroF1=0.9678
+  [RESISC45_fold0_vit_small_patch16_224] epoch 24 loss=0.0005 val_acc=0.9679 val_macroF1=0.9678
+  [RESISC45_fold0_vit_small_patch16_224] DONE acc=0.9633 macroF1=0.9633 (1499s, 25 epochs)
+
+=== (c) RESISC45_fold1_vit_small_patch16_224 === train=25200 test=6300
+  [RESISC45_fold1_vit_small_patch16_224] epoch 00 loss=0.9206 val_acc=0.9060 val_macroF1=0.9046
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold1_vit_small_patch16_224] epoch 01 loss=0.3273 val_acc=0.9199 val_macroF1=0.9202
+  [RESISC45_fold1_vit_small_patch16_224] epoch 02 loss=0.3341 val_acc=0.8941 val_macroF1=0.8927
+  [RESISC45_fold1_vit_small_patch16_224] epoch 03 loss=0.2318 val_acc=0.9104 val_macroF1=0.9106
+  [RESISC45_fold1_vit_small_patch16_224] epoch 04 loss=0.1805 val_acc=0.9230 val_macroF1=0.9213
+  [RESISC45_fold1_vit_small_patch16_224] epoch 05 loss=0.1543 val_acc=0.9234 val_macroF1=0.9234
+  [RESISC45_fold1_vit_small_patch16_224] epoch 06 loss=0.1222 val_acc=0.9187 val_macroF1=0.9190
+  [RESISC45_fold1_vit_small_patch16_224] epoch 07 loss=0.1080 val_acc=0.9294 val_macroF1=0.9276
+  [RESISC45_fold1_vit_small_patch16_224] epoch 08 loss=0.1028 val_acc=0.9298 val_macroF1=0.9296
+  [RESISC45_fold1_vit_small_patch16_224] epoch 09 loss=0.0828 val_acc=0.9334 val_macroF1=0.9324
+  [RESISC45_fold1_vit_small_patch16_224] epoch 10 loss=0.0721 val_acc=0.9365 val_macroF1=0.9354
+  [RESISC45_fold1_vit_small_patch16_224] epoch 11 loss=0.0525 val_acc=0.9365 val_macroF1=0.9363
+  [RESISC45_fold1_vit_small_patch16_224] epoch 12 loss=0.0466 val_acc=0.9480 val_macroF1=0.9479
+  [RESISC45_fold1_vit_small_patch16_224] epoch 13 loss=0.0268 val_acc=0.9409 val_macroF1=0.9402
+  [RESISC45_fold1_vit_small_patch16_224] epoch 14 loss=0.0220 val_acc=0.9516 val_macroF1=0.9514
+  [RESISC45_fold1_vit_small_patch16_224] epoch 15 loss=0.0163 val_acc=0.9536 val_macroF1=0.9533
+  [RESISC45_fold1_vit_small_patch16_224] epoch 16 loss=0.0127 val_acc=0.9587 val_macroF1=0.9582
+  [RESISC45_fold1_vit_small_patch16_224] epoch 17 loss=0.0056 val_acc=0.9599 val_macroF1=0.9596
+  [RESISC45_fold1_vit_small_patch16_224] epoch 18 loss=0.0034 val_acc=0.9627 val_macroF1=0.9623
+  [RESISC45_fold1_vit_small_patch16_224] epoch 19 loss=0.0025 val_acc=0.9623 val_macroF1=0.9620
+  [RESISC45_fold1_vit_small_patch16_224] epoch 20 loss=0.0023 val_acc=0.9631 val_macroF1=0.9628
+  [RESISC45_fold1_vit_small_patch16_224] epoch 21 loss=0.0013 val_acc=0.9651 val_macroF1=0.9645
+  [RESISC45_fold1_vit_small_patch16_224] epoch 22 loss=0.0010 val_acc=0.9651 val_macroF1=0.9648
+  [RESISC45_fold1_vit_small_patch16_224] epoch 23 loss=0.0009 val_acc=0.9647 val_macroF1=0.9644
+  [RESISC45_fold1_vit_small_patch16_224] epoch 24 loss=0.0008 val_acc=0.9655 val_macroF1=0.9652
+  [RESISC45_fold1_vit_small_patch16_224] DONE acc=0.9670 macroF1=0.9670 (1544s, 25 epochs)
+
+=== (c) RESISC45_fold2_vit_small_patch16_224 === train=25198 test=6302
+  [RESISC45_fold2_vit_small_patch16_224] epoch 00 loss=0.9345 val_acc=0.9036 val_macroF1=0.9017
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold2_vit_small_patch16_224] epoch 01 loss=0.3386 val_acc=0.9163 val_macroF1=0.9160
+  [RESISC45_fold2_vit_small_patch16_224] epoch 02 loss=0.3346 val_acc=0.8897 val_macroF1=0.8897
+  [RESISC45_fold2_vit_small_patch16_224] epoch 03 loss=0.2251 val_acc=0.9278 val_macroF1=0.9268
+  [RESISC45_fold2_vit_small_patch16_224] epoch 04 loss=0.1791 val_acc=0.9250 val_macroF1=0.9254
+  [RESISC45_fold2_vit_small_patch16_224] epoch 05 loss=0.1462 val_acc=0.9103 val_macroF1=0.9113
+  [RESISC45_fold2_vit_small_patch16_224] epoch 06 loss=0.1293 val_acc=0.9190 val_macroF1=0.9172
+  [RESISC45_fold2_vit_small_patch16_224] epoch 07 loss=0.1119 val_acc=0.9183 val_macroF1=0.9189
+  [RESISC45_fold2_vit_small_patch16_224] early stopping at epoch 7
+  [RESISC45_fold2_vit_small_patch16_224] DONE acc=0.9251 macroF1=0.9244 (517s, 8 epochs)
+
+=== (c) RESISC45_fold3_vit_small_patch16_224 === train=25202 test=6298
+  [RESISC45_fold3_vit_small_patch16_224] epoch 00 loss=0.9220 val_acc=0.8988 val_macroF1=0.8958
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold3_vit_small_patch16_224] epoch 01 loss=0.3311 val_acc=0.9286 val_macroF1=0.9268
+  [RESISC45_fold3_vit_small_patch16_224] epoch 02 loss=0.3307 val_acc=0.9191 val_macroF1=0.9184
+  [RESISC45_fold3_vit_small_patch16_224] epoch 03 loss=0.2232 val_acc=0.9294 val_macroF1=0.9289
+  [RESISC45_fold3_vit_small_patch16_224] epoch 04 loss=0.1742 val_acc=0.9135 val_macroF1=0.9128
+  [RESISC45_fold3_vit_small_patch16_224] epoch 05 loss=0.1564 val_acc=0.9385 val_macroF1=0.9371
+  [RESISC45_fold3_vit_small_patch16_224] epoch 06 loss=0.1318 val_acc=0.9226 val_macroF1=0.9203
+  [RESISC45_fold3_vit_small_patch16_224] epoch 07 loss=0.1278 val_acc=0.9274 val_macroF1=0.9260
+  [RESISC45_fold3_vit_small_patch16_224] epoch 08 loss=0.0888 val_acc=0.9294 val_macroF1=0.9294
+  [RESISC45_fold3_vit_small_patch16_224] epoch 09 loss=0.0724 val_acc=0.9421 val_macroF1=0.9409
+  [RESISC45_fold3_vit_small_patch16_224] epoch 10 loss=0.0698 val_acc=0.9393 val_macroF1=0.9371
+  [RESISC45_fold3_vit_small_patch16_224] epoch 11 loss=0.0628 val_acc=0.9389 val_macroF1=0.9370
+  [RESISC45_fold3_vit_small_patch16_224] epoch 12 loss=0.0444 val_acc=0.9413 val_macroF1=0.9398
+  [RESISC45_fold3_vit_small_patch16_224] epoch 13 loss=0.0227 val_acc=0.9548 val_macroF1=0.9537
+  [RESISC45_fold3_vit_small_patch16_224] epoch 14 loss=0.0217 val_acc=0.9580 val_macroF1=0.9571
+  [RESISC45_fold3_vit_small_patch16_224] epoch 15 loss=0.0135 val_acc=0.9512 val_macroF1=0.9506
+  [RESISC45_fold3_vit_small_patch16_224] epoch 16 loss=0.0092 val_acc=0.9524 val_macroF1=0.9513
+  [RESISC45_fold3_vit_small_patch16_224] epoch 17 loss=0.0050 val_acc=0.9599 val_macroF1=0.9588
+  [RESISC45_fold3_vit_small_patch16_224] epoch 18 loss=0.0038 val_acc=0.9623 val_macroF1=0.9612
+  [RESISC45_fold3_vit_small_patch16_224] epoch 19 loss=0.0020 val_acc=0.9639 val_macroF1=0.9629
+  [RESISC45_fold3_vit_small_patch16_224] epoch 20 loss=0.0018 val_acc=0.9615 val_macroF1=0.9605
+  [RESISC45_fold3_vit_small_patch16_224] epoch 21 loss=0.0009 val_acc=0.9619 val_macroF1=0.9609
+  [RESISC45_fold3_vit_small_patch16_224] epoch 22 loss=0.0007 val_acc=0.9619 val_macroF1=0.9610
+  [RESISC45_fold3_vit_small_patch16_224] epoch 23 loss=0.0009 val_acc=0.9619 val_macroF1=0.9609
+  [RESISC45_fold3_vit_small_patch16_224] early stopping at epoch 23
+  [RESISC45_fold3_vit_small_patch16_224] DONE acc=0.9638 macroF1=0.9639 (1481s, 24 epochs)
+
+=== (c) RESISC45_fold4_vit_small_patch16_224 === train=25200 test=6300
+  [RESISC45_fold4_vit_small_patch16_224] epoch 00 loss=0.9286 val_acc=0.9032 val_macroF1=0.9037
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold4_vit_small_patch16_224] epoch 01 loss=0.3380 val_acc=0.9183 val_macroF1=0.9200
+  [RESISC45_fold4_vit_small_patch16_224] epoch 02 loss=0.3271 val_acc=0.9004 val_macroF1=0.8999
+  [RESISC45_fold4_vit_small_patch16_224] epoch 03 loss=0.2268 val_acc=0.9056 val_macroF1=0.9076
+  [RESISC45_fold4_vit_small_patch16_224] epoch 04 loss=0.1896 val_acc=0.9218 val_macroF1=0.9237
+  [RESISC45_fold4_vit_small_patch16_224] epoch 05 loss=0.1534 val_acc=0.9198 val_macroF1=0.9207
+  [RESISC45_fold4_vit_small_patch16_224] epoch 06 loss=0.1361 val_acc=0.9282 val_macroF1=0.9283
+  [RESISC45_fold4_vit_small_patch16_224] epoch 07 loss=0.1108 val_acc=0.9341 val_macroF1=0.9343
+  [RESISC45_fold4_vit_small_patch16_224] epoch 08 loss=0.1027 val_acc=0.9349 val_macroF1=0.9368
+  [RESISC45_fold4_vit_small_patch16_224] epoch 09 loss=0.0810 val_acc=0.9317 val_macroF1=0.9338
+  [RESISC45_fold4_vit_small_patch16_224] epoch 10 loss=0.0721 val_acc=0.9440 val_macroF1=0.9458
+  [RESISC45_fold4_vit_small_patch16_224] epoch 11 loss=0.0531 val_acc=0.9333 val_macroF1=0.9350
+  [RESISC45_fold4_vit_small_patch16_224] epoch 12 loss=0.0466 val_acc=0.9488 val_macroF1=0.9499
+  [RESISC45_fold4_vit_small_patch16_224] epoch 13 loss=0.0225 val_acc=0.9583 val_macroF1=0.9593
+  [RESISC45_fold4_vit_small_patch16_224] epoch 14 loss=0.0218 val_acc=0.9504 val_macroF1=0.9514
+  [RESISC45_fold4_vit_small_patch16_224] epoch 15 loss=0.0154 val_acc=0.9635 val_macroF1=0.9644
+  [RESISC45_fold4_vit_small_patch16_224] epoch 16 loss=0.0084 val_acc=0.9635 val_macroF1=0.9638
+  [RESISC45_fold4_vit_small_patch16_224] epoch 17 loss=0.0057 val_acc=0.9702 val_macroF1=0.9709
+  [RESISC45_fold4_vit_small_patch16_224] epoch 18 loss=0.0033 val_acc=0.9687 val_macroF1=0.9691
+  [RESISC45_fold4_vit_small_patch16_224] epoch 19 loss=0.0022 val_acc=0.9683 val_macroF1=0.9687
+  [RESISC45_fold4_vit_small_patch16_224] epoch 20 loss=0.0013 val_acc=0.9683 val_macroF1=0.9684
+  [RESISC45_fold4_vit_small_patch16_224] epoch 21 loss=0.0010 val_acc=0.9714 val_macroF1=0.9718
+  [RESISC45_fold4_vit_small_patch16_224] epoch 22 loss=0.0005 val_acc=0.9726 val_macroF1=0.9729
+  [RESISC45_fold4_vit_small_patch16_224] epoch 23 loss=0.0006 val_acc=0.9726 val_macroF1=0.9728
+  [RESISC45_fold4_vit_small_patch16_224] epoch 24 loss=0.0006 val_acc=0.9718 val_macroF1=0.9721
+  [RESISC45_fold4_vit_small_patch16_224] DONE acc=0.9700 macroF1=0.9698 (1541s, 25 epochs)
+
+=== (c) UCMerced_fold0_vit_small_patch16_224 === train=1680 test=420
+  [UCMerced_fold0_vit_small_patch16_224] epoch 00 loss=2.1910 val_acc=0.7679 val_macroF1=0.7494
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold0_vit_small_patch16_224] epoch 01 loss=0.3742 val_acc=0.9583 val_macroF1=0.9602
+  [UCMerced_fold0_vit_small_patch16_224] epoch 02 loss=0.1272 val_acc=0.9286 val_macroF1=0.9377
+  [UCMerced_fold0_vit_small_patch16_224] epoch 03 loss=0.0693 val_acc=0.9643 val_macroF1=0.9667
+  [UCMerced_fold0_vit_small_patch16_224] epoch 04 loss=0.0437 val_acc=0.9821 val_macroF1=0.9855
+  [UCMerced_fold0_vit_small_patch16_224] epoch 05 loss=0.0242 val_acc=0.9643 val_macroF1=0.9663
+  [UCMerced_fold0_vit_small_patch16_224] epoch 06 loss=0.0299 val_acc=0.9702 val_macroF1=0.9688
+  [UCMerced_fold0_vit_small_patch16_224] epoch 07 loss=0.0320 val_acc=0.9643 val_macroF1=0.9662
+  [UCMerced_fold0_vit_small_patch16_224] epoch 08 loss=0.0207 val_acc=0.9940 val_macroF1=0.9959
+  [UCMerced_fold0_vit_small_patch16_224] epoch 09 loss=0.0567 val_acc=0.9583 val_macroF1=0.9637
+  [UCMerced_fold0_vit_small_patch16_224] epoch 10 loss=0.0291 val_acc=0.9940 val_macroF1=0.9944
+  [UCMerced_fold0_vit_small_patch16_224] epoch 11 loss=0.0140 val_acc=0.9881 val_macroF1=0.9877
+  [UCMerced_fold0_vit_small_patch16_224] epoch 12 loss=0.0083 val_acc=0.9940 val_macroF1=0.9932
+  [UCMerced_fold0_vit_small_patch16_224] early stopping at epoch 12
+  [UCMerced_fold0_vit_small_patch16_224] DONE acc=0.9690 macroF1=0.9638 (92s, 13 epochs)
+
+=== (c) UCMerced_fold1_vit_small_patch16_224 === train=1680 test=420
+  [UCMerced_fold1_vit_small_patch16_224] epoch 00 loss=2.1044 val_acc=0.7381 val_macroF1=0.7073
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold1_vit_small_patch16_224] epoch 01 loss=0.3602 val_acc=0.9643 val_macroF1=0.9582
+  [UCMerced_fold1_vit_small_patch16_224] epoch 02 loss=0.1109 val_acc=0.9583 val_macroF1=0.9462
+  [UCMerced_fold1_vit_small_patch16_224] epoch 03 loss=0.1005 val_acc=0.9762 val_macroF1=0.9691
+  [UCMerced_fold1_vit_small_patch16_224] epoch 04 loss=0.0649 val_acc=0.9821 val_macroF1=0.9778
+  [UCMerced_fold1_vit_small_patch16_224] epoch 05 loss=0.0488 val_acc=0.9583 val_macroF1=0.9482
+  [UCMerced_fold1_vit_small_patch16_224] epoch 06 loss=0.0209 val_acc=0.9286 val_macroF1=0.9112
+  [UCMerced_fold1_vit_small_patch16_224] epoch 07 loss=0.0320 val_acc=0.9167 val_macroF1=0.9123
+  [UCMerced_fold1_vit_small_patch16_224] epoch 08 loss=0.0422 val_acc=0.9286 val_macroF1=0.9202
+  [UCMerced_fold1_vit_small_patch16_224] early stopping at epoch 8
+  [UCMerced_fold1_vit_small_patch16_224] DONE acc=0.9500 macroF1=0.9502 (71s, 9 epochs)
+
+=== (c) UCMerced_fold2_vit_small_patch16_224 === train=1680 test=420
+  [UCMerced_fold2_vit_small_patch16_224] epoch 00 loss=2.2029 val_acc=0.6905 val_macroF1=0.6291
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold2_vit_small_patch16_224] epoch 01 loss=0.3546 val_acc=0.9167 val_macroF1=0.9051
+  [UCMerced_fold2_vit_small_patch16_224] epoch 02 loss=0.1168 val_acc=0.9583 val_macroF1=0.9502
+  [UCMerced_fold2_vit_small_patch16_224] epoch 03 loss=0.1299 val_acc=0.9821 val_macroF1=0.9772
+  [UCMerced_fold2_vit_small_patch16_224] epoch 04 loss=0.0509 val_acc=0.9821 val_macroF1=0.9797
+  [UCMerced_fold2_vit_small_patch16_224] epoch 05 loss=0.0334 val_acc=0.9762 val_macroF1=0.9746
+  [UCMerced_fold2_vit_small_patch16_224] epoch 06 loss=0.0115 val_acc=0.9702 val_macroF1=0.9662
+  [UCMerced_fold2_vit_small_patch16_224] epoch 07 loss=0.0277 val_acc=0.9821 val_macroF1=0.9805
+  [UCMerced_fold2_vit_small_patch16_224] epoch 08 loss=0.0093 val_acc=0.9881 val_macroF1=0.9865
+  [UCMerced_fold2_vit_small_patch16_224] epoch 09 loss=0.0041 val_acc=0.9821 val_macroF1=0.9805
+  [UCMerced_fold2_vit_small_patch16_224] epoch 10 loss=0.0027 val_acc=0.9821 val_macroF1=0.9805
+  [UCMerced_fold2_vit_small_patch16_224] epoch 11 loss=0.0034 val_acc=0.9762 val_macroF1=0.9733
+  [UCMerced_fold2_vit_small_patch16_224] epoch 12 loss=0.0011 val_acc=0.9821 val_macroF1=0.9805
+  [UCMerced_fold2_vit_small_patch16_224] early stopping at epoch 12
+  [UCMerced_fold2_vit_small_patch16_224] DONE acc=0.9738 macroF1=0.9736 (88s, 13 epochs)
+
+=== (c) UCMerced_fold3_vit_small_patch16_224 === train=1680 test=420
+  [UCMerced_fold3_vit_small_patch16_224] epoch 00 loss=2.1948 val_acc=0.7262 val_macroF1=0.7035
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold3_vit_small_patch16_224] epoch 01 loss=0.3394 val_acc=0.9524 val_macroF1=0.9491
+  [UCMerced_fold3_vit_small_patch16_224] epoch 02 loss=0.1327 val_acc=0.9286 val_macroF1=0.9204
+  [UCMerced_fold3_vit_small_patch16_224] epoch 03 loss=0.0904 val_acc=0.9643 val_macroF1=0.9606
+  [UCMerced_fold3_vit_small_patch16_224] epoch 04 loss=0.0534 val_acc=0.9643 val_macroF1=0.9601
+  [UCMerced_fold3_vit_small_patch16_224] epoch 05 loss=0.0732 val_acc=0.9464 val_macroF1=0.9472
+  [UCMerced_fold3_vit_small_patch16_224] epoch 06 loss=0.0491 val_acc=0.9762 val_macroF1=0.9736
+  [UCMerced_fold3_vit_small_patch16_224] epoch 07 loss=0.0272 val_acc=0.9821 val_macroF1=0.9820
+  [UCMerced_fold3_vit_small_patch16_224] epoch 08 loss=0.0073 val_acc=0.9821 val_macroF1=0.9795
+  [UCMerced_fold3_vit_small_patch16_224] epoch 09 loss=0.0154 val_acc=0.9524 val_macroF1=0.9478
+  [UCMerced_fold3_vit_small_patch16_224] epoch 10 loss=0.0512 val_acc=0.9643 val_macroF1=0.9602
+  [UCMerced_fold3_vit_small_patch16_224] epoch 11 loss=0.0318 val_acc=0.9762 val_macroF1=0.9768
+  [UCMerced_fold3_vit_small_patch16_224] early stopping at epoch 11
+  [UCMerced_fold3_vit_small_patch16_224] DONE acc=0.9690 macroF1=0.9681 (84s, 12 epochs)
+
+=== (c) UCMerced_fold4_vit_small_patch16_224 === train=1680 test=420
+  [UCMerced_fold4_vit_small_patch16_224] epoch 00 loss=2.0657 val_acc=0.7738 val_macroF1=0.7472
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold4_vit_small_patch16_224] epoch 01 loss=0.3489 val_acc=0.9524 val_macroF1=0.9532
+  [UCMerced_fold4_vit_small_patch16_224] epoch 02 loss=0.1270 val_acc=0.9286 val_macroF1=0.9354
+  [UCMerced_fold4_vit_small_patch16_224] epoch 03 loss=0.1020 val_acc=0.9702 val_macroF1=0.9704
+  [UCMerced_fold4_vit_small_patch16_224] epoch 04 loss=0.0484 val_acc=0.9524 val_macroF1=0.9517
+  [UCMerced_fold4_vit_small_patch16_224] epoch 05 loss=0.0518 val_acc=0.9583 val_macroF1=0.9552
+  [UCMerced_fold4_vit_small_patch16_224] epoch 06 loss=0.0476 val_acc=0.9940 val_macroF1=0.9950
+  [UCMerced_fold4_vit_small_patch16_224] epoch 07 loss=0.0244 val_acc=0.9643 val_macroF1=0.9637
+  [UCMerced_fold4_vit_small_patch16_224] epoch 08 loss=0.0370 val_acc=0.9702 val_macroF1=0.9705
+  [UCMerced_fold4_vit_small_patch16_224] epoch 09 loss=0.0372 val_acc=0.9643 val_macroF1=0.9635
+  [UCMerced_fold4_vit_small_patch16_224] epoch 10 loss=0.0262 val_acc=0.9762 val_macroF1=0.9754
+  [UCMerced_fold4_vit_small_patch16_224] early stopping at epoch 10
+  [UCMerced_fold4_vit_small_patch16_224] DONE acc=0.9786 macroF1=0.9784 (81s, 11 epochs)
+
+=== (c) AID_fold0_vit_small_patch16_224 === train=8000 test=2000
+  [AID_fold0_vit_small_patch16_224] epoch 00 loss=1.3334 val_acc=0.8850 val_macroF1=0.8790
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold0_vit_small_patch16_224] epoch 01 loss=0.2995 val_acc=0.9287 val_macroF1=0.9259
+  [AID_fold0_vit_small_patch16_224] epoch 02 loss=0.2539 val_acc=0.9275 val_macroF1=0.9253
+  [AID_fold0_vit_small_patch16_224] epoch 03 loss=0.1790 val_acc=0.8988 val_macroF1=0.8958
+  [AID_fold0_vit_small_patch16_224] epoch 04 loss=0.1073 val_acc=0.9475 val_macroF1=0.9450
+  [AID_fold0_vit_small_patch16_224] epoch 05 loss=0.0821 val_acc=0.9450 val_macroF1=0.9416
+  [AID_fold0_vit_small_patch16_224] epoch 06 loss=0.0737 val_acc=0.9275 val_macroF1=0.9209
+  [AID_fold0_vit_small_patch16_224] epoch 07 loss=0.0850 val_acc=0.9263 val_macroF1=0.9211
+  [AID_fold0_vit_small_patch16_224] epoch 08 loss=0.0669 val_acc=0.9363 val_macroF1=0.9332
+  [AID_fold0_vit_small_patch16_224] early stopping at epoch 8
+  [AID_fold0_vit_small_patch16_224] DONE acc=0.9485 macroF1=0.9454 (254s, 9 epochs)
+
+=== (c) AID_fold1_vit_small_patch16_224 === train=8000 test=2000
+  [AID_fold1_vit_small_patch16_224] epoch 00 loss=1.3131 val_acc=0.8938 val_macroF1=0.8872
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold1_vit_small_patch16_224] epoch 01 loss=0.2838 val_acc=0.9500 val_macroF1=0.9485
+  [AID_fold1_vit_small_patch16_224] epoch 02 loss=0.2503 val_acc=0.9075 val_macroF1=0.9016
+  [AID_fold1_vit_small_patch16_224] epoch 03 loss=0.1785 val_acc=0.9337 val_macroF1=0.9287
+  [AID_fold1_vit_small_patch16_224] epoch 04 loss=0.1109 val_acc=0.9313 val_macroF1=0.9292
+  [AID_fold1_vit_small_patch16_224] epoch 05 loss=0.0901 val_acc=0.9487 val_macroF1=0.9479
+  [AID_fold1_vit_small_patch16_224] early stopping at epoch 5
+  [AID_fold1_vit_small_patch16_224] DONE acc=0.9340 macroF1=0.9314 (154s, 6 epochs)
+
+=== (c) AID_fold2_vit_small_patch16_224 === train=8000 test=2000
+  [AID_fold2_vit_small_patch16_224] epoch 00 loss=1.3441 val_acc=0.8800 val_macroF1=0.8614
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold2_vit_small_patch16_224] epoch 01 loss=0.3003 val_acc=0.9275 val_macroF1=0.9220
+  [AID_fold2_vit_small_patch16_224] epoch 02 loss=0.2462 val_acc=0.8775 val_macroF1=0.8729
+  [AID_fold2_vit_small_patch16_224] epoch 03 loss=0.1813 val_acc=0.9163 val_macroF1=0.9115
+  [AID_fold2_vit_small_patch16_224] epoch 04 loss=0.1064 val_acc=0.9487 val_macroF1=0.9439
+  [AID_fold2_vit_small_patch16_224] epoch 05 loss=0.0966 val_acc=0.9350 val_macroF1=0.9268
+  [AID_fold2_vit_small_patch16_224] epoch 06 loss=0.1050 val_acc=0.9475 val_macroF1=0.9438
+  [AID_fold2_vit_small_patch16_224] epoch 07 loss=0.0552 val_acc=0.9250 val_macroF1=0.9171
+  [AID_fold2_vit_small_patch16_224] epoch 08 loss=0.0264 val_acc=0.9587 val_macroF1=0.9607
+  [AID_fold2_vit_small_patch16_224] epoch 09 loss=0.0315 val_acc=0.9525 val_macroF1=0.9491
+  [AID_fold2_vit_small_patch16_224] epoch 10 loss=0.0255 val_acc=0.9425 val_macroF1=0.9423
+  [AID_fold2_vit_small_patch16_224] epoch 11 loss=0.0360 val_acc=0.9550 val_macroF1=0.9497
+  [AID_fold2_vit_small_patch16_224] epoch 12 loss=0.0176 val_acc=0.9613 val_macroF1=0.9571
+  [AID_fold2_vit_small_patch16_224] early stopping at epoch 12
+  [AID_fold2_vit_small_patch16_224] DONE acc=0.9595 macroF1=0.9588 (304s, 13 epochs)
+
+=== (c) AID_fold3_vit_small_patch16_224 === train=8000 test=2000
+  [AID_fold3_vit_small_patch16_224] epoch 00 loss=1.3215 val_acc=0.8775 val_macroF1=0.8740
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold3_vit_small_patch16_224] epoch 01 loss=0.2848 val_acc=0.9300 val_macroF1=0.9272
+  [AID_fold3_vit_small_patch16_224] epoch 02 loss=0.2528 val_acc=0.9313 val_macroF1=0.9265
+  [AID_fold3_vit_small_patch16_224] epoch 03 loss=0.1654 val_acc=0.9062 val_macroF1=0.9038
+  [AID_fold3_vit_small_patch16_224] epoch 04 loss=0.1289 val_acc=0.9387 val_macroF1=0.9340
+  [AID_fold3_vit_small_patch16_224] epoch 05 loss=0.0887 val_acc=0.9437 val_macroF1=0.9425
+  [AID_fold3_vit_small_patch16_224] epoch 06 loss=0.0457 val_acc=0.9563 val_macroF1=0.9529
+  [AID_fold3_vit_small_patch16_224] epoch 07 loss=0.0646 val_acc=0.9425 val_macroF1=0.9388
+  [AID_fold3_vit_small_patch16_224] epoch 08 loss=0.0544 val_acc=0.9500 val_macroF1=0.9442
+  [AID_fold3_vit_small_patch16_224] epoch 09 loss=0.0423 val_acc=0.9500 val_macroF1=0.9454
+  [AID_fold3_vit_small_patch16_224] epoch 10 loss=0.0306 val_acc=0.9663 val_macroF1=0.9636
+  [AID_fold3_vit_small_patch16_224] epoch 11 loss=0.0149 val_acc=0.9675 val_macroF1=0.9641
+  [AID_fold3_vit_small_patch16_224] epoch 12 loss=0.0104 val_acc=0.9650 val_macroF1=0.9626
+  [AID_fold3_vit_small_patch16_224] epoch 13 loss=0.0067 val_acc=0.9688 val_macroF1=0.9651
+  [AID_fold3_vit_small_patch16_224] epoch 14 loss=0.0023 val_acc=0.9675 val_macroF1=0.9637
+  [AID_fold3_vit_small_patch16_224] epoch 15 loss=0.0016 val_acc=0.9700 val_macroF1=0.9668
+  [AID_fold3_vit_small_patch16_224] epoch 16 loss=0.0032 val_acc=0.9775 val_macroF1=0.9740
+  [AID_fold3_vit_small_patch16_224] epoch 17 loss=0.0018 val_acc=0.9675 val_macroF1=0.9651
+  [AID_fold3_vit_small_patch16_224] epoch 18 loss=0.0006 val_acc=0.9725 val_macroF1=0.9699
+  [AID_fold3_vit_small_patch16_224] epoch 19 loss=0.0004 val_acc=0.9738 val_macroF1=0.9711
+  [AID_fold3_vit_small_patch16_224] epoch 20 loss=0.0004 val_acc=0.9738 val_macroF1=0.9709
+  [AID_fold3_vit_small_patch16_224] early stopping at epoch 20
+  [AID_fold3_vit_small_patch16_224] DONE acc=0.9670 macroF1=0.9650 (475s, 21 epochs)
+
+=== (c) AID_fold4_vit_small_patch16_224 === train=8000 test=2000
+  [AID_fold4_vit_small_patch16_224] epoch 00 loss=1.3452 val_acc=0.8625 val_macroF1=0.8613
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold4_vit_small_patch16_224] epoch 01 loss=0.2821 val_acc=0.9150 val_macroF1=0.9145
+  [AID_fold4_vit_small_patch16_224] epoch 02 loss=0.2470 val_acc=0.8938 val_macroF1=0.8931
+  [AID_fold4_vit_small_patch16_224] epoch 03 loss=0.1788 val_acc=0.9100 val_macroF1=0.9091
+  [AID_fold4_vit_small_patch16_224] epoch 04 loss=0.1348 val_acc=0.9437 val_macroF1=0.9437
+  [AID_fold4_vit_small_patch16_224] epoch 05 loss=0.0990 val_acc=0.9450 val_macroF1=0.9447
+  [AID_fold4_vit_small_patch16_224] epoch 06 loss=0.0765 val_acc=0.9450 val_macroF1=0.9453
+  [AID_fold4_vit_small_patch16_224] epoch 07 loss=0.0552 val_acc=0.9275 val_macroF1=0.9271
+  [AID_fold4_vit_small_patch16_224] epoch 08 loss=0.0414 val_acc=0.9437 val_macroF1=0.9454
+  [AID_fold4_vit_small_patch16_224] epoch 09 loss=0.0312 val_acc=0.9575 val_macroF1=0.9580
+  [AID_fold4_vit_small_patch16_224] epoch 10 loss=0.0340 val_acc=0.9500 val_macroF1=0.9479
+  [AID_fold4_vit_small_patch16_224] epoch 11 loss=0.0234 val_acc=0.9475 val_macroF1=0.9497
+  [AID_fold4_vit_small_patch16_224] epoch 12 loss=0.0119 val_acc=0.9700 val_macroF1=0.9691
+  [AID_fold4_vit_small_patch16_224] epoch 13 loss=0.0112 val_acc=0.9637 val_macroF1=0.9647
+  [AID_fold4_vit_small_patch16_224] epoch 14 loss=0.0039 val_acc=0.9750 val_macroF1=0.9746
+  [AID_fold4_vit_small_patch16_224] epoch 15 loss=0.0017 val_acc=0.9738 val_macroF1=0.9735
+  [AID_fold4_vit_small_patch16_224] epoch 16 loss=0.0011 val_acc=0.9775 val_macroF1=0.9776
+  [AID_fold4_vit_small_patch16_224] epoch 17 loss=0.0004 val_acc=0.9750 val_macroF1=0.9748
+  [AID_fold4_vit_small_patch16_224] epoch 18 loss=0.0005 val_acc=0.9775 val_macroF1=0.9775
+  [AID_fold4_vit_small_patch16_224] epoch 19 loss=0.0004 val_acc=0.9775 val_macroF1=0.9775
+  [AID_fold4_vit_small_patch16_224] epoch 20 loss=0.0004 val_acc=0.9762 val_macroF1=0.9760
+  [AID_fold4_vit_small_patch16_224] early stopping at epoch 20
+  [AID_fold4_vit_small_patch16_224] DONE acc=0.9720 macroF1=0.9719 (475s, 21 epochs)
+
+=== (c) RESISC45_fold0_swin_tiny_patch4_window7_224 === train=25200 test=6300
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 00 loss=0.9706 val_acc=0.9032 val_macroF1=0.9031
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 01 loss=0.3986 val_acc=0.9143 val_macroF1=0.9147
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 02 loss=0.3671 val_acc=0.9111 val_macroF1=0.9107
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 03 loss=0.2564 val_acc=0.9028 val_macroF1=0.9011
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 04 loss=0.2034 val_acc=0.9056 val_macroF1=0.9034
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 05 loss=0.1883 val_acc=0.9222 val_macroF1=0.9230
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 06 loss=0.1653 val_acc=0.9131 val_macroF1=0.9130
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 07 loss=0.1435 val_acc=0.9218 val_macroF1=0.9225
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 08 loss=0.1324 val_acc=0.9254 val_macroF1=0.9254
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 09 loss=0.1112 val_acc=0.9421 val_macroF1=0.9423
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 10 loss=0.0977 val_acc=0.9274 val_macroF1=0.9274
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 11 loss=0.0794 val_acc=0.9329 val_macroF1=0.9315
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 12 loss=0.0681 val_acc=0.9484 val_macroF1=0.9488
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 13 loss=0.0488 val_acc=0.9329 val_macroF1=0.9344
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 14 loss=0.0433 val_acc=0.9571 val_macroF1=0.9573
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 15 loss=0.0317 val_acc=0.9488 val_macroF1=0.9481
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 16 loss=0.0278 val_acc=0.9500 val_macroF1=0.9500
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 17 loss=0.0190 val_acc=0.9631 val_macroF1=0.9632
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 18 loss=0.0102 val_acc=0.9663 val_macroF1=0.9666
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 19 loss=0.0064 val_acc=0.9623 val_macroF1=0.9625
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 20 loss=0.0065 val_acc=0.9675 val_macroF1=0.9675
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 21 loss=0.0038 val_acc=0.9698 val_macroF1=0.9698
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 22 loss=0.0033 val_acc=0.9679 val_macroF1=0.9677
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 23 loss=0.0026 val_acc=0.9659 val_macroF1=0.9655
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] epoch 24 loss=0.0026 val_acc=0.9675 val_macroF1=0.9672
+  [RESISC45_fold0_swin_tiny_patch4_window7_224] DONE acc=0.9679 macroF1=0.9678 (2720s, 25 epochs)
+
+=== (c) RESISC45_fold1_swin_tiny_patch4_window7_224 === train=25200 test=6300
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 00 loss=0.9611 val_acc=0.9223 val_macroF1=0.9221
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 01 loss=0.3958 val_acc=0.9238 val_macroF1=0.9229
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 02 loss=0.3701 val_acc=0.9092 val_macroF1=0.9082
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 03 loss=0.2519 val_acc=0.9088 val_macroF1=0.9093
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 04 loss=0.2162 val_acc=0.9223 val_macroF1=0.9214
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] epoch 05 loss=0.1841 val_acc=0.9123 val_macroF1=0.9121
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] early stopping at epoch 5
+  [RESISC45_fold1_swin_tiny_patch4_window7_224] DONE acc=0.9192 macroF1=0.9193 (677s, 6 epochs)
+
+=== (c) RESISC45_fold2_swin_tiny_patch4_window7_224 === train=25198 test=6302
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 00 loss=0.9694 val_acc=0.9119 val_macroF1=0.9112
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 01 loss=0.4133 val_acc=0.9091 val_macroF1=0.9079
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 02 loss=0.3727 val_acc=0.9020 val_macroF1=0.9017
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 03 loss=0.2545 val_acc=0.9270 val_macroF1=0.9257
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 04 loss=0.2179 val_acc=0.9198 val_macroF1=0.9187
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 05 loss=0.1913 val_acc=0.9242 val_macroF1=0.9245
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 06 loss=0.1740 val_acc=0.9278 val_macroF1=0.9277
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 07 loss=0.1505 val_acc=0.9302 val_macroF1=0.9296
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 08 loss=0.1263 val_acc=0.9270 val_macroF1=0.9272
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 09 loss=0.1102 val_acc=0.9163 val_macroF1=0.9170
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 10 loss=0.1005 val_acc=0.9476 val_macroF1=0.9481
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 11 loss=0.0747 val_acc=0.9452 val_macroF1=0.9455
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 12 loss=0.0606 val_acc=0.9440 val_macroF1=0.9435
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 13 loss=0.0521 val_acc=0.9397 val_macroF1=0.9391
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] epoch 14 loss=0.0439 val_acc=0.9433 val_macroF1=0.9429
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] early stopping at epoch 14
+  [RESISC45_fold2_swin_tiny_patch4_window7_224] DONE acc=0.9435 macroF1=0.9437 (1647s, 15 epochs)
+
+=== (c) RESISC45_fold3_swin_tiny_patch4_window7_224 === train=25202 test=6298
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 00 loss=0.9711 val_acc=0.9119 val_macroF1=0.9102
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 01 loss=0.3984 val_acc=0.9135 val_macroF1=0.9123
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 02 loss=0.3798 val_acc=0.9032 val_macroF1=0.9019
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 03 loss=0.2481 val_acc=0.9056 val_macroF1=0.9021
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 04 loss=0.2094 val_acc=0.9345 val_macroF1=0.9336
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 05 loss=0.1868 val_acc=0.9147 val_macroF1=0.9134
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 06 loss=0.1620 val_acc=0.9223 val_macroF1=0.9222
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 07 loss=0.1510 val_acc=0.9389 val_macroF1=0.9377
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 08 loss=0.1295 val_acc=0.9345 val_macroF1=0.9336
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 09 loss=0.1057 val_acc=0.9464 val_macroF1=0.9444
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 10 loss=0.0973 val_acc=0.9508 val_macroF1=0.9492
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 11 loss=0.0817 val_acc=0.9480 val_macroF1=0.9470
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 12 loss=0.0630 val_acc=0.9429 val_macroF1=0.9420
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 13 loss=0.0561 val_acc=0.9480 val_macroF1=0.9463
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 14 loss=0.0424 val_acc=0.9520 val_macroF1=0.9509
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 15 loss=0.0290 val_acc=0.9556 val_macroF1=0.9542
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 16 loss=0.0228 val_acc=0.9576 val_macroF1=0.9560
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 17 loss=0.0146 val_acc=0.9623 val_macroF1=0.9612
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 18 loss=0.0104 val_acc=0.9643 val_macroF1=0.9636
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 19 loss=0.0086 val_acc=0.9659 val_macroF1=0.9649
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 20 loss=0.0045 val_acc=0.9667 val_macroF1=0.9660
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 21 loss=0.0040 val_acc=0.9651 val_macroF1=0.9642
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 22 loss=0.0025 val_acc=0.9679 val_macroF1=0.9671
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 23 loss=0.0023 val_acc=0.9671 val_macroF1=0.9661
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] epoch 24 loss=0.0026 val_acc=0.9671 val_macroF1=0.9660
+  [RESISC45_fold3_swin_tiny_patch4_window7_224] DONE acc=0.9663 macroF1=0.9666 (2725s, 25 epochs)
+
+=== (c) RESISC45_fold4_swin_tiny_patch4_window7_224 === train=25200 test=6300
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 00 loss=0.9970 val_acc=0.8992 val_macroF1=0.8999
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 01 loss=0.3993 val_acc=0.9151 val_macroF1=0.9158
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 02 loss=0.3787 val_acc=0.8861 val_macroF1=0.8879
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 03 loss=0.2617 val_acc=0.9278 val_macroF1=0.9289
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 04 loss=0.2160 val_acc=0.9226 val_macroF1=0.9238
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 05 loss=0.1831 val_acc=0.9230 val_macroF1=0.9256
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 06 loss=0.1699 val_acc=0.9365 val_macroF1=0.9387
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 07 loss=0.1540 val_acc=0.9377 val_macroF1=0.9392
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 08 loss=0.1351 val_acc=0.9409 val_macroF1=0.9419
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 09 loss=0.1266 val_acc=0.9425 val_macroF1=0.9438
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 10 loss=0.1004 val_acc=0.9480 val_macroF1=0.9495
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 11 loss=0.0805 val_acc=0.9357 val_macroF1=0.9373
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 12 loss=0.0695 val_acc=0.9476 val_macroF1=0.9484
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 13 loss=0.0521 val_acc=0.9520 val_macroF1=0.9525
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 14 loss=0.0377 val_acc=0.9575 val_macroF1=0.9586
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 15 loss=0.0342 val_acc=0.9552 val_macroF1=0.9558
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 16 loss=0.0225 val_acc=0.9528 val_macroF1=0.9537
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 17 loss=0.0149 val_acc=0.9651 val_macroF1=0.9665
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 18 loss=0.0118 val_acc=0.9631 val_macroF1=0.9643
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 19 loss=0.0100 val_acc=0.9667 val_macroF1=0.9675
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 20 loss=0.0059 val_acc=0.9683 val_macroF1=0.9691
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 21 loss=0.0042 val_acc=0.9694 val_macroF1=0.9705
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 22 loss=0.0028 val_acc=0.9718 val_macroF1=0.9728
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 23 loss=0.0034 val_acc=0.9730 val_macroF1=0.9738
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] epoch 24 loss=0.0029 val_acc=0.9722 val_macroF1=0.9731
+  [RESISC45_fold4_swin_tiny_patch4_window7_224] DONE acc=0.9689 macroF1=0.9685 (2723s, 25 epochs)
+
+=== (c) UCMerced_fold0_swin_tiny_patch4_window7_224 === train=1680 test=420
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 00 loss=2.1244 val_acc=0.8095 val_macroF1=0.8119
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 01 loss=0.3812 val_acc=0.9048 val_macroF1=0.9145
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 02 loss=0.1512 val_acc=0.9464 val_macroF1=0.9477
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 03 loss=0.1188 val_acc=0.9762 val_macroF1=0.9768
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 04 loss=0.1800 val_acc=0.9167 val_macroF1=0.9050
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 05 loss=0.1444 val_acc=0.9643 val_macroF1=0.9675
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 06 loss=0.1516 val_acc=0.9762 val_macroF1=0.9770
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 07 loss=0.0630 val_acc=0.9881 val_macroF1=0.9894
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 08 loss=0.0532 val_acc=0.9643 val_macroF1=0.9705
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 09 loss=0.0475 val_acc=0.9702 val_macroF1=0.9728
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 10 loss=0.0513 val_acc=0.9762 val_macroF1=0.9790
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] epoch 11 loss=0.0187 val_acc=0.9881 val_macroF1=0.9890
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] early stopping at epoch 11
+  [UCMerced_fold0_swin_tiny_patch4_window7_224] DONE acc=0.9452 macroF1=0.9446 (120s, 12 epochs)
+
+=== (c) UCMerced_fold1_swin_tiny_patch4_window7_224 === train=1680 test=420
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 00 loss=2.0988 val_acc=0.7798 val_macroF1=0.7570
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 01 loss=0.3751 val_acc=0.9702 val_macroF1=0.9656
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 02 loss=0.1882 val_acc=0.9464 val_macroF1=0.9391
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 03 loss=0.1513 val_acc=0.9405 val_macroF1=0.9311
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 04 loss=0.0915 val_acc=0.9226 val_macroF1=0.9081
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] epoch 05 loss=0.0933 val_acc=0.9524 val_macroF1=0.9313
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] early stopping at epoch 5
+  [UCMerced_fold1_swin_tiny_patch4_window7_224] DONE acc=0.9476 macroF1=0.9459 (75s, 6 epochs)
+
+=== (c) UCMerced_fold2_swin_tiny_patch4_window7_224 === train=1680 test=420
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 00 loss=2.1130 val_acc=0.8333 val_macroF1=0.8123
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 01 loss=0.3916 val_acc=0.9464 val_macroF1=0.9388
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 02 loss=0.2173 val_acc=0.9226 val_macroF1=0.9052
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 03 loss=0.1450 val_acc=0.9702 val_macroF1=0.9691
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 04 loss=0.1304 val_acc=0.9345 val_macroF1=0.9232
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 05 loss=0.0531 val_acc=0.9762 val_macroF1=0.9696
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 06 loss=0.0954 val_acc=0.9583 val_macroF1=0.9533
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 07 loss=0.0644 val_acc=0.9643 val_macroF1=0.9599
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 08 loss=0.0815 val_acc=0.9762 val_macroF1=0.9733
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 09 loss=0.0609 val_acc=0.9762 val_macroF1=0.9687
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 10 loss=0.0415 val_acc=0.9821 val_macroF1=0.9804
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 11 loss=0.0261 val_acc=0.9762 val_macroF1=0.9744
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 12 loss=0.0095 val_acc=0.9643 val_macroF1=0.9622
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 13 loss=0.0141 val_acc=0.9881 val_macroF1=0.9865
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 14 loss=0.0104 val_acc=0.9881 val_macroF1=0.9865
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 15 loss=0.0055 val_acc=0.9762 val_macroF1=0.9746
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 16 loss=0.0035 val_acc=0.9702 val_macroF1=0.9693
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] epoch 17 loss=0.0028 val_acc=0.9762 val_macroF1=0.9746
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] early stopping at epoch 17
+  [UCMerced_fold2_swin_tiny_patch4_window7_224] DONE acc=0.9738 macroF1=0.9740 (163s, 18 epochs)
+
+=== (c) UCMerced_fold3_swin_tiny_patch4_window7_224 === train=1680 test=420
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 00 loss=2.0980 val_acc=0.8274 val_macroF1=0.7881
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 01 loss=0.3853 val_acc=0.9524 val_macroF1=0.9508
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 02 loss=0.2485 val_acc=0.9286 val_macroF1=0.9284
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 03 loss=0.1895 val_acc=0.9524 val_macroF1=0.9475
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 04 loss=0.1446 val_acc=0.9405 val_macroF1=0.9378
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] epoch 05 loss=0.1017 val_acc=0.9524 val_macroF1=0.9474
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] early stopping at epoch 5
+  [UCMerced_fold3_swin_tiny_patch4_window7_224] DONE acc=0.9667 macroF1=0.9679 (74s, 6 epochs)
+
+=== (c) UCMerced_fold4_swin_tiny_patch4_window7_224 === train=1680 test=420
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 00 loss=2.1010 val_acc=0.8214 val_macroF1=0.8122
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 01 loss=0.3807 val_acc=0.9405 val_macroF1=0.9455
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 02 loss=0.2977 val_acc=0.8869 val_macroF1=0.8752
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 03 loss=0.1520 val_acc=0.9464 val_macroF1=0.9491
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 04 loss=0.1194 val_acc=0.9464 val_macroF1=0.9437
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 05 loss=0.1125 val_acc=0.9405 val_macroF1=0.9407
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 06 loss=0.0620 val_acc=0.9762 val_macroF1=0.9798
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 07 loss=0.0456 val_acc=0.9762 val_macroF1=0.9753
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 08 loss=0.0522 val_acc=0.9821 val_macroF1=0.9815
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 09 loss=0.0237 val_acc=0.9881 val_macroF1=0.9881
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 10 loss=0.0368 val_acc=0.9881 val_macroF1=0.9882
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 11 loss=0.0124 val_acc=0.9881 val_macroF1=0.9905
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 12 loss=0.0113 val_acc=0.9940 val_macroF1=0.9940
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 13 loss=0.0130 val_acc=0.9643 val_macroF1=0.9623
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 14 loss=0.0156 val_acc=0.9881 val_macroF1=0.9868
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 15 loss=0.0029 val_acc=0.9940 val_macroF1=0.9940
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] epoch 16 loss=0.0026 val_acc=0.9881 val_macroF1=0.9898
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] early stopping at epoch 16
+  [UCMerced_fold4_swin_tiny_patch4_window7_224] DONE acc=0.9786 macroF1=0.9793 (155s, 17 epochs)
+
+=== (c) AID_fold0_swin_tiny_patch4_window7_224 === train=8000 test=2000
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 00 loss=1.3066 val_acc=0.9250 val_macroF1=0.9156
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 01 loss=0.3615 val_acc=0.9313 val_macroF1=0.9288
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 02 loss=0.3127 val_acc=0.9325 val_macroF1=0.9284
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 03 loss=0.2243 val_acc=0.9100 val_macroF1=0.9060
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 04 loss=0.1451 val_acc=0.9513 val_macroF1=0.9481
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 05 loss=0.1199 val_acc=0.9463 val_macroF1=0.9431
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 06 loss=0.0960 val_acc=0.9287 val_macroF1=0.9258
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 07 loss=0.1079 val_acc=0.9525 val_macroF1=0.9476
+  [AID_fold0_swin_tiny_patch4_window7_224] epoch 08 loss=0.0840 val_acc=0.9313 val_macroF1=0.9312
+  [AID_fold0_swin_tiny_patch4_window7_224] early stopping at epoch 8
+  [AID_fold0_swin_tiny_patch4_window7_224] DONE acc=0.9375 macroF1=0.9357 (356s, 9 epochs)
+
+=== (c) AID_fold1_swin_tiny_patch4_window7_224 === train=8000 test=2000
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 00 loss=1.2776 val_acc=0.9275 val_macroF1=0.9178
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 01 loss=0.3414 val_acc=0.9413 val_macroF1=0.9368
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 02 loss=0.3675 val_acc=0.9387 val_macroF1=0.9354
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 03 loss=0.2148 val_acc=0.9437 val_macroF1=0.9375
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 04 loss=0.1732 val_acc=0.9200 val_macroF1=0.9106
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 05 loss=0.1179 val_acc=0.9500 val_macroF1=0.9458
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 06 loss=0.1004 val_acc=0.9537 val_macroF1=0.9499
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 07 loss=0.0891 val_acc=0.9500 val_macroF1=0.9478
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 08 loss=0.0782 val_acc=0.9525 val_macroF1=0.9473
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 09 loss=0.0608 val_acc=0.9663 val_macroF1=0.9630
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 10 loss=0.0593 val_acc=0.9688 val_macroF1=0.9661
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 11 loss=0.0446 val_acc=0.9587 val_macroF1=0.9554
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 12 loss=0.0329 val_acc=0.9675 val_macroF1=0.9623
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 13 loss=0.0192 val_acc=0.9600 val_macroF1=0.9558
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 14 loss=0.0102 val_acc=0.9712 val_macroF1=0.9675
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 15 loss=0.0163 val_acc=0.9788 val_macroF1=0.9763
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 16 loss=0.0063 val_acc=0.9675 val_macroF1=0.9640
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 17 loss=0.0029 val_acc=0.9750 val_macroF1=0.9727
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 18 loss=0.0033 val_acc=0.9762 val_macroF1=0.9740
+  [AID_fold1_swin_tiny_patch4_window7_224] epoch 19 loss=0.0037 val_acc=0.9712 val_macroF1=0.9682
+  [AID_fold1_swin_tiny_patch4_window7_224] early stopping at epoch 19
+  [AID_fold1_swin_tiny_patch4_window7_224] DONE acc=0.9750 macroF1=0.9735 (751s, 20 epochs)
+
+=== (c) AID_fold2_swin_tiny_patch4_window7_224 === train=8000 test=2000
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 00 loss=1.2764 val_acc=0.9125 val_macroF1=0.9062
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 01 loss=0.3833 val_acc=0.9200 val_macroF1=0.9121
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 02 loss=0.3227 val_acc=0.8500 val_macroF1=0.8330
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 03 loss=0.2250 val_acc=0.9287 val_macroF1=0.9196
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 04 loss=0.1639 val_acc=0.9400 val_macroF1=0.9317
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 05 loss=0.1258 val_acc=0.9487 val_macroF1=0.9454
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 06 loss=0.1258 val_acc=0.9450 val_macroF1=0.9373
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 07 loss=0.0824 val_acc=0.9387 val_macroF1=0.9287
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 08 loss=0.0641 val_acc=0.9375 val_macroF1=0.9330
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 09 loss=0.0899 val_acc=0.9513 val_macroF1=0.9479
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 10 loss=0.0357 val_acc=0.9375 val_macroF1=0.9325
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 11 loss=0.0399 val_acc=0.9688 val_macroF1=0.9632
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 12 loss=0.0318 val_acc=0.9487 val_macroF1=0.9434
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 13 loss=0.0364 val_acc=0.9563 val_macroF1=0.9514
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 14 loss=0.0159 val_acc=0.9650 val_macroF1=0.9599
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 15 loss=0.0086 val_acc=0.9750 val_macroF1=0.9715
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 16 loss=0.0119 val_acc=0.9688 val_macroF1=0.9660
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 17 loss=0.0049 val_acc=0.9750 val_macroF1=0.9713
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 18 loss=0.0018 val_acc=0.9688 val_macroF1=0.9649
+  [AID_fold2_swin_tiny_patch4_window7_224] epoch 19 loss=0.0042 val_acc=0.9738 val_macroF1=0.9693
+  [AID_fold2_swin_tiny_patch4_window7_224] early stopping at epoch 19
+  [AID_fold2_swin_tiny_patch4_window7_224] DONE acc=0.9745 macroF1=0.9723 (753s, 20 epochs)
+
+=== (c) AID_fold3_swin_tiny_patch4_window7_224 === train=8000 test=2000
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 00 loss=1.2960 val_acc=0.9263 val_macroF1=0.9195
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 01 loss=0.3447 val_acc=0.9287 val_macroF1=0.9252
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 02 loss=0.3322 val_acc=0.8938 val_macroF1=0.8881
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 03 loss=0.2278 val_acc=0.9113 val_macroF1=0.9017
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 04 loss=0.1542 val_acc=0.9463 val_macroF1=0.9410
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 05 loss=0.1331 val_acc=0.9425 val_macroF1=0.9394
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 06 loss=0.1056 val_acc=0.9437 val_macroF1=0.9384
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 07 loss=0.1020 val_acc=0.9350 val_macroF1=0.9342
+  [AID_fold3_swin_tiny_patch4_window7_224] epoch 08 loss=0.0804 val_acc=0.9250 val_macroF1=0.9208
+  [AID_fold3_swin_tiny_patch4_window7_224] early stopping at epoch 8
+  [AID_fold3_swin_tiny_patch4_window7_224] DONE acc=0.9410 macroF1=0.9381 (355s, 9 epochs)
+
+=== (c) AID_fold4_swin_tiny_patch4_window7_224 === train=8000 test=2000
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 00 loss=1.2846 val_acc=0.9175 val_macroF1=0.9184
+C:\Users\DSAI\anaconda3\envs\sjresearch\Lib\site-packages\torch\optim\lr_scheduler.py:240: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 01 loss=0.3379 val_acc=0.9038 val_macroF1=0.9001
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 02 loss=0.3563 val_acc=0.9087 val_macroF1=0.9120
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 03 loss=0.1986 val_acc=0.9237 val_macroF1=0.9216
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 04 loss=0.1608 val_acc=0.9425 val_macroF1=0.9415
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 05 loss=0.1156 val_acc=0.9463 val_macroF1=0.9442
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 06 loss=0.0929 val_acc=0.9337 val_macroF1=0.9349
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 07 loss=0.0813 val_acc=0.9500 val_macroF1=0.9486
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 08 loss=0.0924 val_acc=0.9425 val_macroF1=0.9434
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 09 loss=0.0659 val_acc=0.9500 val_macroF1=0.9507
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 10 loss=0.0548 val_acc=0.9375 val_macroF1=0.9374
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 11 loss=0.0413 val_acc=0.9587 val_macroF1=0.9551
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 12 loss=0.0413 val_acc=0.9613 val_macroF1=0.9617
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 13 loss=0.0240 val_acc=0.9600 val_macroF1=0.9596
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 14 loss=0.0142 val_acc=0.9700 val_macroF1=0.9697
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 15 loss=0.0059 val_acc=0.9762 val_macroF1=0.9759
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 16 loss=0.0049 val_acc=0.9738 val_macroF1=0.9740
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 17 loss=0.0036 val_acc=0.9800 val_macroF1=0.9802
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 18 loss=0.0019 val_acc=0.9788 val_macroF1=0.9785
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 19 loss=0.0030 val_acc=0.9788 val_macroF1=0.9789
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 20 loss=0.0027 val_acc=0.9825 val_macroF1=0.9823
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 21 loss=0.0015 val_acc=0.9788 val_macroF1=0.9788
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 22 loss=0.0009 val_acc=0.9788 val_macroF1=0.9788
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 23 loss=0.0022 val_acc=0.9788 val_macroF1=0.9788
+  [AID_fold4_swin_tiny_patch4_window7_224] epoch 24 loss=0.0024 val_acc=0.9788 val_macroF1=0.9788
+  [AID_fold4_swin_tiny_patch4_window7_224] early stopping at epoch 24
+  [AID_fold4_swin_tiny_patch4_window7_224] DONE acc=0.9730 macroF1=0.9723 (934s, 25 epochs)
+
+
+Full-parity stage complete.

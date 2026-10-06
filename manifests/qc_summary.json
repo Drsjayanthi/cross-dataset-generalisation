@@ -1,0 +1,102 @@
+{
+  "RESISC45": {
+    "dataset": "RESISC45",
+    "n_total_files": 31500,
+    "n_corrupt": 0,
+    "corrupt_examples": [],
+    "n_exact_duplicate_groups": 8,
+    "n_exact_duplicate_files_involved": 16,
+    "n_near_duplicate_groups(phash)": 9,
+    "n_near_duplicate_files_involved(phash)": 18,
+    "unique_dimensions": {
+      "256x256": 31500
+    },
+    "color_modes": {
+      "RGB": 31500
+    },
+    "n_classes": 45,
+    "class_counts_min_max": {
+      "min": 700,
+      "max": 700
+    }
+  },
+  "UCMerced": {
+    "dataset": "UCMerced",
+    "n_total_files": 2100,
+    "n_corrupt": 0,
+    "corrupt_examples": [],
+    "n_exact_duplicate_groups": 0,
+    "n_exact_duplicate_files_involved": 0,
+    "n_near_duplicate_groups(phash)": 1,
+    "n_near_duplicate_files_involved(phash)": 2,
+    "unique_dimensions": {
+      "256x256": 2056,
+      "247x247": 9,
+      "253x256": 6,
+      "256x251": 5,
+      "255x256": 4,
+      "256x253": 3,
+      "254x256": 3,
+      "250x256": 2,
+      "252x256": 2,
+      "256x254": 2,
+      "256x249": 2,
+      "256x255": 1,
+      "242x256": 1,
+      "256x247": 1,
+      "249x256": 1,
+      "247x256": 1,
+      "257x257": 1
+    },
+    "color_modes": {
+      "RGB": 2100
+    },
+    "n_classes": 21,
+    "class_counts_min_max": {
+      "min": 100,
+      "max": 100
+    }
+  },
+  "AID": {
+    "dataset": "AID",
+    "n_total_files": 10000,
+    "n_corrupt": 0,
+    "corrupt_examples": [],
+    "n_exact_duplicate_groups": 0,
+    "n_exact_duplicate_files_involved": 0,
+    "n_near_duplicate_groups(phash)": 2,
+    "n_near_duplicate_files_involved(phash)": 4,
+    "unique_dimensions": {
+      "600x600": 10000
+    },
+    "color_modes": {
+      "RGB": 10000
+    },
+    "n_classes": 30,
+    "class_counts_min_max": {
+      "min": 220,
+      "max": 420
+    }
+  },
+  "EuroSAT": {
+    "dataset": "EuroSAT",
+    "n_total_files": 27000,
+    "n_corrupt": 0,
+    "corrupt_examples": [],
+    "n_exact_duplicate_groups": 0,
+    "n_exact_duplicate_files_involved": 0,
+    "n_near_duplicate_groups(phash)": 3,
+    "n_near_duplicate_files_involved(phash)": 8,
+    "unique_dimensions": {
+      "64x64": 27000
+    },
+    "color_modes": {
+      "RGB": 27000
+    },
+    "n_classes": 10,
+    "class_counts_min_max": {
+      "min": 2000,
+      "max": 3000
+    }
+  }
+}

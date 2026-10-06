@@ -1,0 +1,1442 @@
+[
+  {
+    "run_tag": "pooled_fold0",
+    "arch": "resnet18",
+    "n_train": 10440,
+    "n_val": 1160,
+    "n_test": 2900,
+    "n_classes": 12,
+    "classes": [
+      "agricultural_farmland",
+      "baseball_field",
+      "beach",
+      "dense_residential",
+      "forest",
+      "harbor_port",
+      "medium_residential",
+      "overpass_viaduct",
+      "parking_lot",
+      "river",
+      "sparse_residential",
+      "storage_tanks"
+    ],
+    "best_val_macro_f1": 0.9817342055101533,
+    "epochs_run": 24,
+    "train_time_sec": 380.65629482269287,
+    "test_accuracy": 0.986551724137931,
+    "test_macro_f1": 0.9863463704633343,
+    "test_weighted_f1": 0.9865676647800412,
+    "test_macro_precision": 0.986113539135645,
+    "test_macro_recall": 0.98663474427507,
+    "per_class_report": {
+      "agricultural_farmland": {
+        "precision": 0.9974358974358974,
+        "recall": 0.989821882951654,
+        "f1-score": 0.9936143039591315,
+        "support": 393.0
+      },
+      "baseball_field": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 184.0
+      },
+      "beach": {
+        "precision": 0.98828125,
+        "recall": 0.9921568627450981,
+        "f1-score": 0.9902152641878669,
+        "support": 255.0
+      },
+      "dense_residential": {
+        "precision": 0.9762845849802372,
+        "recall": 0.9536679536679536,
+        "f1-score": 0.96484375,
+        "support": 259.0
+      },
+      "forest": {
+        "precision": 1.0,
+        "recall": 0.9949748743718593,
+        "f1-score": 0.9974811083123426,
+        "support": 199.0
+      },
+      "harbor_port": {
+        "precision": 0.9868995633187773,
+        "recall": 1.0,
+        "f1-score": 0.9934065934065934,
+        "support": 226.0
+      },
+      "medium_residential": {
+        "precision": 0.9330357142857143,
+        "recall": 0.954337899543379,
+        "f1-score": 0.9435665914221218,
+        "support": 219.0
+      },
+      "overpass_viaduct": {
+        "precision": 0.9961089494163424,
+        "recall": 1.0,
+        "f1-score": 0.9980506822612085,
+        "support": 256.0
+      },
+      "parking_lot": {
+        "precision": 0.9956331877729258,
+        "recall": 0.9956331877729258,
+        "f1-score": 0.9956331877729258,
+        "support": 229.0
+      },
+      "river": {
+        "precision": 0.9844357976653697,
+        "recall": 0.98828125,
+        "f1-score": 0.98635477582846,
+        "support": 256.0
+      },
+      "sparse_residential": {
+        "precision": 0.9752475247524752,
+        "recall": 0.9752475247524752,
+        "f1-score": 0.9752475247524752,
+        "support": 202.0
+      },
+      "storage_tanks": {
+        "precision": 1.0,
+        "recall": 0.9954954954954955,
+        "f1-score": 0.9977426636568849,
+        "support": 222.0
+      },
+      "accuracy": 0.986551724137931,
+      "macro avg": {
+        "precision": 0.986113539135645,
+        "recall": 0.98663474427507,
+        "f1-score": 0.9863463704633343,
+        "support": 2900.0
+      },
+      "weighted avg": {
+        "precision": 0.9866397627392146,
+        "recall": 0.986551724137931,
+        "f1-score": 0.9865676647800412,
+        "support": 2900.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        389,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        184,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        253,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        247,
+        0,
+        1,
+        10,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        198,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        226,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        209,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        256,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        228,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        253,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        197,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        221
+      ]
+    ],
+    "fold": 0
+  },
+  {
+    "run_tag": "pooled_fold1",
+    "arch": "resnet18",
+    "n_train": 10440,
+    "n_val": 1160,
+    "n_test": 2900,
+    "n_classes": 12,
+    "classes": [
+      "agricultural_farmland",
+      "baseball_field",
+      "beach",
+      "dense_residential",
+      "forest",
+      "harbor_port",
+      "medium_residential",
+      "overpass_viaduct",
+      "parking_lot",
+      "river",
+      "sparse_residential",
+      "storage_tanks"
+    ],
+    "best_val_macro_f1": 0.9842270083098041,
+    "epochs_run": 9,
+    "train_time_sec": 166.0519244670868,
+    "test_accuracy": 0.976551724137931,
+    "test_macro_f1": 0.9760354477964599,
+    "test_weighted_f1": 0.9766476233993049,
+    "test_macro_precision": 0.9752805313675266,
+    "test_macro_recall": 0.9770659696221591,
+    "per_class_report": {
+      "agricultural_farmland": {
+        "precision": 0.9972144846796658,
+        "recall": 0.9675675675675676,
+        "f1-score": 0.9821673525377229,
+        "support": 370.0
+      },
+      "baseball_field": {
+        "precision": 0.9854368932038835,
+        "recall": 0.9950980392156863,
+        "f1-score": 0.9902439024390244,
+        "support": 204.0
+      },
+      "beach": {
+        "precision": 1.0,
+        "recall": 0.996,
+        "f1-score": 0.9979959919839679,
+        "support": 250.0
+      },
+      "dense_residential": {
+        "precision": 0.9656652360515021,
+        "recall": 0.9453781512605042,
+        "f1-score": 0.9554140127388535,
+        "support": 238.0
+      },
+      "forest": {
+        "precision": 0.9814814814814815,
+        "recall": 0.9953051643192489,
+        "f1-score": 0.9883449883449883,
+        "support": 213.0
+      },
+      "harbor_port": {
+        "precision": 1.0,
+        "recall": 0.9707112970711297,
+        "f1-score": 0.9851380042462845,
+        "support": 239.0
+      },
+      "medium_residential": {
+        "precision": 0.9004524886877828,
+        "recall": 0.9521531100478469,
+        "f1-score": 0.9255813953488372,
+        "support": 209.0
+      },
+      "overpass_viaduct": {
+        "precision": 0.9699570815450643,
+        "recall": 1.0,
+        "f1-score": 0.9847494553376906,
+        "support": 226.0
+      },
+      "parking_lot": {
+        "precision": 0.9836065573770492,
+        "recall": 0.9917355371900827,
+        "f1-score": 0.9876543209876543,
+        "support": 242.0
+      },
+      "river": {
+        "precision": 0.9626556016597511,
+        "recall": 0.9707112970711297,
+        "f1-score": 0.9666666666666667,
+        "support": 239.0
+      },
+      "sparse_residential": {
+        "precision": 0.9568965517241379,
+        "recall": 0.9527896995708155,
+        "f1-score": 0.9548387096774194,
+        "support": 233.0
+      },
+      "storage_tanks": {
+        "precision": 1.0,
+        "recall": 0.9873417721518988,
+        "f1-score": 0.9936305732484076,
+        "support": 237.0
+      },
+      "accuracy": 0.976551724137931,
+      "macro avg": {
+        "precision": 0.9752805313675266,
+        "recall": 0.9770659696221591,
+        "f1-score": 0.9760354477964599,
+        "support": 2900.0
+      },
+      "weighted avg": {
+        "precision": 0.9770177965791254,
+        "recall": 0.976551724137931,
+        "f1-score": 0.9766476233993049,
+        "support": 2900.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        358,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        1,
+        6,
+        0,
+        0
+      ],
+      [
+        1,
+        203,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        249,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        225,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        212,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        232,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        199,
+        1,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        226,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        240,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        0,
+        232,
+        3,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        9,
+        0,
+        0,
+        0,
+        222,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        234
+      ]
+    ],
+    "fold": 1
+  },
+  {
+    "run_tag": "pooled_fold2",
+    "arch": "resnet18",
+    "n_train": 10440,
+    "n_val": 1160,
+    "n_test": 2900,
+    "n_classes": 12,
+    "classes": [
+      "agricultural_farmland",
+      "baseball_field",
+      "beach",
+      "dense_residential",
+      "forest",
+      "harbor_port",
+      "medium_residential",
+      "overpass_viaduct",
+      "parking_lot",
+      "river",
+      "sparse_residential",
+      "storage_tanks"
+    ],
+    "best_val_macro_f1": 0.9807311534763791,
+    "epochs_run": 11,
+    "train_time_sec": 189.46986508369446,
+    "test_accuracy": 0.9786206896551725,
+    "test_macro_f1": 0.977988753070775,
+    "test_weighted_f1": 0.9785581939777646,
+    "test_macro_precision": 0.9780863130086059,
+    "test_macro_recall": 0.9780479769644468,
+    "per_class_report": {
+      "agricultural_farmland": {
+        "precision": 0.9757412398921833,
+        "recall": 0.9836956521739131,
+        "f1-score": 0.979702300405954,
+        "support": 368.0
+      },
+      "baseball_field": {
+        "precision": 0.99,
+        "recall": 0.9949748743718593,
+        "f1-score": 0.9924812030075187,
+        "support": 199.0
+      },
+      "beach": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 244.0
+      },
+      "dense_residential": {
+        "precision": 0.9629629629629629,
+        "recall": 0.9212598425196851,
+        "f1-score": 0.9416498993963782,
+        "support": 254.0
+      },
+      "forest": {
+        "precision": 0.9852941176470589,
+        "recall": 0.9710144927536232,
+        "f1-score": 0.9781021897810219,
+        "support": 207.0
+      },
+      "harbor_port": {
+        "precision": 0.9919354838709677,
+        "recall": 1.0,
+        "f1-score": 0.9959514170040485,
+        "support": 246.0
+      },
+      "medium_residential": {
+        "precision": 0.919047619047619,
+        "recall": 0.9278846153846154,
+        "f1-score": 0.9234449760765551,
+        "support": 208.0
+      },
+      "overpass_viaduct": {
+        "precision": 0.9963503649635036,
+        "recall": 1.0,
+        "f1-score": 0.9981718464351006,
+        "support": 273.0
+      },
+      "parking_lot": {
+        "precision": 0.9957627118644068,
+        "recall": 0.9915611814345991,
+        "f1-score": 0.9936575052854123,
+        "support": 237.0
+      },
+      "river": {
+        "precision": 0.9728506787330317,
+        "recall": 0.9598214285714286,
+        "f1-score": 0.9662921348314607,
+        "support": 224.0
+      },
+      "sparse_residential": {
+        "precision": 0.956140350877193,
+        "recall": 0.990909090909091,
+        "f1-score": 0.9732142857142857,
+        "support": 220.0
+      },
+      "storage_tanks": {
+        "precision": 0.9909502262443439,
+        "recall": 0.9954545454545455,
+        "f1-score": 0.9931972789115646,
+        "support": 220.0
+      },
+      "accuracy": 0.9786206896551725,
+      "macro avg": {
+        "precision": 0.9780863130086059,
+        "recall": 0.9780479769644468,
+        "f1-score": 0.977988753070775,
+        "support": 2900.0
+      },
+      "weighted avg": {
+        "precision": 0.9786507504723648,
+        "recall": 0.9786206896551725,
+        "f1-score": 0.9785581939777646,
+        "support": 2900.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        362,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        1,
+        198,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        244,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        234,
+        0,
+        1,
+        16,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        201,
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        246,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        8,
+        0,
+        0,
+        193,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        273,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        235,
+        0,
+        0,
+        1
+      ],
+      [
+        6,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        215,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        218,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        219
+      ]
+    ],
+    "fold": 2
+  },
+  {
+    "run_tag": "pooled_fold3",
+    "arch": "resnet18",
+    "n_train": 10440,
+    "n_val": 1160,
+    "n_test": 2900,
+    "n_classes": 12,
+    "classes": [
+      "agricultural_farmland",
+      "baseball_field",
+      "beach",
+      "dense_residential",
+      "forest",
+      "harbor_port",
+      "medium_residential",
+      "overpass_viaduct",
+      "parking_lot",
+      "river",
+      "sparse_residential",
+      "storage_tanks"
+    ],
+    "best_val_macro_f1": 0.9741361009840842,
+    "epochs_run": 10,
+    "train_time_sec": 170.2354793548584,
+    "test_accuracy": 0.9779310344827586,
+    "test_macro_f1": 0.977391402423852,
+    "test_weighted_f1": 0.9779269665782745,
+    "test_macro_precision": 0.9777902126988428,
+    "test_macro_recall": 0.9772387322201412,
+    "per_class_report": {
+      "agricultural_farmland": {
+        "precision": 0.984375,
+        "recall": 0.9895287958115183,
+        "f1-score": 0.9869451697127938,
+        "support": 382.0
+      },
+      "baseball_field": {
+        "precision": 0.9800995024875622,
+        "recall": 0.985,
+        "f1-score": 0.9825436408977556,
+        "support": 200.0
+      },
+      "beach": {
+        "precision": 0.9954954954954955,
+        "recall": 0.9822222222222222,
+        "f1-score": 0.9888143176733781,
+        "support": 225.0
+      },
+      "dense_residential": {
+        "precision": 0.958904109589041,
+        "recall": 0.9210526315789473,
+        "f1-score": 0.9395973154362416,
+        "support": 228.0
+      },
+      "forest": {
+        "precision": 0.990990990990991,
+        "recall": 0.9865470852017937,
+        "f1-score": 0.9887640449438202,
+        "support": 223.0
+      },
+      "harbor_port": {
+        "precision": 0.986784140969163,
+        "recall": 0.9955555555555555,
+        "f1-score": 0.9911504424778761,
+        "support": 225.0
+      },
+      "medium_residential": {
+        "precision": 0.9201680672268907,
+        "recall": 0.9647577092511013,
+        "f1-score": 0.9419354838709677,
+        "support": 227.0
+      },
+      "overpass_viaduct": {
+        "precision": 0.9796747967479674,
+        "recall": 1.0,
+        "f1-score": 0.9897330595482546,
+        "support": 241.0
+      },
+      "parking_lot": {
+        "precision": 0.9914893617021276,
+        "recall": 0.966804979253112,
+        "f1-score": 0.9789915966386554,
+        "support": 241.0
+      },
+      "river": {
+        "precision": 0.98046875,
+        "recall": 0.984313725490196,
+        "f1-score": 0.9823874755381604,
+        "support": 255.0
+      },
+      "sparse_residential": {
+        "precision": 0.9907834101382489,
+        "recall": 0.9641255605381166,
+        "f1-score": 0.9772727272727273,
+        "support": 223.0
+      },
+      "storage_tanks": {
+        "precision": 0.9742489270386266,
+        "recall": 0.9869565217391304,
+        "f1-score": 0.980561555075594,
+        "support": 230.0
+      },
+      "accuracy": 0.9779310344827586,
+      "macro avg": {
+        "precision": 0.9777902126988428,
+        "recall": 0.9772387322201412,
+        "f1-score": 0.977391402423852,
+        "support": 2900.0
+      },
+      "weighted avg": {
+        "precision": 0.9781570327779461,
+        "recall": 0.9779310344827586,
+        "f1-score": 0.9779269665782745,
+        "support": 2900.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        378,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        197,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        221,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        210,
+        0,
+        1,
+        14,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        220,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        224,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        219,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        241,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        233,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        251,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        215,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        227
+      ]
+    ],
+    "fold": 3
+  },
+  {
+    "run_tag": "pooled_fold4",
+    "arch": "resnet18",
+    "n_train": 10440,
+    "n_val": 1160,
+    "n_test": 2900,
+    "n_classes": 12,
+    "classes": [
+      "agricultural_farmland",
+      "baseball_field",
+      "beach",
+      "dense_residential",
+      "forest",
+      "harbor_port",
+      "medium_residential",
+      "overpass_viaduct",
+      "parking_lot",
+      "river",
+      "sparse_residential",
+      "storage_tanks"
+    ],
+    "best_val_macro_f1": 0.9795739046235891,
+    "epochs_run": 16,
+    "train_time_sec": 260.4399507045746,
+    "test_accuracy": 0.9868965517241379,
+    "test_macro_f1": 0.9862814094842141,
+    "test_weighted_f1": 0.9868660808403649,
+    "test_macro_precision": 0.9863814294916846,
+    "test_macro_recall": 0.9863507736963785,
+    "per_class_report": {
+      "agricultural_farmland": {
+        "precision": 0.994413407821229,
+        "recall": 0.9971988795518207,
+        "f1-score": 0.9958041958041958,
+        "support": 357.0
+      },
+      "baseball_field": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 233.0
+      },
+      "beach": {
+        "precision": 1.0,
+        "recall": 0.9911504424778761,
+        "f1-score": 0.9955555555555555,
+        "support": 226.0
+      },
+      "dense_residential": {
+        "precision": 0.9817351598173516,
+        "recall": 0.9307359307359307,
+        "f1-score": 0.9555555555555556,
+        "support": 231.0
+      },
+      "forest": {
+        "precision": 0.9765258215962441,
+        "recall": 1.0,
+        "f1-score": 0.9881235154394299,
+        "support": 208.0
+      },
+      "harbor_port": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 244.0
+      },
+      "medium_residential": {
+        "precision": 0.9393939393939394,
+        "recall": 0.9559471365638766,
+        "f1-score": 0.9475982532751092,
+        "support": 227.0
+      },
+      "overpass_viaduct": {
+        "precision": 1.0,
+        "recall": 0.9955357142857143,
+        "f1-score": 0.9977628635346756,
+        "support": 224.0
+      },
+      "parking_lot": {
+        "precision": 0.995850622406639,
+        "recall": 0.995850622406639,
+        "f1-score": 0.995850622406639,
+        "support": 241.0
+      },
+      "river": {
+        "precision": 0.9914893617021276,
+        "recall": 0.9872881355932204,
+        "f1-score": 0.9893842887473461,
+        "support": 236.0
+      },
+      "sparse_residential": {
+        "precision": 0.9690265486725663,
+        "recall": 0.9864864864864865,
+        "f1-score": 0.9776785714285714,
+        "support": 222.0
+      },
+      "storage_tanks": {
+        "precision": 0.9881422924901185,
+        "recall": 0.9960159362549801,
+        "f1-score": 0.9920634920634921,
+        "support": 251.0
+      },
+      "accuracy": 0.9868965517241379,
+      "macro avg": {
+        "precision": 0.9863814294916846,
+        "recall": 0.9863507736963785,
+        "f1-score": 0.9862814094842141,
+        "support": 2900.0
+      },
+      "weighted avg": {
+        "precision": 0.9869949318022282,
+        "recall": 0.9868965517241379,
+        "f1-score": 0.9868660808403649,
+        "support": 2900.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        356,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        233,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        224,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        215,
+        0,
+        0,
+        14,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        208,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        244,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        217,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        223,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        240,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        233,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        219,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        250
+      ]
+    ],
+    "fold": 4
+  }
+]
